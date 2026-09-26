@@ -86,6 +86,9 @@ not promised. DOCX files contain native Word math. Rebuild only in a working cop
 
 ## 6. Build the accessible reading site
 
+This section requires the full Git checkout or open-publication bundle; the
+smaller reproduction bundle omits the website tooling.
+
 Install Pandoc 3.1.11.1, Python dependencies and Node 22.12 or later:
 
 ```sh
@@ -100,3 +103,7 @@ python -m http.server 4173 --directory _site
 
 The site uses locally bundled KaTeX, local full-text search, no analytics and no
 account requirement. Generated `_site/` is deployed by GitHub Pages Actions.
+
+The full replay workflow retains its fresh outputs as a downloadable Actions
+artifact for 14 days. These run artifacts are temporary; the versioned research
+release assets are the permanent publication copies.
