@@ -1,0 +1,17 @@
+n,encoding,window_start,window_end,max_error_in_window,passes_all_checkpoints,first_passing_grid_time,last_passing_grid_time
+4,vacuum_vs_excitation,0.5,1,0.4997987104927599,False,2.375,3.225
+4,vacuum_vs_excitation,1,1.5,0.48974724474003273,False,2.375,3.225
+4,vacuum_vs_excitation,1.5,2,0.42093053451261275,False,2.375,3.225
+4,vacuum_vs_excitation,2,2.5,0.24829080521914038,False,2.375,3.225
+4,opposite_phase_pulse,0.5,1,0.4899678141155555,False,2.175,3.425
+4,opposite_phase_pulse,1,1.5,0.42840127354496005,False,2.175,3.425
+4,opposite_phase_pulse,1.5,2,0.3011665703567591,False,2.175,3.425
+4,opposite_phase_pulse,2,2.5,0.14524008485959156,False,2.175,3.425
+6,vacuum_vs_excitation,0.5,1,0.49999996805426233,False,3.575,4.3
+6,vacuum_vs_excitation,1,1.5,0.499972679092239,False,3.575,4.3
+6,vacuum_vs_excitation,1.5,2,0.4988380223862267,False,3.575,4.3
+6,vacuum_vs_excitation,2,2.5,0.4866539131157863,False,3.575,4.3
+6,opposite_phase_pulse,0.5,1,0.49987361618445186,False,3.325,4.525
+6,opposite_phase_pulse,1,1.5,0.4963039948754783,False,3.325,4.525
+6,opposite_phase_pulse,1.5,2,0.4758962905990253,False,3.325,4.525
+6,opposite_phase_pulse,2,2.5,0.4183113016255807,False,3.325,4.525

@@ -1,0 +1,32 @@
+{
+  "data": {
+    "checked": 39,
+    "unchanged": 39,
+    "mismatches": []
+  },
+  "figures": {
+    "checked": 26,
+    "unchanged": 26,
+    "mismatches": []
+  },
+  "existing_code": {
+    "checked": 15,
+    "unchanged": 15,
+    "mismatches": []
+  },
+  "historical": {
+    "checked": 135,
+    "unchanged": 135,
+    "mismatches": []
+  },
+  "feedback": {
+    "checked": 22,
+    "unchanged": 22,
+    "mismatches": []
+  },
+  "pre_execution": {
+    "checked": 3,
+    "unchanged": 3,
+    "mismatches": []
+  }
+}

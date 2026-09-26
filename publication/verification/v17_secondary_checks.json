@@ -1,0 +1,210 @@
+{
+  "scope": "same-project second formulas; no external replication",
+  "checks": [
+    {
+      "name": "exact_fraction_sign_n4_native",
+      "error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "exact_fraction_sign_n4_rotated",
+      "error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "exact_fraction_sign_n6_native",
+      "error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "exact_fraction_sign_n6_rotated",
+      "error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "vac_exc_n4_t0.75",
+      "error": 3.209238430557093e-17,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "phase_n4_t0.75",
+      "error": 2.7755575615628914e-17,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "vac_exc_n4_t2.4",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "phase_n4_t2.4",
+      "error": 3.3306690738754696e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "vac_exc_n4_t2.8",
+      "error": 3.3306690738754696e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "phase_n4_t2.8",
+      "error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "vac_exc_n4_t3.95",
+      "error": 2.7755575615628914e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "phase_n4_t3.95",
+      "error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "vac_exc_n6_t0.75",
+      "error": 2.897149141141246e-17,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "phase_n6_t0.75",
+      "error": 2.6020852139652106e-18,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "vac_exc_n6_t2.4",
+      "error": 4.163336342344337e-17,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "phase_n6_t2.4",
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "vac_exc_n6_t2.8",
+      "error": 5.551115123125783e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "phase_n6_t2.8",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "vac_exc_n6_t3.95",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "phase_n6_t3.95",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "subject_example_normalization_0_0",
+      "error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "subject_example_readout_0_0",
+      "error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "subject_example_normalization_0_1",
+      "error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "subject_example_readout_0_1",
+      "error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "subject_example_normalization_1_0",
+      "error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "subject_example_readout_1_0",
+      "error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "subject_example_normalization_1_1",
+      "error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "subject_example_readout_1_1",
+      "error": 0.0,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "precision_N",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    }
+  ],
+  "failed": 0,
+  "subject_example": [
+    {
+      "intervention_A": 0,
+      "link": 0,
+      "P_B0": 0.5,
+      "P_B1": 0.5,
+      "same_for_both_stipulated_subject_accounts": true
+    },
+    {
+      "intervention_A": 0,
+      "link": 1,
+      "P_B0": 0.9,
+      "P_B1": 0.1,
+      "same_for_both_stipulated_subject_accounts": true
+    },
+    {
+      "intervention_A": 1,
+      "link": 0,
+      "P_B0": 0.5,
+      "P_B1": 0.5,
+      "same_for_both_stipulated_subject_accounts": true
+    },
+    {
+      "intervention_A": 1,
+      "link": 1,
+      "P_B0": 0.1,
+      "P_B1": 0.9,
+      "same_for_both_stipulated_subject_accounts": true
+    }
+  ]
+}

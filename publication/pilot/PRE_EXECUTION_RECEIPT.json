@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-09-25T20:16:01.406555+00:00",
+  "record_kind": "local pre-execution receipt, not trusted external preregistration",
+  "files": {
+    "pilot/config.json": "ce8def8b31979d100097c97131a391aba7b13aaca81151177172a73ab01a88a0",
+    "pilot/PRE_EXECUTION_PLAN.md": "a75a99f8fa0cfad68702910fc7b1accbbcd9c78836e3ea92105fa5d091962765",
+    "code/run_injection_pilot.py": "1a48cb9542853bfdfddf11c357436fefb4b654d1811b77a4e33aa6abdec7d858"
+  }
+}

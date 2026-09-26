@@ -1,0 +1,10 @@
+{
+  "build": "finalized",
+  "current_records": [
+    "verification/finalization/document_structure.json",
+    "verification/finalization/preserved_evidence.json",
+    "verification/finalization/encoding_and_links.json",
+    "verification/finalization/pdf_inventory.json"
+  ],
+  "previous_report": "historical/v1_8_before_finalization/verification/extended_checks.json"
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "path": "manuscripts/Frame_Aligned_Records_v0_5.pdf",
+    "sha256": "4687cb169127b78a2b538be970db3fb4f0b30decb1bfa0fb9f00162b9a47a878",
+    "pages": 25,
+    "bookmarks": 53,
+    "all_listed_fonts_embedded": true,
+    "font_rows": 6,
+    "pdffonts_output": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nMEYOKP+NotoSerif-Regular             CID TrueType      Identity-H       yes yes yes      4  0\nIXASYJ+NotoSerif-ExtraBold           CID TrueType      Identity-H       yes yes yes      6  0\nXUABIG+LatinModernMath-Regular-Identity-H CID Type 0C       Identity-H       yes yes yes     12  0\nZZCXLQ+NotoSans-Regular              CID TrueType      Identity-H       yes yes yes     17  0\nWZBKCT+NotoSerif-Italic              CID TrueType      Identity-H       yes yes yes     25  0\nQKURKU+MSAM10                        Type 1C           Builtin          yes yes yes     27  0\n"
+  },
+  {
+    "path": "manuscripts/Absolute_Infinite_Union_v1_4.pdf",
+    "sha256": "71ec812cafb8de1962311a9e940a46b4977bac3cb3a798a277df88838a8e05aa",
+    "pages": 20,
+    "bookmarks": 58,
+    "all_listed_fonts_embedded": true,
+    "font_rows": 5,
+    "pdffonts_output": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nCWXWCK+NotoSerif-Regular             CID TrueType      Identity-H       yes yes yes      4  0\nVTUPCJ+NotoSerif-ExtraBold           CID TrueType      Identity-H       yes yes yes      6  0\nOLXQTE+LatinModernMath-Regular-Identity-H CID Type 0C       Identity-H       yes yes yes     12  0\nLHKHCG+NotoSerif-Italic              CID TrueType      Identity-H       yes yes yes     17  0\nKOQDSX+MSAM10                        Type 1C           Builtin          yes yes yes     36  0\n"
+  },
+  {
+    "path": "supplement/Frame_Aligned_Records_Supplement_v1_2.pdf",
+    "sha256": "45f61e50f8bb7edf04b84dab172229e7771643d6fa6ce0fab17e50fb4a69a110",
+    "pages": 9,
+    "bookmarks": 26,
+    "all_listed_fonts_embedded": true,
+    "font_rows": 5,
+    "pdffonts_output": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nOFGSIS+NotoSerif-Regular             CID TrueType      Identity-H       yes yes yes      4  0\nXODBKC+NotoSerif-ExtraBold           CID TrueType      Identity-H       yes yes yes      6  0\nRIODTZ+NotoSerif-Italic              CID TrueType      Identity-H       yes yes yes      8  0\nTTKTXH+LatinModernMath-Regular-Identity-H CID Type 0C       Identity-H       yes yes yes     10  0\nVPJDTN+DejaVuSansMono                CID TrueType      Identity-H       yes yes yes     25  0\n"
+  },
+  {
+    "path": "pilot/Post_Injection_Results_v1_2.pdf",
+    "sha256": "50713ce672b2dfa7ad61b5781ab4aade198ee2f67eb4324fee150185bd3f48f9",
+    "pages": 8,
+    "bookmarks": 22,
+    "all_listed_fonts_embedded": true,
+    "font_rows": 4,
+    "pdffonts_output": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nDVOSST+NotoSerif-Regular             CID TrueType      Identity-H       yes yes yes      4  0\nPRRTVU+NotoSerif-ExtraBold           CID TrueType      Identity-H       yes yes yes      6  0\nXLTYCH+LatinModernMath-Regular-Identity-H CID Type 0C       Identity-H       yes yes yes     19  0\nQAFZSY+NotoSerif-Italic              CID TrueType      Identity-H       yes yes yes     32  0\n"
+  },
+  {
+    "path": "protocols/P01_Post_Injection_Protocol_v1_3.pdf",
+    "sha256": "d97a4204d0e18ccd158b976f4f7e558c6b2354c9f3ba91889df325539f1560f5",
+    "pages": 3,
+    "bookmarks": 9,
+    "all_listed_fonts_embedded": true,
+    "font_rows": 3,
+    "pdffonts_output": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAYLPWZ+NotoSerif-Regular             CID TrueType      Identity-H       yes yes yes      4  0\nGPSECK+NotoSerif-ExtraBold           CID TrueType      Identity-H       yes yes yes      6  0\nRONTND+LatinModernMath-Regular-Identity-H CID Type 0C       Identity-H       yes yes yes      8  0\n"
+  }
+]

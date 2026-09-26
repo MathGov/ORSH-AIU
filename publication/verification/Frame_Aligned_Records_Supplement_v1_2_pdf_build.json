@@ -1,0 +1,13 @@
+{
+  "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+  "source_sha256": "59ce0c183477c1b7e175b7172dc1b9279f032d3cb5ed042c733e55a46fb43906",
+  "engine": "XeLaTeX from canonical Markdown",
+  "warnings": [
+    "Package mathtools Warning: For best results, please load mathtools *before* ",
+    "Package unicode-math Warning: Using \\overbracket and \\underbracket from",
+    "Package unicode-math Warning: I'm going to overwrite the following commands",
+    "Overfull \\hbox (0.12465pt too wide) in alignment at lines 391--409",
+    "Overfull \\hbox (0.12465pt too wide) in alignment at lines 409--411",
+    "Overfull \\hbox (0.12465pt too wide) in alignment at lines 411--418"
+  ]
+}

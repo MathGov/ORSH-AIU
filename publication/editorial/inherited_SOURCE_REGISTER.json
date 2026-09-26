@@ -1,0 +1,7 @@
+{
+  "release": "1.6.1",
+  "scope_note": "Index, not a claim that all sources were newly checked. Use current_patch for R32 to R36 and the two record-physics additions; all other entries keep the explicitly historical scope. Identifiers in the historical S-series are not the W04 R-series.",
+  "current_patch": "SOURCE_PATCH_REGISTER.json",
+  "inherited_v1_6": "../historical/SOURCE_REGISTER.json",
+  "inherited_v1_5": "../historical/historical_source_register_v1_5.json"
+}

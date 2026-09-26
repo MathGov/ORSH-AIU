@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-26",
+  "scope": "Load-bearing patch sources only. Other manuscript references keep their prior verification labels. No third-party full text redistributed.",
+  "sources": [
+    {
+      "id": "R32",
+      "citation": "Kastrup (2018), The Universe in Consciousness, JCS 25(5-6), 125-155",
+      "url": "https://www.imprint.co.uk/wp-content/uploads/2019/03/Kastrup_Open_Access.pdf",
+      "verified": "PRIMARY_PASSAGE",
+      "scope": "Publisher PDF: abstract and Sections 8, 9, 12. Characterization of his proposed dissociation/association account, not validation of clinical-to-cosmic extrapolation."
+    },
+    {
+      "id": "R33",
+      "citation": "Albahari (2019), Perennial Idealism, Philosophers' Imprint 19(44), 1-37",
+      "url": "https://quod.lib.umich.edu/p/phimp/3521354.0019.044/1",
+      "verified": "PRIMARY_PASSAGE",
+      "scope": "Publisher metadata, abstract and PDF passages in Sections 3 to 5. Aperspectival ground and dispositional imagery-bound subjects. Not automatically a perspectival cosmic subject."
+    },
+    {
+      "id": "R34",
+      "citation": "Nagasawa and Wager (2016), Panpsychism and Priority Cosmopsychism, pp. 113-129",
+      "url": "https://doi.org/10.1093/acprof:oso/9780199359943.003.0005",
+      "verified": "PRIMARY_ABSTRACT",
+      "scope": "Publisher chapter abstract and metadata. Full chapter access unavailable; table limited to the abstract-supported characterization."
+    },
+    {
+      "id": "R35",
+      "citation": "Miller (2021), The Decombination Problem for Cosmopsychism is not the Heterogeneity Problem for Priority Monism, JCS 28(3-4), 112-125",
+      "url": "https://philpapers.org/archive/MILTDP-5.pdf",
+      "verified": "PRIMARY_PASSAGE",
+      "scope": "Published article PDF and Sections 2 to 3. Article first page says 112-25, meaning 112-125, not the secondary listing's 112-115."
+    },
+    {
+      "id": "R36",
+      "citation": "Prior Claude audit",
+      "verified": "RETIRED_AS_EVIDENCE",
+      "scope": "Retained in historical provenance only; not used as the philosophical authority for those positions."
+    },
+    {
+      "id": "PZ1999",
+      "citation": "Paz and Zurek (1999), Quantum limit of decoherence: Environment induced superselection of energy eigenstates, PRL 82, 5181",
+      "url": "https://doi.org/10.1103/PhysRevLett.82.5181",
+      "verified": "PRIMARY_ABSTRACT",
+      "scope": "Weak-coupling energy-pointer statement, not a theorem locating externally encoded source-bit records."
+    },
+    {
+      "id": "RZZ2012",
+      "citation": "Riedel, Zurek and Zwolak (2012), The rise and fall of redundancy in decoherence and quantum Darwinism, New Journal of Physics 14, 083010",
+      "url": "https://arxiv.org/abs/1205.3197",
+      "verified": "PRIMARY_ABSTRACT",
+      "scope": "Environmental interactions and redundancy loss in the authors' model; not a universal impossibility of closed-system persistent records."
+    }
+  ]
+}

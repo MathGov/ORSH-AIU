@@ -1,0 +1,36 @@
+name: Full research replay
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r requirements-numerics.txt
+      - run: python scripts/verify_publication.py
+      - run: python publication/code/run_injection_pilot.py --config publication/pilot/config.json --out fresh-pilot
+      - run: python publication/code/replay_reviewer.py --root publication --out fresh-reviewer --task all
+      - run: |
+          python - <<'PY'
+          import json,sys
+          from pathlib import Path
+          sys.path.insert(0,'publication/code')
+          from replay_reviewer import compare
+          checks=json.loads(Path('fresh-reviewer/comparisons.json').read_text())
+          assert checks and all(x['match'] for x in checks),checks
+          a=json.loads(Path('publication/data/pilot_run/results.json').read_text())
+          b=json.loads(Path('fresh-pilot/results.json').read_text())
+          errors=compare(a,b)
+          assert not errors,errors
+          print('All reviewer and pilot comparisons agree within declared tolerances.')
+          PY

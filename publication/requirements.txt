@@ -1,0 +1,9 @@
+# Verified runtime snapshot; Python 3.13.5. Older historical code has its own recorded environments.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
+python-docx==1.2.0
+PyMuPDF==1.26.7
+reportlab==4.4.9
+lxml==6.1.1
+# Document rebuild additionally requires pandoc 3.1.11.1, XeLaTeX/TeX Live 2025 and installed fonts.

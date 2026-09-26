@@ -1,0 +1,9 @@
+n,arm,frame,total_singletons,initially_eligible,eligible_ever_d_at_least_0_8,maximum_d_any_initially_eligible
+4,native,L,384,288,5,0.9462526191868474
+4,native,C,384,192,0,0.7879680665316343
+4,rotated,L,384,96,0,0.5642425618770475
+4,rotated,C,384,288,0,0.7693769509381033
+6,native,L,576,480,10,0.9293826768696293
+6,native,C,576,384,0,0.6058652955687239
+6,rotated,L,576,288,0,0.40057188710641844
+6,rotated,C,576,480,0,0.706702972754559

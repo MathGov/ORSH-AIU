@@ -1,0 +1,299 @@
+{
+  "experiment_id": "P01-ID1-20260926",
+  "interpretation": "source-off finite-model exploratory feasibility, no recovered TPS or cosmology",
+  "independent_units_total": 192,
+  "paired_arm_evaluations": 384,
+  "primary": {
+    "n": 6,
+    "arm": "rotated"
+  },
+  "summary": [
+    {
+      "n": 4,
+      "arm": "native",
+      "units": 96,
+      "mean_z": 0.015125363806969166,
+      "sd_z": 0.034709318759848104,
+      "min_z": -0.04939831361546729,
+      "max_z": 0.09389610981928716,
+      "positive_count": 61,
+      "negative_count": 35,
+      "tie_count": 0,
+      "bootstrap_95_approx": [
+        0.008576999936145139,
+        0.0222367632634207
+      ],
+      "hoeffding_95": [
+        -0.2620959472317754,
+        0.2923466748457137
+      ],
+      "windows": [
+        {
+          "window": [
+            0.5,
+            1.0
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        },
+        {
+          "window": [
+            1.0,
+            1.5
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        },
+        {
+          "window": [
+            1.5,
+            2.0
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        },
+        {
+          "window": [
+            2.0,
+            2.5
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "arm": "rotated",
+      "units": 96,
+      "mean_z": -0.028761251092691714,
+      "sd_z": 0.03278352393276771,
+      "min_z": -0.13812717337594937,
+      "max_z": 0.04459903240786178,
+      "positive_count": 18,
+      "negative_count": 78,
+      "tie_count": 0,
+      "bootstrap_95_approx": [
+        -0.035284213656834054,
+        -0.022440039349140593
+      ],
+      "hoeffding_95": [
+        -0.30598256213143626,
+        0.24846005994605283
+      ],
+      "windows": [
+        {
+          "window": [
+            0.5,
+            1.0
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        },
+        {
+          "window": [
+            1.0,
+            1.5
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        },
+        {
+          "window": [
+            1.5,
+            2.0
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        },
+        {
+          "window": [
+            2.0,
+            2.5
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "arm": "native",
+      "units": 96,
+      "mean_z": 0.011673650112476201,
+      "sd_z": 0.02229272223190643,
+      "min_z": -0.0360786121959685,
+      "max_z": 0.06552244577030736,
+      "positive_count": 65,
+      "negative_count": 31,
+      "tie_count": 0,
+      "bootstrap_95_approx": [
+        0.007238056279524432,
+        0.016167238797296934
+      ],
+      "hoeffding_95": [
+        -0.26554766092626836,
+        0.2888949611512207
+      ],
+      "windows": [
+        {
+          "window": [
+            0.5,
+            1.0
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        },
+        {
+          "window": [
+            1.0,
+            1.5
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        },
+        {
+          "window": [
+            1.5,
+            2.0
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        },
+        {
+          "window": [
+            2.0,
+            2.5
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "arm": "rotated",
+      "units": 96,
+      "mean_z": -0.015225015371713719,
+      "sd_z": 0.028349459810721993,
+      "min_z": -0.08241674442517857,
+      "max_z": 0.05005782688305095,
+      "positive_count": 28,
+      "negative_count": 68,
+      "tie_count": 0,
+      "bootstrap_95_approx": [
+        -0.021070431330005916,
+        -0.009646063172815066
+      ],
+      "hoeffding_95": [
+        -0.29244632641045826,
+        0.2619962956670308
+      ],
+      "windows": [
+        {
+          "window": [
+            0.5,
+            1.0
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        },
+        {
+          "window": [
+            1.0,
+            1.5
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        },
+        {
+          "window": [
+            1.5,
+            2.0
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        },
+        {
+          "window": [
+            2.0,
+            2.5
+          ],
+          "L_lower_conditional_mean": 0.0,
+          "L_upper_possible_mean": 0.0,
+          "L_checkpoint_passing_mean": 0.0,
+          "C_lower_conditional_mean": 0.0,
+          "C_upper_possible_mean": 0.0,
+          "C_checkpoint_passing_mean": 0.0
+        }
+      ]
+    }
+  ],
+  "numerical_guard_status": "empirical guard, not formally proved floating-point enclosure",
+  "max_norm_error": 3.319566843629218e-14,
+  "max_orthogonality_error": 2.3709793139026293e-14,
+  "phi_range": [
+    0.609519447701641,
+    0.8045209172808547
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "encoding": {
+    "FAR_Brandão": 3,
+    "FAR_Rényi": 1,
+    "FAR_Zanghì": 1,
+    "AIU_naïve": 1,
+    "AIU_Omega_math": 2,
+    "AIU_negative_exponents": 3,
+    "active_sources_valid_utf8": true,
+    "replacement_character_present": false,
+    "em_or_en_dash_present": false
+  },
+  "figures": [
+    {
+      "source": "manuscripts/Frame_Aligned_Records_v0_5.md",
+      "target": "../figures/permutation_size.png",
+      "exists": true
+    },
+    {
+      "source": "manuscripts/Frame_Aligned_Records_v0_5.md",
+      "target": "../figures/registration_controls.png",
+      "exists": true
+    },
+    {
+      "source": "manuscripts/Frame_Aligned_Records_v0_5.md",
+      "target": "../figures/haar_typicality.png",
+      "exists": true
+    },
+    {
+      "source": "manuscripts/Frame_Aligned_Records_v0_5.md",
+      "target": "../figures/persistence_certificate.png",
+      "exists": true
+    },
+    {
+      "source": "manuscripts/Frame_Aligned_Records_v0_5.md",
+      "target": "../figures/localized_constants.png",
+      "exists": true
+    },
+    {
+      "source": "manuscripts/Frame_Aligned_Records_v0_5.md",
+      "target": "../figures/adaptive_cover_bound.png",
+      "exists": true
+    },
+    {
+      "source": "manuscripts/Absolute_Infinite_Union_v1_4.md",
+      "target": "../figures/finite_word_probability.png",
+      "exists": true
+    },
+    {
+      "source": "manuscripts/Absolute_Infinite_Union_v1_4.md",
+      "target": "../figures/bayes_sensitivity.png",
+      "exists": true
+    },
+    {
+      "source": "pilot/Post_Injection_Results_v1_2.md",
+      "target": "../figures/pilot_contrast_distribution.png",
+      "exists": true
+    },
+    {
+      "source": "pilot/Post_Injection_Results_v1_2.md",
+      "target": "../figures/pilot_readability_curves.png",
+      "exists": true
+    },
+    {
+      "source": "pilot/Post_Injection_Results_v1_2.md",
+      "target": "../figures/pilot_transport_control.png",
+      "exists": true
+    },
+    {
+      "source": "pilot/Post_Injection_Results_v1_2.md",
+      "target": "../figures/factorial_intervals.png",
+      "exists": true
+    }
+  ]
+}

@@ -1,0 +1,1707 @@
+{
+  "checks": [
+    {
+      "check": "Absolute_Infinite_Union_v1_4.md:source",
+      "passed": true
+    },
+    {
+      "check": "Absolute_Infinite_Union_v1_4.md:ordered_content",
+      "passed": true
+    },
+    {
+      "check": "Absolute_Infinite_Union_v1_4.docx:zip_integrity",
+      "passed": true
+    },
+    {
+      "check": "Absolute_Infinite_Union_v1_4.docx:native_math_count",
+      "passed": true
+    },
+    {
+      "check": "Absolute_Infinite_Union_v1_4.docx:table_borders",
+      "passed": true
+    },
+    {
+      "check": "Frame_Aligned_Records_Supplement_v1_2.md:source",
+      "passed": true
+    },
+    {
+      "check": "Frame_Aligned_Records_Supplement_v1_2.md:ordered_content",
+      "passed": true
+    },
+    {
+      "check": "Frame_Aligned_Records_Supplement_v1_2.docx:zip_integrity",
+      "passed": true
+    },
+    {
+      "check": "Frame_Aligned_Records_Supplement_v1_2.docx:native_math_count",
+      "passed": true
+    },
+    {
+      "check": "Frame_Aligned_Records_Supplement_v1_2.docx:table_borders",
+      "passed": true
+    },
+    {
+      "check": "Frame_Aligned_Records_v0_5.md:source",
+      "passed": true
+    },
+    {
+      "check": "Frame_Aligned_Records_v0_5.md:ordered_content",
+      "passed": true
+    },
+    {
+      "check": "Frame_Aligned_Records_v0_5.docx:zip_integrity",
+      "passed": true
+    },
+    {
+      "check": "Frame_Aligned_Records_v0_5.docx:native_math_count",
+      "passed": true
+    },
+    {
+      "check": "Frame_Aligned_Records_v0_5.docx:table_borders",
+      "passed": true
+    },
+    {
+      "check": "P01_Post_Injection_Protocol_v1_3.md:source",
+      "passed": true
+    },
+    {
+      "check": "P01_Post_Injection_Protocol_v1_3.md:ordered_content",
+      "passed": true
+    },
+    {
+      "check": "P01_Post_Injection_Protocol_v1_3.docx:zip_integrity",
+      "passed": true
+    },
+    {
+      "check": "P01_Post_Injection_Protocol_v1_3.docx:native_math_count",
+      "passed": true
+    },
+    {
+      "check": "P01_Post_Injection_Protocol_v1_3.docx:table_borders",
+      "passed": true
+    },
+    {
+      "check": "Post_Injection_Results_v1_2.md:source",
+      "passed": true
+    },
+    {
+      "check": "Post_Injection_Results_v1_2.md:ordered_content",
+      "passed": true
+    },
+    {
+      "check": "Post_Injection_Results_v1_2.docx:zip_integrity",
+      "passed": true
+    },
+    {
+      "check": "Post_Injection_Results_v1_2.docx:native_math_count",
+      "passed": true
+    },
+    {
+      "check": "Post_Injection_Results_v1_2.docx:table_borders",
+      "passed": true
+    },
+    {
+      "check": "pilot/config.json:pre_execution_hash",
+      "passed": true
+    },
+    {
+      "check": "pilot/PRE_EXECUTION_PLAN.md:pre_execution_hash",
+      "passed": true
+    },
+    {
+      "check": "code/run_injection_pilot.py:pre_execution_hash",
+      "passed": true
+    },
+    {
+      "check": "CHANGELOG.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "LICENSE:manifest",
+      "passed": true
+    },
+    {
+      "check": "LICENSE_STATUS.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "ORSH_AIU_v1_8_Collected_Reading_Copy.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "README.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "REVIEWER_BUNDLE_v1_8.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "VERSION_MANIFEST.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/README.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/analyze_factorial.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/analyze_review_additions.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/build_collection.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/build_documents.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/build_pdf.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/check_v17_additions.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/plot_factorial.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/plot_pilot.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/replay_reviewer.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/requirements.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/run_injection_pilot.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/validate_factorial.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/validate_injection_pilot.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/verify_archive.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "code/verify_release.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/factorial_analysis/analysis.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/factorial_analysis/factorial_cells.csv:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/factorial_analysis/factorial_intervals.csv:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/pilot_run/effective_config.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/pilot_run/environment.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/pilot_run/model_inputs.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/pilot_run/per_unit.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/pilot_run/per_unit_summary.csv:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/pilot_run/results.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/pilot_run/trajectories_n4.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/pilot_run/trajectories_n6.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/prop7_thresholds.csv:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/review_additions/initial_floor_diagnostics.csv:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/review_additions/review_analysis.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/review_additions/sign_tests.csv:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/review_additions/transport_encodings.csv:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/review_additions/transport_window_checks.csv:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/REPLAY_RECEIPT.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/comparisons.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/factorial_n4.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/factorial_n6.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/factorial_n8.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/factorial_neutral.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/factorial_results.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/neutral_n6.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/reimpl_id1_results.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/reimpl_n4_rep0.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/reimpl_n4_rep1.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/reimpl_n4_rep2.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/reimpl_n4_rep3.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/reimpl_n4_rep4.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/reimpl_n6_N60000.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/reimpl_n6_rep0.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/reimpl_n6_rep1.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/reimpl_n6_rep2.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/reimpl_n6_rep3.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/reimpl_n6_rep4.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/reviewer_replay/reimpl_n8_N2000.npz:manifest",
+      "passed": true
+    },
+    {
+      "check": "data/transport_control.csv:manifest",
+      "passed": true
+    },
+    {
+      "check": "editorial/AIU_REFERENCE_CROSSWALK.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "editorial/Absolute_Infinite_Union_v1_4.diff:manifest",
+      "passed": true
+    },
+    {
+      "check": "editorial/FINALIZATION.diff:manifest",
+      "passed": true
+    },
+    {
+      "check": "editorial/FINALIZATION_NOTES.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "editorial/FINALIZATION_SOURCE_CHANGES.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "editorial/Frame_Aligned_Records_Supplement_v1_2.diff:manifest",
+      "passed": true
+    },
+    {
+      "check": "editorial/Frame_Aligned_Records_v0_5.diff:manifest",
+      "passed": true
+    },
+    {
+      "check": "editorial/P01_Post_Injection_Protocol_v1_3.diff:manifest",
+      "passed": true
+    },
+    {
+      "check": "editorial/Post_Injection_Results_v1_2.diff:manifest",
+      "passed": true
+    },
+    {
+      "check": "editorial/READINESS_AND_DECLARATIONS.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "editorial/REVIEW_DECISIONS.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "editorial/inherited_SOURCE_PATCH_REGISTER.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "editorial/inherited_SOURCE_REGISTER.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "editorial/retained_pairing_contract.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "editorial/transformation_v18.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/FEEDBACK_v1_6_1.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/FEEDBACK_v1_7.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/Feedback 1.7.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/Feedback Infinite Substrate 1.6.1.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/PREDICTIONS_factorial.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/PREDICTIONS_reimplementation.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/Pasted text(20260926-085339).txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/README.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/SHA256SUMS.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/environment.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/factorial_id1.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/factorial_neutral.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/factorial_neutral.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/factorial_results.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/factorial_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/predictions_factorial.sha256:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/predictions_reimpl.sha256:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/reimpl_id1.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/reimpl_id1_results.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/current/reimpl_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/id1_checks.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "feedback/id1_checks_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/adaptive_cover_bound.png:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/adaptive_cover_bound.svg:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/bayes_sensitivity.png:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/bayes_sensitivity.svg:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/factorial_cells.png:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/factorial_cells.svg:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/factorial_intervals.png:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/factorial_intervals.svg:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/finite_word_probability.png:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/finite_word_probability.svg:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/haar_typicality.png:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/haar_typicality.svg:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/localized_constants.png:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/localized_constants.svg:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/permutation_size.png:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/permutation_size.svg:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/persistence_certificate.png:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/persistence_certificate.svg:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/pilot_contrast_distribution.png:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/pilot_contrast_distribution.svg:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/pilot_readability_curves.png:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/pilot_readability_curves.svg:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/pilot_transport_control.png:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/pilot_transport_control.svg:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/registration_controls.png:manifest",
+      "passed": true
+    },
+    {
+      "check": "figures/registration_controls.svg:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/C_Frame_Aligned_Records_v0_3_1.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/C_Supplementary_Information_v1_0_1.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/ORSH_AIU_Research_Portfolio_v1_6_Complete.zip:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/ORSH_AIU_v1_6_1_Patch_and_Pilot.zip:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/P01_ID1_Results_Log_v1_0.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/W04_Absolute_Infinite_Union_Inquiry_v1_2_1.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/inherited_SOURCE_PATCH_REGISTER.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/inherited_SOURCE_REGISTER.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/C_Frame_Aligned_Records_v0_3.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/C_Supplementary_Information_v1_0.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/ORSH_AIU_v1_6_Claude_Review.zip:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/P01_Staged_Locality_Record_Protocol_v1_1.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/SOURCE_REGISTER.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/W04_Absolute_Infinite_Union_Inquiry_v1_2.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/historical_source_register_v1_5.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/README.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/build_documents.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/checks_v0_3_0.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/config.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/build_release_documents.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/MANIFEST_SHA256.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/README.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/build_manuscript.sh:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/check_manuscript.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/config.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/lrcommon.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/requirements.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/run_all.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/s01_published_values.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/s02_lemmas.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/s03_typical_fragments.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/s04_null_calibration.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/s05_frame_toys.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/s06_frame_distance.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_portfolio_v1_4/build_documents.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_portfolio_v1_4/environment_versions.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_portfolio_v1_4/portfolio_checks.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_portfolio_v1_4/requirements.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_portfolio_v1_4/separate_checks.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_portfolio_v1_4/verify_documents.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/replay_legacy.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/requirements.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/safeguards.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/second_checks.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/verify_manifest.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/legacy_v1_5/verify_release.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/plot_results.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/requirements.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/second_checks_v0_3_0.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/supplied_claude_audit/coupling_dominance.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/supplied_claude_audit/coupling_dominance.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/supplied_claude_audit/v15_checks_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/supplied_claude_audit/v15_independent_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/supplied_claude_audit/v15_independent_checks.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/supplied_claude_audit/xformat.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/supplied_claude_audit/xformat.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_code/verify_document_structure.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_data/adaptive_cover_bound.csv:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_data/effective_config.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_data/localized_constants.csv:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_data/mixed_draws.csv:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_data/per_case_checks.csv:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_data/perturbation_checks.csv:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_data/results.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_data/symbolic_support.csv:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/RELEASE_VERIFICATION.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/build/A02_Independent_Adjudication_v1_0_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/build/C_Frame_Aligned_Records_v0_3_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/build/C_Supplementary_Information_v1_0_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/build/P01_Staged_Locality_Record_Protocol_v1_1_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/build/W04_Absolute_Infinite_Union_Inquiry_v1_2_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/build/W05_Programme_v1_2_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/claude_replay/coupling_dominance.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/claude_replay/coupling_dominance_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/claude_replay/execution.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/claude_replay/v15_independent_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/claude_replay/v15_independent_checks_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/claude_replay_comparison.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/collected_reading_copy.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/final_document_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/final_render_inventory.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/fresh_data_replay.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/fresh_figure_replay.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/main_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/preserved_inputs.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/render_execution.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/second_results.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/supporting_lineage/v1_6_verification/visual_review.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/MANIFEST_SHA256.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/ORSH_AIU_v1_7_Collected_Reading_Copy.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/REVIEWER_BUNDLE_v1_7.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/SHA256SUMS.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/VERSION_MANIFEST.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/editorial/Absolute_Infinite_Union_v1_3.diff:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/editorial/Frame_Aligned_Records_Supplement_v1_1.diff:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/editorial/Frame_Aligned_Records_v0_4.diff:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/editorial/P01_Post_Injection_Pilot_v1_2.diff:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/editorial/Post_Injection_Results_v1_1.diff:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/editorial/SOURCE_VERIFICATION_UPDATE.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/editorial/reference_crosswalk.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/editorial/transformation_log.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/manuscripts/Absolute_Infinite_Union_v1_3.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/manuscripts/Absolute_Infinite_Union_v1_3.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/manuscripts/Absolute_Infinite_Union_v1_3.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/manuscripts/Frame_Aligned_Records_v0_4.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/manuscripts/Frame_Aligned_Records_v0_4.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/manuscripts/Frame_Aligned_Records_v0_4.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/pilot/Post_Injection_Results_v1_1.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/pilot/Post_Injection_Results_v1_1.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/pilot/Post_Injection_Results_v1_1.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/protocols/P01_Post_Injection_Pilot_v1_2.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/protocols/P01_Post_Injection_Pilot_v1_2.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/protocols/P01_Post_Injection_Pilot_v1_2.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/supplement/Frame_Aligned_Records_Supplement_v1_1.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/supplement/Frame_Aligned_Records_Supplement_v1_1.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/supplement/Frame_Aligned_Records_Supplement_v1_1.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/RELEASE_VERIFICATION.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/build/Absolute_Infinite_Union_v1_3_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/build/Frame_Aligned_Records_Supplement_v1_1_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/build/Frame_Aligned_Records_v0_4_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/build/P01_Post_Injection_Pilot_v1_2_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/build/Post_Injection_Results_v1_1_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/claude_recheck_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/document_and_package_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/independent_pilot_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/pilot_replay_comparison.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/pilot_replay_environment.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/pilot_replay_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/pilot_validation_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/portable_content_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/review_analysis_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/secondary_replay_comparison.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/v17_environment.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_7_core/verification/v17_secondary_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/CHANGELOG.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/MANIFEST_SHA256.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/ORSH_AIU_v1_8_Collected_Reading_Copy.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/README.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/REVIEWER_BUNDLE_v1_8.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/SHA256SUMS.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/VERSION_MANIFEST.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/manuscripts/Absolute_Infinite_Union_v1_4.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/manuscripts/Absolute_Infinite_Union_v1_4.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/manuscripts/Absolute_Infinite_Union_v1_4.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/manuscripts/Frame_Aligned_Records_v0_5.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/manuscripts/Frame_Aligned_Records_v0_5.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/manuscripts/Frame_Aligned_Records_v0_5.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/pilot/Post_Injection_Results_v1_2.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/pilot/Post_Injection_Results_v1_2.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/pilot/Post_Injection_Results_v1_2.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/protocols/P01_Post_Injection_Protocol_v1_3.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/protocols/P01_Post_Injection_Protocol_v1_3.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/protocols/P01_Post_Injection_Protocol_v1_3.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/supplement/Frame_Aligned_Records_Supplement_v1_2.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/supplement/Frame_Aligned_Records_Supplement_v1_2.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/supplement/Frame_Aligned_Records_Supplement_v1_2.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/verification/RELEASE_VERIFICATION.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/verification/build/Absolute_Infinite_Union_v1_4_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/verification/build/Frame_Aligned_Records_Supplement_v1_2_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/verification/build/Frame_Aligned_Records_v0_5_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/verification/build/P01_Post_Injection_Protocol_v1_3_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/verification/build/Post_Injection_Results_v1_2_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/verification/collected_inventory.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/verification/extended_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/verification/pdf_inventory.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/verification/structural_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/v1_8_before_finalization/verification/visual_review.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "historical/verify_v1_6_1_patch.py:manifest",
+      "passed": true
+    },
+    {
+      "check": "manuscripts/Absolute_Infinite_Union_v1_4.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "manuscripts/Absolute_Infinite_Union_v1_4.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "manuscripts/Absolute_Infinite_Union_v1_4.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "manuscripts/Frame_Aligned_Records_v0_5.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "manuscripts/Frame_Aligned_Records_v0_5.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "manuscripts/Frame_Aligned_Records_v0_5.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "pilot/PRE_EXECUTION_PLAN.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "pilot/PRE_EXECUTION_RECEIPT.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "pilot/Post_Injection_Results_v1_2.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "pilot/Post_Injection_Results_v1_2.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "pilot/Post_Injection_Results_v1_2.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "pilot/config.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "programme/CURRENT_STATUS_v1_8.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "programme/Deferred_Directions.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "programme/NEXT_DECISION.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "protocols/P01_Post_Injection_Protocol_v1_3.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "protocols/P01_Post_Injection_Protocol_v1_3.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "protocols/P01_Post_Injection_Protocol_v1_3.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "requirements.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "sources/FINALIZATION_SOURCE_CHECKS.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "sources/SOURCE_CHECKS_v1_8.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "specialist_review/REVIEW_REQUEST.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "supplement/Frame_Aligned_Records_Supplement_v1_2.docx:manifest",
+      "passed": true
+    },
+    {
+      "check": "supplement/Frame_Aligned_Records_Supplement_v1_2.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "supplement/Frame_Aligned_Records_Supplement_v1_2.pdf:manifest",
+      "passed": true
+    },
+    {
+      "check": "typesetting/Absolute_Infinite_Union_v1_4/Absolute_Infinite_Union_v1_4.tex:manifest",
+      "passed": true
+    },
+    {
+      "check": "typesetting/Frame_Aligned_Records_Supplement_v1_2/Frame_Aligned_Records_Supplement_v1_2.tex:manifest",
+      "passed": true
+    },
+    {
+      "check": "typesetting/Frame_Aligned_Records_v0_5/Frame_Aligned_Records_v0_5.tex:manifest",
+      "passed": true
+    },
+    {
+      "check": "typesetting/P01_Post_Injection_Protocol_v1_3/P01_Post_Injection_Protocol_v1_3.tex:manifest",
+      "passed": true
+    },
+    {
+      "check": "typesetting/Post_Injection_Results_v1_2/Post_Injection_Results_v1_2.tex:manifest",
+      "passed": true
+    },
+    {
+      "check": "typesetting/codewrap.lua:manifest",
+      "passed": true
+    },
+    {
+      "check": "typesetting/collection_cover/collection_cover.tex:manifest",
+      "passed": true
+    },
+    {
+      "check": "typesetting/header.tex:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/Absolute_Infinite_Union_v1_4_pdf_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/Frame_Aligned_Records_Supplement_v1_2_pdf_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/Frame_Aligned_Records_v0_5_pdf_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/P01_Post_Injection_Protocol_v1_3_pdf_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/Post_Injection_Results_v1_2_pdf_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/RELEASE_VERIFICATION.md:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/build/Absolute_Infinite_Union_v1_4_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/build/Frame_Aligned_Records_Supplement_v1_2_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/build/Frame_Aligned_Records_v0_5_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/build/P01_Post_Injection_Protocol_v1_3_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/build/Post_Injection_Results_v1_2_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/collected_inventory.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/collection_build.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/collection_cover_compile_1.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/collection_cover_compile_2.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/environment.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/extended_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/factorial_analysis_replay_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/factorial_fresh_separate_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/factorial_independent_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/factorial_separate_method_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/factorial_validation_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/finalization/collection_stdout.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/finalization/document_structure.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/finalization/encoding_and_links.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/finalization/factorial_analysis_replay_comparison.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/finalization/factorial_analysis_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/finalization/factorial_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/finalization/factorial_checks_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/finalization/path_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/finalization/pdf_inventory.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/finalization/pilot_replay_comparison.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/finalization/pilot_replay_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/finalization/pilot_validation_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/finalization/preserved_evidence.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/finalization/production_cleanup.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/finalization/reference_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/fresh_replay.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/independent_pilot_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/input_hashes.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/new_figure_replay.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/pdf_inventory.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/pilot_fresh_replay_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/pilot_fresh_separate_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/pilot_separate_method_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/replay_pid.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/reviewer_replay_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/structural_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Absolute_Infinite_Union_v1_4/Absolute_Infinite_Union_v1_4.log:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Absolute_Infinite_Union_v1_4/compile_1.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Absolute_Infinite_Union_v1_4/compile_2.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Absolute_Infinite_Union_v1_4/pandoc.log:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Frame_Aligned_Records_Supplement_v1_2/Frame_Aligned_Records_Supplement_v1_2.log:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Frame_Aligned_Records_Supplement_v1_2/compile_1.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Frame_Aligned_Records_Supplement_v1_2/compile_2.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Frame_Aligned_Records_Supplement_v1_2/pandoc.log:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Frame_Aligned_Records_v0_5/Frame_Aligned_Records_v0_5.log:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Frame_Aligned_Records_v0_5/compile_1.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Frame_Aligned_Records_v0_5/compile_2.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Frame_Aligned_Records_v0_5/pandoc.log:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/P01_Post_Injection_Protocol_v1_3/P01_Post_Injection_Protocol_v1_3.log:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/P01_Post_Injection_Protocol_v1_3/compile_1.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/P01_Post_Injection_Protocol_v1_3/compile_2.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/P01_Post_Injection_Protocol_v1_3/pandoc.log:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Post_Injection_Results_v1_2/Post_Injection_Results_v1_2.log:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Post_Injection_Results_v1_2/compile_1.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Post_Injection_Results_v1_2/compile_2.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/typesetting_logs/Post_Injection_Results_v1_2/pandoc.log:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/v17_secondary_checks.json:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/v17_secondary_method_stdout.txt:manifest",
+      "passed": true
+    },
+    {
+      "check": "verification/visual_review.json:manifest",
+      "passed": true
+    }
+  ],
+  "passed": 425,
+  "failed": 0,
+  "limitations": "Structural and hash checks only. Not a semantic proof, Word application test, visual review or scientific validation."
+}

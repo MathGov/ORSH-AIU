@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the collection or the specific paper/version you use; see CITATION.md."
+title: "ORSH / AIU Research: Frame-Aligned Records and Absolute Infinite Union"
+type: dataset
+authors:
+  - family-names: McGaughran
+    given-names: James
+version: 1.8-open.1
+date-released: 2026-09-27
+url: "https://mathgov.github.io/ORSH-AIU/"
+repository-code: "https://github.com/MathGov/ORSH-AIU"
+license:
+  - CC-BY-4.0
+  - Apache-2.0
+abstract: "Open research collection with scientific manuscripts, a philosophical manuscript, data, code and provenance. License scope is defined in LICENSE and NOTICE.md."
+keywords:
+  - quantum records
+  - locality
+  - reproducibility
+  - philosophy

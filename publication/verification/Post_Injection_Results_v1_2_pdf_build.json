@@ -1,0 +1,10 @@
+{
+  "source": "pilot/Post_Injection_Results_v1_2.md",
+  "source_sha256": "bff092d0c49ba93dd4717eb4b292fe37ea58ab8a078da6e0787bd1c7ef9e4d94",
+  "engine": "XeLaTeX from canonical Markdown",
+  "warnings": [
+    "Package mathtools Warning: For best results, please load mathtools *before* ",
+    "Package unicode-math Warning: Using \\overbracket and \\underbracket from",
+    "Package unicode-math Warning: I'm going to overwrite the following commands"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-26",
+  "scope": "Targeted source verification, not a new complete literature audit.",
+  "checks": [
+    {
+      "source": "Miller (2021), published article",
+      "url": "https://philpapers.org/archive/MILTDP-5.pdf",
+      "scope": "Primary parsed first-page journal header; PDF is 14 pages. Fresh screenshot request failed, so no new visual source check is claimed.",
+      "finding": "28, No. 3-4, 2021, pp. 112-25. Keep 112-125.",
+      "action": "No bibliographic change except first-citation renumbering."
+    },
+    {
+      "source": "Popescu, Short and Winter, quant-ph/0511225",
+      "url": "https://arxiv.org/pdf/quant-ph/0511225",
+      "scope": "Primary parsed Lemma 3 and equations 20-22. Screenshot attempt failed.",
+      "finding": "With real sphere dimension 2d-1 and Lipschitz constant 2, the inherited denominator 18*pi^3 is retained.",
+      "action": "No mathematical change."
+    },
+    {
+      "source": "DESI DR2 Results IV, version 3",
+      "url": "https://arxiv.org/html/2607.27410v3",
+      "scope": "Primary HTML Section VI.4.3, equation 36 and data-combination context.",
+      "finding": "10^3 Omega_K = 2.1 +/- 1.1 for DESI BAO plus Lyman-alpha full-shape plus CMB in curved Lambda-CDM.",
+      "action": "Retain model-conditioned wording."
+    },
+    {
+      "source": "Adil et al., Search for classical subsystems in quantum worlds",
+      "url": "https://journals.aps.org/prd/abstract/10.1103/vj4x-96fk",
+      "scope": "Official publisher indexed bibliographic record, not a fresh complete theorem audit.",
+      "finding": "Physical Review D 113, 103535; published 26 May 2026.",
+      "action": "Retain bibliographic entry."
+    }
+  ]
+}

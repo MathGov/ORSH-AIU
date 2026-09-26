@@ -1,0 +1,293 @@
+--- manuscripts/Frame_Aligned_Records_v0_4.md
++++ manuscripts/Frame_Aligned_Records_v0_5.md
+@@ -6,11 +6,11 @@
+ 
+ MathGov / RippleLogic Research Program
+ 
+-26 September 2026
++26 September 2026 | Review manuscript v0.5
+ 
+ # Abstract
+ 
+-Which subsystem descriptions make quantum dynamics simple, and which support informative records? We develop mathematical and inferential safeguards for comparing the two. A centred orthogonal-projection locality residual is bounded and energy-origin invariant. Covariant preparations obey spectral-block restrictions; conditional typicality limits fixed-fragment decoding and state-adaptive selection within a predetermined, quantitatively bounded family. Access equivalence requires the appropriate observable algebras, not merely equal higher-weight operator spans. Exact counterexamples expose nontransitive proximity and invalid restricted permutation references. Localised continuity bounds certify finite-window accessibility, while lower and upper record counts prevent unequal certification tightness from becoming an apparent frame advantage. A within-model count contrast avoids cross-model registration but remains dependent on supplied preparation and access. A separate source-off feasibility pilot is reported without relabelling it as that count test: its six-qubit primary readability contrast has mean -0.015225, with exploratory negative directional evidence but a conservative mean interval that includes zero. Transport controls succeed although no singleton satisfies the pilot's strict new-record windows. The contribution is a reusable comparison specification and a transparent account of its limits, not a new decoherence mechanism, a recovered spacetime metric or a consciousness result. Historical novelty and physical correspondence remain separate questions.
++Which subsystem descriptions make quantum dynamics simple, and which support informative records? We develop three safeguards for comparing them: access-aware equivalence, valid inferential targets, and uncertainty-aware record certification. A centred projection score is bounded and energy-origin invariant. Covariant preparations obey spectral-block restrictions, while conditional typicality constrains state-adaptive selection within a predetermined, quantitatively bounded family. Equal higher-weight operator spans need not define equal access, restricted permutation references can be miscalibrated, and unequal certificate tightness must not become an apparent physical advantage. A source-off pilot illustrates why the estimand matters. Its predeclared six-qubit readability-change mean is negative, -0.015225. A subsequent paired factorial extension instead compares two Hamiltonian orientations at fixed injection and finds positive intervention contrasts, approximately 0.0105 and 0.0126 at six qubits. Reproduction and a finite-family variance-sensitive analysis support those contrasts under the specified sampling law. The two signs are compatible because their counterfactuals differ. Rotating the Hamiltonian is not an intervention on locality alone, and finite propagation bounds do not establish the sign of this readability statistic. The paper supplies reusable comparison safeguards, not a new decoherence mechanism, an identified spacetime metric or a consciousness result.
+ 
+ **Keywords:** quantum mereology; quantum records; conditional typicality; locality; statistical inference; reproducibility.
+ 
+@@ -20,7 +20,7 @@
+ 
+ Decoherence and quantum Darwinism explain how certain observables of a system become stably and redundantly recorded in an environment, given a decomposition of the global Hilbert space into system and environment [Zurek 2003; Ollivier, Poulin and Zurek 2004; Zurek 2009]. The decomposition itself is usually supplied. Work on quantum mereology asks where it comes from: which tensor-product structures (TPS) are singled out by a Hamiltonian, a state, or an operational criterion [Zanardi 2001; Zanardi, Lidar and Lloyd 2004; Cotler, Penington and Ranard 2019; Carroll and Singh 2021; Zanardi, Dallas, Andreadakis and Lloyd 2024]. Two families of criteria have been developed largely in parallel. Locality criteria select structures in which the Hamiltonian is a sum of few-body or graph-local terms. Classicality criteria select structures that host robust pointer states or redundant records [Riedel 2017; Adil et al. 2026].
+ 
+-A natural question joins them: across an ensemble of models, do the candidate structures that are nearly optimal for dynamical locality coincide with those that are nearly optimal for persistent, informative records more often than a declared chance baseline predicts? We call this the locality-record compatibility question. It is implicit in programmes that seek to recover classical, spatially organised descriptions from minimal quantum ingredients, and it has been posed explicitly as a model-class conjecture in the explicitly scoped formulations in Section 7. Recent results pull in different directions. Riedel showed that, given the TPS associated with spatial locality, the requirement of redundant local records strongly constrains branch decompositions [Riedel 2017]. Adil et al. found that a fixed Hamiltonian can admit many factorizations with robust pointer states, and that decohering subsystems need not align with the usual notion of locality [Adil et al. 2026]. Whether a Hamiltonian alone determines a TPS is itself disputed [Stoica 2022; Soulas, Franzmann and Di Biagio 2025; Stoica 2026].
++A natural question joins them: across an ensemble of models, do the candidate structures that are nearly optimal for dynamical locality coincide with those that are nearly optimal for persistent, informative records more often than a declared chance baseline predicts? We call this the locality-record compatibility question. It is implicit in programmes that seek to recover classical, spatially organised descriptions from minimal quantum ingredients, with conditional model-class formulations stated in Section 7. Recent results pull in different directions. Riedel showed that, given the TPS associated with spatial locality, the requirement of redundant local records strongly constrains branch decompositions [Riedel 2017]. Adil et al. found that a fixed Hamiltonian can admit many factorizations with robust pointer states, and that decohering subsystems need not align with the usual notion of locality [Adil et al. 2026]. Whether a Hamiltonian alone determines a TPS is itself disputed [Stoica 2022; Soulas, Franzmann and Di Biagio 2025; Stoica 2026].
+ 
+ ## 1.2 Why the question is easy to trivialise
+ 
+@@ -34,17 +34,13 @@
+ 
+ ## 1.3 Contributions
+ 
+-We state each contribution with its status.
+-
+-1. **Well-posedness of a subsystem-relative locality score** (proved; Lemmas 1 to 3). The centered residual is bounded for an orthogonal projector; the uncentered convention is bounded for every non-scalar Hamiltonian if and only if the identity is included; its denominator is candidate-invariant; and it is a function of stabilizer classes.
+-2. **Preparation constraints** (proved; Propositions 1 and 2, with explicit counterexamples). These sharpen elementary facts about covariant and entropy-matched preparations for use as design rules.
+-3. **Conditional typicality bounds on small-fragment records** (proved; Proposition 3 and Corollary 1). This is a direct consequence of canonical-typicality estimates [Page 1993; Popescu, Short and Winter 2006; Hayden, Leung and Winter 2006]. Its use here is as a design constraint: record tests must declare their conditional preparation law and any structure it privileges.
+-4. **A chance-corrected estimand with documented null failures** (proved lemma plus exact calculations; Section 5).
+-5. **Counterexamples and a corrected model-pairing specification** separating supplied orientation, operator-span similarity, full access equivalence and permutation validity (exact controls executed; unrestricted searches not executed; Sections 2.7, 5.6 and 7).
+-6. **An exploratory toy calculation** showing shared-frame sensitivity and dependence on the generator scored (historical computed results; Section 6).
+-7. **Local certification, perturbation and adaptive-family safeguards** (conditional derivations; Appendices D to F), with numerical checks but no claim of historical priority.
+-
+-None of these is a claim about physical spacetime, and none tests the conjecture of Section 7.
++Three failure modes organize the contribution.
++
++1. **Mistaking a convenient description for an equivalent physical access structure.** The centred score and full operational stabilizer make comparisons well posed. The controlled-NOT counterexample shows why equal higher-weight spans alone do not suffice (Sections 2 and 3).
++2. **Mistaking an analysis convention for evidence.** Explicit reference assumptions, the exact derangement counterexample, and the distinction between a change from frozen evolution and a paired Hamiltonian-orientation intervention prevent different questions from borrowing each other's verdicts (Sections 5 and 6).
++3. **Mistaking a numerical limitation for absent records.** Lower and upper count bounds propagate unresolved certification into inference. Conditional preparation and finite-cover results delimit when a chosen search family can find records (Section 7.3.1; Appendices C to F).
++
++Elementary lemmas and standard concentration tools support these safeguards. The methodological integration and the finite design examples are the contribution claimed here; historical priority for a new physical mechanism or for the underlying mathematics is not claimed. Unrestricted structure recovery and the persistent-count population conjectures remain unexecuted.
+ 
+ # 2. Setting and definitions
+ 
+@@ -59,8 +55,8 @@
+ Here equality means preservation of the local span, permutation of the eligible fragment algebras, and preservation of every applicable element of the operational contract.
+ Thus $V$ and $VW$, with $W\in\mathrm{Stab}(\mathcal R)$, define equivalent candidates. Equality of a locality span alone does not suffice. Source registers remain external and are not accessible fragments.
+ 
+-For $n$ equal-dimensional sites with every singleton algebra, unrestricted singleton measurements, symmetric costs, unlabelled sites and an unrestricted weight-$k$ span, the stabilizer is exactly the set
+-$$\{\Pi_\pi(U_1\otimes\cdots\otimes U_n):\pi\in S_n,\ U_j\in U(q)\}.$$
++For $n$ equal-dimensional sites (site dimension $q_{\mathrm{site}}=2$ in the qubit models) with every singleton algebra, unrestricted singleton measurements, symmetric costs, unlabelled sites and an unrestricted weight-$k$ span, the stabilizer is exactly the set
++$$\{\Pi_\pi(U_1\otimes\cdots\otimes U_n):\pi\in S_n,\ U_j\in U(q_{\mathrm{site}})\}.$$
+ This set notation avoids treating the product of local unitary groups as an injective subgroup: compensating local phases have a kernel. Graph or operational constraints restrict the allowed elements further. In the unlabelled case these are the usual TPS equivalences; a labelled or cost-restricted access structure has a finer equivalence relation [Andreadakis and Zanardi 2025, Eq. 14 and Appendix A.4].
+ 
+ ## 2.2 Convention for evaluating candidates
+@@ -87,7 +83,7 @@
+ - **internal locality**, $L^{\mathrm{int}}(D)=L(D;H_S)$;
+ - **total locality**, $L^{\mathrm{tot}}(D)=\sum_xp_x\,L(D;H_x)$.
+ 
+-Section 6 shows that the choice can reverse a verdict.
++Supplement Section S2.6 shows how the choice changes the descriptive verdict in the historical continuously driven calibration.
+ 
+ ## 2.5 Records
+ 
+@@ -114,7 +110,7 @@
+ **Exact counterexample 2: equal spans need not give equal records.** On two qubits let the allowed span be the complete operator space, so every conjugation leaves it unchanged. Compare the identity and controlled-NOT representatives, and source-conditioned vectors $\left| 00\right\rangle ,\left| 11\right\rangle$. The identity access structure has two perfect single-qubit records. In controlled-NOT coordinates the vectors are $\left| 00\right\rangle ,\left| 10\right\rangle$, giving one. The span discrepancy is zero in both cases. This is an access counterexample, not creation or destruction of information by a passive representation change.
+ 
+ **Access equivalence from an existing theorem.** Define
+-$$\mathcal W=\operatorname{span}\{I\}+\sum_j\mathcal B_0(\mathcal H_j),\qquad r_1=\sum_j(q_j^2-1),$$
++$$\mathcal W=\operatorname{span}\{I\}+\sum_j\mathcal B_0(\mathcal H_j),\qquad r_1=\sum_j(q_{\mathrm{site},j}^2-1),$$
+ where site algebras are embedded in the full system and $\mathcal B_0$ denotes their traceless parts. If $P_V$ projects onto $V\mathcal W V^\dagger$, the Andreadakis-Zanardi squared TPS discrepancy is
+ $$\Phi(V,W)=\frac{\|P_V-P_W\|_{\mathrm{HS}}^2}{2r_1}.$$
+ Their Eq. 14 proves that $\Phi=0$ precisely for a relative unitary consisting of local unitaries and permutations of equal-dimensional sites. The square root of $\Phi$ is the associated projector distance; $\Phi$ itself is a squared distance and need not satisfy the triangle inequality. The distinction is terminological, not a criticism of their convention. For two-qubit identity versus controlled-NOT, $\delta_1=4/7$ when the identity is included in the rank, while $\Phi=2/3$. SWAP has $\Phi=0$ for unlabelled sites. These normalization differences must not be mixed.
+@@ -225,7 +221,7 @@
+ | 7 | 200 | 1.000 | 0.000 | 0.054 | 0.088 |
+ | 9 | 100 | 1.000 | 0.000 | 0.028 | 0.044 |
+ 
+-In these sampled models the ready state makes every tested single-qubit fragment qualify at the one declared time, whereas Haar initialisation gives rare qualifying fragments. The rates in Table 1 are means of per-model fragment fractions, not the proportion of models with any record. At three qubits the nonzero Haar rate itself refutes a literal no-record reading. A mean advantage of 0.211 is nonzero even where few fragments meet the strict error threshold.
++The last column retains the historical loose bound; Proposition 3 supplies the tighter $b/2$. In these sampled models the ready state makes every tested single-qubit fragment qualify at the one declared time, whereas Haar initialisation gives rare qualifying fragments. The rates in Table 1 are means of per-model fragment fractions, not the proportion of models with any record. At three qubits the nonzero Haar rate itself refutes a literal no-record reading. A mean advantage of 0.211 is nonzero even where few fragments meet the strict error threshold.
+ 
+ # 5. The association estimand and its null
+ 
+@@ -258,7 +254,7 @@
+ | 100 | 20 | 1, 3 | 0.5643 | 0.1500 | 0.1504 | 3.76 |
+ | 60 | 6 | 1, 2 | 0.9888 | 0.3333 | 0.3316 | 2.97 |
+ 
+-**Shared frames (anti-conservative).** In a recording-friendly shared-frame calibration, one candidate can be special by construction: it is both the most local and the only one hosting qualifying records. Exchangeability fails in the opposite direction. The baseline is small while the event is certain. For the two weak-internal-coupling shared-frame cells of Section 6, this gives $A=1.00$ against $q=0.05$ in every sampled model. It is not a guarantee for the stronger-coupling cell or every shared-frame model.
++**Shared frames (anti-conservative).** In a recording-friendly shared-frame calibration, one candidate can be special by construction: it is both the most local and the only one hosting qualifying records. Exchangeability fails in the opposite direction. The baseline is small while the event is certain. For the two weak-internal-coupling shared-frame cells in Supplement Table S4, this gives $A=1.00$ against $q=0.05$ in every sampled model. It is not a guarantee for the stronger-coupling cell or every shared-frame model.
+ 
+ **Adaptive choices.** Tolerances $\epsilon_L,\epsilon_R$, thresholds $\tau_L,\tau_R$ and the margin $\Delta$ chosen after scores are seen invalidate both the baseline and the interval below. They must be frozen in $\Theta$.
+ 
+@@ -292,23 +288,48 @@
+ 
+ **Figure 2. Three exact registration controls. Fixed common frames give zero contrast; differing supplied common orientations give a contrast; registering to those known inputs removes it. This diagnoses the estimand, not an emergent law.**
+ 
+-# 6. Illustrations and a source-off feasibility pilot
++# 6. Supplied-structure studies and distinct counterfactuals
+ 
+ ## 6.1 Continuously driven calibration
+ 
+-A historical three-qubit study compared internal locality with source-conditioned record accessibility using 20 supplied candidate descriptions. Its source coupling, time window and thresholds were revised after an initial low-record run. Subsequent fixed-seed and fresh-seed repeats therefore remain exploratory. In a shared-frame, weak-internal-coupling construction, the apparent overlap enrichment reached 0.95, largely reflecting shared inputs. When preparation and coupling were moved together, records preferentially remained readable in that supplied frame rather than the internal-locality frame. The outcome was a time-averaged singleton count, not persistent redundancy. The complete model, development history, tables and repeat results are supplied in Supplement Section S9. These data illustrate dependence on design and on the generator being scored; they do not validate the conditional overlap reference.
+-
+-## 6.2 Source-off pilot: a different estimand
+-
+-A subsequent finite pilot separated injection from redistribution. A one-site pulse encoded a binary source with the internal Hamiltonian paused; the source was then removed and both branches evolved under the same random nearest-neighbour Hamiltonian. There were 96 independent Hamiltonian/circuit units at each of four and six qubits, with two paired injection arms per unit. The graph, access structures and comparison frames were supplied. A matched no-evolution baseline subtracted the initial frame-readability gap. The primary six-qubit rotated-injection contrast was half the change in average singleton trace-distance difference between the internal and injection frames, evaluated at 50 declared checkpoints. It was not the persistent count contrast in Section 7.
+-
+-The primary mean was -0.015225, with 28 positive and 68 negative contrasts. Its approximate bootstrap 95% interval was [-0.021070, -0.009646], whereas the predeclared worst-case Hoeffding interval was [-0.292446, 0.261996]. Thus the bootstrap and descriptive direction favour a negative mean, but the distribution-free guarantee does not determine its sign. A post hoc exact two-sided sign test gives $p=5.4592\times10^{-5}$ under independent equiprobable nonzero signs; Holm adjustment [Holm 1979] across four reported size/arm rows gives $p=1.6377\times10^{-4}$. This tests directional balance, not a zero population mean, and was not predeclared. The adjusted family does not encompass an unlimited search over unreported analyses. A negative change narrowed an existing internal-frame readability advantage; it does not establish that the injection frame became absolutely superior.
+-
+-No singleton met both the nearly-uninformative initial condition and the strict error ceiling throughout a declared half-unit window. Reanalysis of the stored trajectories nevertheless finds brief strong accessibility at initially eligible sites in the native arm. Strict-window failure must not be read as absence of transport or as a theorem that local dynamics cannot create local accessibility. The clean transport controls also peak outside most declared windows, with encoding-dependent thresholds. The results log and supplement disclose these limitations and preserve all original data and pre-execution files.
+-
+-## 6.3 Interpretation
+-
+-These are small, supplied-structure calibrations, not two independent demonstrations against a general frame-selection mechanism. The source-off pilot supplies an adverse or inconclusive result for its own readability target, depending on the uncertainty method. It is not a test of LRA-int, LRA-tot or LRA-count. It motivates separating transport, retention, redundant copying and identification of an unknown subsystem structure before another study is designed.
++A historical three-qubit study used 20 supplied candidates and a time-averaged singleton-count outcome. Its source coupling and observation window were changed after an initial low-record run, so fresh-seed repeats remain exploratory. Shared preparation, coupling and locality inputs facilitated an apparent overlap enrichment of 0.95 in selected cells. When preparation and coupling moved together, records preferentially remained readable in that supplied frame. These are design-sensitive illustrations, not tests of persistent redundancy or a justified chance-overlap null. Supplement Section S2 preserves the full model, development history, tables and interpretations.
++
++## 6.2 Source-off pilot: change relative to no evolution
++
++An injection pulse encoded a binary source while internal dynamics were paused. Both source branches then evolved under the same internal Hamiltonian, with the source fully removed. There were 96 independent Hamiltonian/circuit units at each of four and six qubits and two paired injection conditions per unit. The graph, access structures and two comparison frames were supplied. The primary contrast was half the change in the mean singleton trace-distance gap between the native frame L and alternate frame C, averaged over 50 declared positive-time readouts, relative to matched frozen evolution.
++
++The six-qubit rotated-injection mean was -0.015225, with 28 positive and 68 negative units. The approximate bootstrap 95% interval was [-0.021070, -0.009646]; the predeclared range-only interval was [-0.292446, 0.261996]. The observed effect is negative and the bootstrap supports a negative population mean under its sampling approximation, while the conservative range-only bound does not establish its sign at this sample size. The post hoc sign test gives $p=5.4592\times10^{-5}$ under independent equiprobable nonzero signs; Holm correction across four disclosed conditions gives $p=1.6377\times10^{-4}$. This is a directional-balance test, not a zero-mean test [Holm 1979]. A negative change narrowed an existing L advantage; it did not make C absolutely superior.
++
++No singleton met the strict new-record criterion throughout an original half-unit window. Some initially uninformative native-frame sites nevertheless became briefly strongly readable. Global distinguishability was conserved and transport controls succeeded. The zero persistent count is conditional on the initial-information floor, singleton access, error threshold and short windows, not absence of information transport.
++
++An independent-code reimplementation supplied during review used the same declared law with fresh streams. Its 60,000-unit six-qubit rotated sample has mean -0.014125 and a range-only 95% interval [-0.025213, -0.003036]. Re-execution reproduced the supplied output. This strengthens the negative mean for that specific target; it does not identify the mechanism responsible for the change. The reimplementation, historical pilot and subsequent controls are separate runs, not one enlarged original sample.
++
++## 6.3 Factorial extension: rotating dynamics at fixed injection
++
++The original study held the Hamiltonian native to L. A subsequent exploratory extension supplied the missing alternative intervention, $H_C=U_C H_L U_C^\dagger$, retaining the same spectrum, unit-specific inputs and readout frames. It crossed injection in $a\in\{L,C\}$ with evolution under $b\in\{L,C\}$. For each unit define the post-time-average readability gap $g_b^a$ and its common initial value $g_0^a$. Then
++
++$$z_{ab}=\tfrac12(g_b^a-g_0^a),\qquad e_a=z_{aL}-z_{aC}=\tfrac12(g_L^a-g_C^a).$$
++
++The original rotated-pilot target is $\mathbb E[z_{CL}]$. The new intervention target is $\mathbb E[e_C]$. The initial gap cancels only in the latter. A negative first quantity and a positive second quantity are fully compatible, not a reversal of one result.
++
++**Table 3. Six-qubit factorial extension, 20,000 paired units**
++
++| Injection | Dynamics native to L | Dynamics native to C | Paired difference L minus C |
++| --- | --- | --- | --- |
++| L | 0.014004 | 0.003491 | 0.010514 |
++| C | -0.014028 | -0.026663 | 0.012635 |
++
++The supplied four-, six- and eight-qubit runs were re-executed. All six mean intervention contrasts are positive. With six disclosed targets and two-sided family coverage at least 95%, the empirical-Bernstein calculation in Supplement Section S4 gives intervals [0.008604, 0.012423] and [0.010692, 0.014579] for the six-qubit L- and C-injection contrasts. Both four-qubit intervals also exclude zero; the eight-qubit intervals with only 1,000 units do not. Normal-approximation intervals are reported separately and are narrower. The analysis is post hoc, assumes independent units from the specified law, and does not certify floating-point error [Maurer and Pontil 2009].
++
++The range is $e_a\in[-1,1]$, not the loose difference-of-two-ranges interval [-2,2], because the initial gap cancels. This permits the sharper, explicitly derived bound. Its use is a precision calculation for this finite family, not a retrospective preregistration or a guarantee for every analysis selected after review.
++
++## 6.4 Interpretation and limits
++
++The added factor demonstrates a positive relative effect of the specified Hamiltonian rotation intervention at fixed injection in this family. The old result was a change relative to no evolution; it was not an isolated estimate of a locality mechanism. Neither result is discarded. The independently generated third-frame comparator lies between L and C in the supplied means, but its designation as neutral is a design description, not a theorem that it breaks only one causal link.
++
++Isospectral conjugation does not change only locality: relative to a fixed prepared state it can change energy distributions, correlations with input structure and which observables are simple. Both native and shallow-circuit-rotated Hamiltonians also have controlled finite-range structure relative to related descriptions. Lieb-Robinson bounds constrain commutator propagation under explicit interaction assumptions [Lieb and Robinson 1972]; they do not prove the sign of a difference of time-averaged singleton trace norms. Calling the observed contrast the light-cone effect would therefore be a mechanistic inference requiring further discrimination.
++
++No tensor-product structure is reconstructed by these computations, and the factorial outcome is not strict or redundant record formation. The remaining physical task is to identify unknown structure from several interventions and predict held-out responses without giving the algorithm its target. The methodological lesson is precise: a baseline-subtracted change, a paired Hamiltonian intervention and a structure-identification claim require different evidence.
+ 
+ # 7. Conjectures and prospective comparisons
+ 
+@@ -332,7 +353,7 @@
+ $$\left.\frac{d}{dt}(\rho_0-\rho_1)\right|_0=-i[K_0-K_1,\rho(0)].$$
+ The common internal generator cancels at first order. This identifies the source of the initial branch difference, not a theorem that one access frame wins at later times. Energy eigenstates selected as pointer states in a regime of weak system-environment interaction in which the system self-Hamiltonian dominates [Paz and Zurek 1999] are also not automatically redundant records of the particular external source bit used here.
+ 
+-A source-off design separates the roles. After a stated injection pulse, set $K_x=0$ and evolve both branches under the same $H_S$. Their global trace distance is conserved by that common unitary, while reduced distinguishability can increase, decrease or redistribute. Switching off the source does not remove the prepared imprint. Compare changes against a matched frozen-history control, disclose the supplied injection and readout structures, and distinguish transfer, local accessibility, redundant records and identification of an unknown TPS. the source-off pilot is a finite feasibility study of this different target, not a relabelling of LRA-count. Its results reside in a computational log rather than a new paper.
++A source-off design separates the roles. After a stated injection pulse, set $K_x=0$ and evolve both branches under the same $H_S$. Their global trace distance is conserved by that common unitary, while reduced distinguishability can increase, decrease or redistribute. Switching off the source does not remove the prepared imprint. Compare changes against a matched frozen-history control, disclose the supplied injection and readout structures, and distinguish transfer, local accessibility, redundant records and identification of an unknown TPS. The source-off pilot studies this different target, not a relabelling of LRA-count. Its factorial extension additionally varies the Hamiltonian orientation while retaining the specified injection.
+ 
+ Small closed systems can have time-sensitive record windows, but closed dynamics do not preclude persistence: orthogonal stationary product records under a diagonal Hamiltonian remain readable. Conversely, dissipation with one common attractive fixed state can erase the branch distinction. Large size or openness alone is neither a necessary nor a sufficient record guarantee. Environmental many-body interactions can suppress redundancy under the assumptions of Riedel, Zurek and Zwolak (2012). The decoder, retention target and observation window must be specified in each model.
+ 
+@@ -382,11 +403,11 @@
+ | Unrestricted independent optimisation | Needs access constraints, convergence study and costed search budget | NOT EXECUTED |
+ | Physically informative LRA model ensemble | Needs independently motivated model class and valid inference | NOT EXECUTED |
+ 
+-The supplied source-off protocol records the executed feasibility pilot. Unrestricted search and a held-out locality-attribution study remain separate, unexecuted stages. No larger study is activated by the existence of this protocol: it first needs an informative target, a justified sampling law and an acceptable certification budget. Any subsequent search requires a separate sensitivity and unresolved-rate assessment.
++The supplied source-off protocol records the executed feasibility pilot. Unrestricted structure search and a prospectively registered, held-out identification study remain unexecuted. The supplied factorial extension is an executed exploratory intervention study, not that identification stage. No larger study is activated by the existence of this protocol: it first needs an informative target, a justified sampling law and an acceptable certification budget. Any subsequent search requires a separate sensitivity and unresolved-rate assessment.
+ 
+ ## 7.5 Physical correspondence remains a separate claim
+ 
+-An effective graph or a few-body Hamiltonian is not a derived spacetime metric. A fundamental extension needs a primitive-input ledger and an independent target: geometry, causal propagation, dimensionality, or observation distributions evaluated on data not used to choose the frame. Even successful LRA evidence would support its specified models. It would not automatically establish monism, spatial infinity, plenitude or a conscious ground.
++An effective graph or a few-body Hamiltonian is not a derived spacetime metric. Existing reconstruction work makes additional assumptions explicit [Cao, Carroll and Michalakis 2017]. A fundamental extension needs a primitive-input ledger and an independent target: geometry, causal propagation, dimensionality, or observation distributions evaluated on data not used to choose the frame. Even successful LRA evidence would support its specified models. It would not automatically establish monism, spatial infinity, plenitude or a conscious ground.
+ 
+ # 8. Relation to prior work
+ 
+@@ -408,15 +429,7 @@
+ 
+ **Typicality.** Proposition 3 is a direct consequence of subsystem-typicality estimates [Page 1993; Popescu, Short and Winter 2006; Goldstein et al. 2006; Hayden, Leung and Winter 2006]. We claim no new typicality result. The contribution is its scoped use as a design constraint on record tests. Conditional Haar typicality suppresses selected small-fragment outcomes; it neither identifies the true preparation of the universe nor forbids adaptive encoding.
+ 
+-**Contribution and priority.** The integrated methods argument develops the following components. Historical priority for the elementary results is not claimed:
+-
+-1. the necessary and sufficient condition for a bounded subsystem-relative locality residual, with class invariance;
+-2. conditional typicality bounds, their independence limitations and a purity-dependent mixed-state extension;
+-3. a chance-corrected association estimand with two exhibited calibration failures of opposite sign;
+-4. an explicit audit of model-pairing inference, including fixed-frame, supplied-orientation, non-group and access-equivalence counterexamples;
+-5. a reproducible demonstration that the internal-versus-total choice of locality score changes the verdict.
+-
+-We claim no physical discovery. A specialist referee could reasonably judge items 1 to 3 elementary. Their value is as a checked foundation for a test that has otherwise been easy to pose in self-confirming ways.
++**Contribution and priority.** Section 1.3 states the single contribution list. The underlying projection, commutant, concentration and perturbation tools are standard. Their role here is to prevent three specific mistakes: equating span and access, transferring a verdict between counterfactuals, and treating an unresolved certificate as absent information. The factorial illustration is an outcome of a supplied finite model, not a new theorem that locality always determines record structure. External assessment of novelty and usefulness remains necessary.
+ 
+ # 9. Limitations, falsifiers and competing interpretations
+ 
+@@ -424,7 +437,7 @@
+ 
+ - Finite dimension, qubit factors, pure conditional states in Proposition 3, a binary source, autonomous Hamiltonians and declared reference structures.
+ - Proposition 3(v) does not cover candidates chosen after inspecting the state.
+-- The toy is three qubits, with a simplified record score and development-stage tuning.
++- The historical continuously driven toy has three qubits and development-stage tuning. The original source-off pilot has four and six qubits; the later review extensions include eight. All use closed dynamics, supplied frames and restricted observation windows. Mean readability is not redundant-record formation.
+ - The prospective unrestricted search design is not executed. Several exact statistical, access and persistence components are checked, but component success is not an ensemble result.
+ - The locality residual measures operator weight relative to a declared span; it is not by itself a propagation velocity or a recovered spacetime geometry.
+ 
+@@ -432,7 +445,7 @@
+ 
+ - An error in any proof withdraws the corresponding statement. Numerical agreement supports implementation checks but cannot repair a false general proof.
+ - For the prospective LRA-count target, an uncertainty-valid interval wholly below its predeclared margin counts against that contrast in its declared eligible population. A structurally built-in positive result does not provide the claimed discrimination. The older LRA-int and LRA-tot overlap hypotheses require their own justified reference null and cannot inherit the count-contrast verdict. Held-out model families and larger systems test generalisation, not the correctness of an already exhibited counterexample.
+-- A later grid on which both locality versions agree would narrow the generality of the observed difference, not disprove the exhibited toy counterexample.
++- Different post hoc interventions do not change the original predeclared estimand. More units sharpen sampling precision but do not identify an otherwise unspecified physical mechanism.
+ 
+ **Competing interpretations.**
+ 
+@@ -448,7 +461,6 @@
+ The author is responsible for the claims and their final approval. Claude, ChatGPT and a Genspark-mediated review assisted analysis, source retrieval, code, drafting and editing; none is an author, and this assistance is not external peer review. No human-participant data were collected. Funding, competing interests and the final author/correspondence metadata remain subject to author confirmation before submission. The philosophical common-ground inquiry is a separate work; no quantum-information result here is evidence that a conscious or infinite substrate exists.
+ 
+ # References
+-
+ 
+ - Adil, A., Rudolph, M. S., Arrasmith, A., Holmes, Z., Albrecht, A., and Sornborger, A. (2026). Search for classical subsystems in quantum worlds. Physical Review D 113, 103535 (2026). https://doi.org/10.1103/vj4x-96fk. Preprint arXiv:2403.10895.
+ - Andreadakis, F., and Zanardi, P. (2025). Tensor product structure geometry under unitary channels. Quantum 9, 1668. https://doi.org/10.22331/q-2025-03-25-1668
+@@ -460,17 +472,24 @@
+ - Goldstein, S., Lebowitz, J. L., Tumulka, R., and Zanghì, N. (2006). Canonical typicality. Physical Review Letters 96, 050403.
+ - Hayden, P., Leung, D. W., and Winter, A. (2006). Aspects of generic entanglement. Communications in Mathematical Physics 265, 95-117.
+ - Helstrom, C. W. (1969). Quantum detection and estimation theory. Journal of Statistical Physics 1, 231-252. https://doi.org/10.1007/BF01007479
++- Hemerik, J., and Goeman, J. (2018). Exact testing with random permutations. TEST 27, 811-825. https://doi.org/10.1007/s11749-017-0571-1 ; author manuscript https://arxiv.org/abs/1411.7565
+ - Hoeffding, W. (1963). Probability inequalities for sums of bounded random variables. Journal of the American Statistical Association 58(301), 13-30. https://doi.org/10.1080/01621459.1963.10500830
++- Holm, S. (1979). A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics 6(2), 65-70. https://www.jstor.org/stable/4615733
+ - Horodecki, R., Korbicz, J. K., and Horodecki, P. (2015). Quantum origins of objectivity. Physical Review A 91, 032122.
++- Kumar, M. (2023). Quantum Darwinism and Preferred Choice of Subsystems. Pitzer Senior Theses, 187. https://scholarship.claremont.edu/pitzer_theses/187/
+ - Le, T. P., and Olaya-Castro, A. (2019). Strong quantum Darwinism and strong independence are equivalent to spectrum broadcast structure. Physical Review Letters 122, 010403. https://doi.org/10.1103/PhysRevLett.122.010403
+ - Le, T. P., and Olaya-Castro, A. (2021). Reply to Comment on "Strong quantum Darwinism and strong independence are equivalent to spectrum broadcast structure". arXiv:2101.10756.
++- Lieb, E. H., and Robinson, D. W. (1972). The finite group velocity of quantum spin systems. Communications in Mathematical Physics 28, 251-257. https://doi.org/10.1007/BF01645779
+ - Loizeau, N., and Sels, D. (2025). Quantum mereology and subsystems from the spectrum. Foundations of Physics 55, 3. https://doi.org/10.1007/s10701-024-00813-2
++- Maurer, A., and Pontil, M. (2009). Empirical Bernstein Bounds and Sample Variance Penalization. Proceedings of COLT 2009. arXiv:0907.3740. https://arxiv.org/abs/0907.3740
++- Ollivier, H. (2022). Emergence of Objectivity for Quantum Many-Body Systems. Entropy 24(2), 277. https://doi.org/10.3390/e24020277 ; https://arxiv.org/html/2202.06832v1
+ - Ollivier, H., Poulin, D., and Zurek, W. H. (2004). Objective properties from subjective quantum states: Environment as a witness. Physical Review Letters 93, 220401.
+ - Page, D. N. (1993). Average entropy of a subsystem. Physical Review Letters 71, 1291. arXiv:gr-qc/9305007
+-- Hemerik, J., and Goeman, J. (2018). Exact testing with random permutations. TEST 27, 811-825. https://doi.org/10.1007/s11749-017-0571-1 ; author manuscript https://arxiv.org/abs/1411.7565
++- Paz, J. P., and Zurek, W. H. (1999). Quantum limit of decoherence: Environment induced superselection of energy eigenstates. Physical Review Letters 82, 5181-5185. https://doi.org/10.1103/PhysRevLett.82.5181
+ - Phipson, B., and Smyth, G. K. (2010). Permutation p-values should never be zero: Calculating exact p-values when permutations are randomly drawn. Statistical Applications in Genetics and Molecular Biology 9(1), Article 39. https://doi.org/10.2202/1544-6115.1585
+-- Popescu, S., Short, A. J., and Winter, A. (2006). Entanglement and the foundations of statistical mechanics. Nature Physics 2, 754-758. https://doi.org/10.1038/nphys444
++- Popescu, S., Short, A. J., and Winter, A. (2006). Entanglement and the foundations of statistical mechanics. Nature Physics 2, 754-758. https://doi.org/10.1038/nphys444 The longer author preprint, *The foundations of statistical mechanics from entanglement: Individual states vs. averages*, arXiv:quant-ph/0511225v3, supplies the explicit concentration Lemma 3 and Eqs. 20 to 22 used in Appendix F. These are related accounts, not independent evidence.
+ - Riedel, C. J. (2017). Classical branch structure from spatial redundancy in a many-body wave function. Physical Review Letters 118, 120402. arXiv:1608.05377
++- Riedel, C. J., Zurek, W. H., and Zwolak, M. (2012). The rise and fall of redundancy in decoherence and quantum Darwinism. New Journal of Physics 14, 083010. https://arxiv.org/abs/1205.3197
+ - Soulas, A., Franzmann, G., and Di Biagio, A. (2025). On the emergence of preferred structures in quantum theory. arXiv:2512.07468.
+ - Stoica, O. C. (2022). 3D-space and the preferred basis cannot uniquely emerge from the quantum structure. arXiv:2102.08620. Advances in Theoretical and Mathematical Physics 26(10), 3895-3962. https://doi.org/10.4310/ATMP.2022.v26.n10.a12
+ - Stoica, O. C. (2026). Comment on "On the emergence of preferred structures in quantum theory" by Soulas, Franzmann, and Di Biagio. arXiv:2603.07674.
+@@ -480,20 +499,11 @@
+ - Zanardi, P., Lidar, D. A., and Lloyd, S. (2004). Quantum tensor product structures are observable induced. Physical Review Letters 92, 060402. https://doi.org/10.1103/PhysRevLett.92.060402
+ - Zurek, W. H. (2003). Decoherence, einselection, and the quantum origins of the classical. Reviews of Modern Physics 75, 715-775. https://doi.org/10.1103/RevModPhys.75.715
+ - Zurek, W. H. (2009). Quantum Darwinism. Nature Physics 5, 181-188. https://doi.org/10.1038/nphys1202
+-
+ - Zwolak, M., Quan, H. T., and Zurek, W. H. (2010). Quantum Darwinism in non-ideal environments. Physical Review A 81, 062110. https://arxiv.org/abs/0911.4307
+-- Kumar, M. (2023). Quantum Darwinism and Preferred Choice of Subsystems. Pitzer Senior Theses, 187. https://scholarship.claremont.edu/pitzer_theses/187/
+-- Ollivier, H. (2022). Emergence of Objectivity for Quantum Many-Body Systems. Entropy 24(2), 277. https://doi.org/10.3390/e24020277 ; https://arxiv.org/html/2202.06832v1
+-- Popescu, S., Short, A. J., and Winter, A. (2006). The foundations of statistical mechanics from entanglement: Individual states vs. averages. arXiv:quant-ph/0511225v3. https://arxiv.org/pdf/quant-ph/0511225
+-
+-- Paz, J. P., and Zurek, W. H. (1999). Quantum limit of decoherence: Environment induced superselection of energy eigenstates. Physical Review Letters 82, 5181-5185. https://doi.org/10.1103/PhysRevLett.82.5181
+-- Riedel, C. J., Zurek, W. H., and Zwolak, M. (2012). The rise and fall of redundancy in decoherence and quantum Darwinism. New Journal of Physics 14, 083010. https://arxiv.org/abs/1205.3197
+-
+-- Holm, S. (1979). A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics 6(2), 65-70. https://www.jstor.org/stable/4615733
+ 
+ # Appendix A. Numerical provenance
+ 
+-Supplement Section S8 maps every displayed numerical result to its original script, output key and sample definition. The historical 2,000-draw twirl sample and the separate 1,200-draw calibration target the same exact expectation but are not one enlarged sample. The source-off data, post hoc sign analysis and transport-window diagnostic have distinct run records. Version and file-path details are kept there so that they do not substitute for the scientific argument.
++Supplement Section S1 maps every displayed numerical result to its original script, output key and sample definition. The historical 2,000-draw twirl sample and the separate 1,200-draw calibration target the same exact expectation but are not one enlarged sample. The source-off data, post hoc sign analysis and transport-window diagnostic have distinct run records. Version and file-path details are kept there so that they do not substitute for the scientific argument.
+ 
+ # Appendix B. Scope of results
+ 
+@@ -510,7 +520,7 @@
+ $$\Pr(p_{\mathrm{err}}\le\varepsilon\mid Z=z)\le\min\left\{1,\frac{b_0(z)+b_1(z)}{2(1-2\varepsilon)}\right\}.$$
+ **Proof.** Conditional twirling gives $\mathbb E_z[\rho_x\otimes\rho_x]=\alpha_z I+\beta_z\mathbb F$, where $\alpha_z=(d-P_x(z))/[d(d^2-1)]$ and $\beta_z=(dP_x(z)-1)/[d(d^2-1)]$. Contract with the fragment swap, subtract $1/d_F$, and use the Schatten-norm comparison and Jensen. The triangle and Markov steps are those of Proposition 3; they do not require branch independence. An unconditional result follows by averaging the conditional bounds. Replacing $P_x(z)$ by an unconditional purity after selecting a frame need not be valid. $\square$
+ 
+-The pure-state case is $P_x=1$ and reduces to Proposition 3; the maximally mixed case $P_x=1/d$ gives zero advantage. A four-dimensional calibration with spectrum $(0.55,0.25,0.15,0.05)$ has global purity $0.39$, exact mean centered fragment Hilbert-Schmidt norm squared $0.056$, and trace-norm bound $0.3346640106$. The historical sample of 2,000 random eigenbases gave $0.0557464152$ for that squared norm, with Monte Carlo standard error $0.0007264476$. Separately, the 1,200-draw calibration used 1,200 draws and gave $0.05550839355$, with standard error $0.00093479233$. Both target the same exact value $0.056$; the samples and provenance are not interchangeable. This is a check of an explicit finite twirl formula, not a new empirical law or a claim of historical priority.
++The pure-state case is $P_x=1$ and reduces to Proposition 3; the maximally mixed case $P_x=1/d$ gives zero advantage. A four-dimensional calibration with spectrum $(0.55,0.25,0.15,0.05)$ has global purity $0.39$, exact mean centered fragment Hilbert-Schmidt norm squared $0.056$, and trace-norm bound $0.3346640106$. The historical sample of 2,000 random eigenbases gave $0.0557464152$ for that squared norm, with Monte Carlo standard error $0.0007264476$. Separately, the 1,200-draw calibration gave $0.05550839355$, with standard error $0.00093479233$. Both target the same exact value $0.056$; the samples and provenance are not interchangeable. This is a check of an explicit finite twirl formula, not a new empirical law or a claim of historical priority.
+ 
+ ![Pure-state Haar trace-norm means and their analytic bounds for one-qubit fragments.](../figures/haar_typicality.png)
+ 
+@@ -562,7 +572,7 @@
+ 
+ Use certified cells as clearly labelled recording controls. Do not remove every norm-dominated cell or call every uncertified cell an informative test by default. A historical 9,000-case numerical check tests the perturbation inequality, not a stronger frame-ranking conclusion; its provenance is retained in the supplement.
+ 
+-# Appendix F. A finite-cover bound for adaptive frame selection
++# Appendix F. Adaptive selection within a predetermined family
+ 
+ **Proposition 7 (conditional search-family bound).** Condition on design information $Z=z$. Let both pure branch states have Haar marginals in $\mathbb C^d$, without requiring joint independence. Fix a nonempty compact unitary family $\mathcal V_z$ before the realized branch states, and let $N_z(r)$ be the size of an operator-norm $r$-net whose centres lie in that family. Let $0\le\varepsilon<1/2$, $r>0$, and $J\ge1$ declared fragment patterns all have dimension $d_F\ge2$, with $d=d_Fd_R$. Put
+ $$b=\sqrt{\frac{d_F^2-1}{d+1}},\qquad a_r=1-2\varepsilon-2r-b>0.$$

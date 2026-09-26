@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "frame-aligned-records",
+    "title": "Frame-Aligned Records",
+    "version": "0.5",
+    "path": "manuscripts/Frame_Aligned_Records_v0_5",
+    "kind": "Scientific manuscript",
+    "description": "Exact safeguards for locality-record comparisons: equivalence, inference and uncertainty-aware certification."
+  },
+  {
+    "slug": "technical-supplement",
+    "title": "Frame-Aligned Records \u2014 Supplement",
+    "version": "1.2",
+    "path": "supplement/Frame_Aligned_Records_Supplement_v1_2",
+    "kind": "Technical supplement",
+    "description": "Proof details, definitions and supporting calculations for the scientific manuscript."
+  },
+  {
+    "slug": "post-injection-results",
+    "title": "Post-Injection Results",
+    "version": "1.2",
+    "path": "pilot/Post_Injection_Results_v1_2",
+    "kind": "Numerical results",
+    "description": "The source-off pilot, paired comparisons and the limits of the measured contrasts."
+  },
+  {
+    "slug": "p01-protocol",
+    "title": "P01 Post-Injection Protocol",
+    "version": "1.3",
+    "path": "protocols/P01_Post_Injection_Protocol_v1_3",
+    "kind": "Research protocol",
+    "description": "Experimental design, estimands and the retained pre-execution record."
+  },
+  {
+    "slug": "absolute-infinite-union",
+    "title": "Absolute Infinite Union",
+    "version": "1.4",
+    "path": "manuscripts/Absolute_Infinite_Union_v1_4",
+    "kind": "Philosophical manuscript",
+    "description": "A critical case for a generative substrate, with explicit commitments and limits on empirical inference."
+  }
+]

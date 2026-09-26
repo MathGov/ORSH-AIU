@@ -1,0 +1,128 @@
+--- pilot/Post_Injection_Results_v1_1.md
++++ pilot/Post_Injection_Results_v1_2.md
+@@ -2,13 +2,13 @@
+ 
+ ## Local readability, directional evidence and finite-window limitations
+ 
+-**Study ID: P01-ID1 | Results log v1.1 | 26 September 2026**
++**Study ID: P01-ID1 | Results log v1.2 | 26 September 2026**
+ 
+ This is a results log, not another journal manuscript. It records one specified computational pilot, its independent-method checks and its limits. The primary model family and outcome were recorded before execution. The sign tests, precision calculation and additional window/eligibility diagnostics below were added after the outcome was known; they are explicitly secondary reanalyses, not changes to the original study. No external preregistration, human specialist review, participant experiment or cosmological observation is claimed.
+ 
+ ## 1. Main result
+ 
+-The source was switched off after injection. Subsequent internal evolution did not produce the hoped-for positive shift toward the internal frame on the predeclared primary measure. At six qubits with rotated injection, the mean normalized change was **-0.015225**, with 68 negative and 28 positive unit-level contrasts. None of the 96 primary units produced a new singleton record satisfying the strict initial-information floor and error threshold throughout any declared half-unit window, in either frame.
++The source was switched off after injection. The predeclared change relative to matched frozen evolution was negative. A later factorial extension asks a different question by comparing two Hamiltonian orientations at fixed injection; its paired contrast is positive. Neither number replaces the other. At six qubits with rotated injection, the mean normalized change was **-0.015225**, with 68 negative and 28 positive unit-level contrasts. None of the 96 primary units produced a new singleton record satisfying the strict initial-information floor and error threshold throughout any declared half-unit window, in either frame.
+ 
+ The full source bit was not erased: the two global conditional states remained orthogonal under their shared unitary. Local access, transfer, redundancy and global information are different outcomes. There is no inference here that AIU or a general locality-record law is false.
+ 
+@@ -16,7 +16,7 @@
+ 
+ There are **192 independent model/circuit units**, 96 at four qubits and 96 at six qubits. Each unit has two paired injection arms, giving **384 arm evaluations**, not 384 independent samples. Each arm is evaluated in two frames over 101 checkpoints. The primary statistic uses 50 positive-time checkpoints fixed before execution. The paired off-evolution control is analytic identity evolution, not a separately random sample.
+ 
+-The internal model is a random anisotropic nearest-neighbour Pauli chain with independent fields. It is not Claude's one fixed Hamiltonian shape with varying amplitude. The alternate frame is an independent depth-two adjacent-pair Haar circuit. The graph and allowable readout algebras are supplied. Randomized coefficients do not make this a representative sample of all physical systems.
++The internal model is a random anisotropic nearest-neighbour Pauli chain with independent fields. It differs from an earlier review proposal that varied the amplitude of one fixed Hamiltonian shape. The alternate frame is an independent depth-two adjacent-pair Haar circuit. The graph and allowable readout algebras are supplied. Randomized coefficients do not make this a representative sample of all physical systems.
+ 
+ The executable simulation uses full finite-dimensional state vectors, not a quantum device. Runtime of the main numerical solve in this environment was approximately 2.08 seconds; that excludes writing, derivation, source checking and verification and is not a portable performance guarantee.
+ 
+@@ -33,7 +33,7 @@
+ 
+ Only the six-qubit rotated arm is primary. The native-injection arm compares its native frame against the paired alternate frame, which is not its own physical injection frame. Do not pool the four rows as independent confirmations.
+ 
+-For the primary row, the distribution-free Hoeffding 95% interval is **[-0.292446, 0.261996]**. It crosses zero. The much narrower bootstrap interval is approximate and informative about this finite empirical distribution; it is not a distribution-free guarantee or a confirmation of a universal negative sign. The result gives no basis for announcing a positive shift or scaling up on that assumption.
++For the primary row, the distribution-free Hoeffding 95% interval is **[-0.292446, 0.261996]**. It crosses zero. The much narrower bootstrap interval is approximate and informative about this finite empirical distribution; it is not a distribution-free guarantee or a confirmation of a universal negative sign. This original sample does not support a positive value of its own target. It cannot isolate the effect of changing the dynamics-locality frame, which it held fixed.
+ 
+ ![Within-unit change in local-readability gap for rotated injection.](../figures/pilot_contrast_distribution.png)
+ 
+@@ -51,7 +51,7 @@
+ 
+ ### 3.2 Post hoc directional analysis
+ 
+-Let q be the probability of a positive nonzero unit contrast. The exact sign test evaluates $H_0:q=1/2$ with independent signs. It does not assume symmetry of the full contrast distribution, but independence alone is not the null. It is not a test of zero mean. Ties use the original $10^{-12}$ reporting tolerance; none occur, and the smallest absolute contrast across these data is greater than $2.5\times10^{-4}$.
++Let $p_{+}$ be the probability of a positive nonzero unit contrast. The exact sign test evaluates $H_0:p_{+}=1/2$ with independent signs. It does not assume symmetry of the full contrast distribution, but independence alone is not the null. It is not a test of zero mean. Ties use the original $10^{-12}$ reporting tolerance; none occur, and the smallest absolute contrast across these data is greater than $2.5\times10^{-4}$.
+ 
+ **Table 2. Post hoc two-sided binomial sign tests**
+ 
+@@ -108,9 +108,9 @@
+ 
+ ## 7. Decision after the pilot
+ 
+-**Do not freeze the old internal-versus-coupling count contest as a fundamental test, and do not relabel this new pilot as a recovered-locality result.** Source removal separated the mechanisms but did not force information to organize into strong new local records. The negative mean change is not a theorem against every model; it is a reason not to assume the proposed recovery direction.
++**Keep the original result and the new counterfactual separate.** The source-off pilot measures a change from frozen evolution with the dynamics always native to L. Its negative mean is reproducible but is not an isolated causal estimate of locality. The factorial extension varies that dynamics frame at fixed injection and produces a positive paired intervention contrast. It adds missing information rather than changing the original question after the answer was seen.
+ 
+-An identifiability study needs multiple declared injection/readout conditions, a reconstruction method not given the target, and held-out prediction. An open-system retention study needs a physically justified reservoir model, explicit dissipator-induced structure and an erasure control. Neither extension was activated in this task. The immediate specialist question is whether either target adds scientific value beyond known transport and decoherence, not how to obtain a favourable frame score.
++This is not recovered locality: the frames, Hamiltonian family and readout rules are all supplied. A named Lieb-Robinson mechanism has not been identified merely by obtaining a positive scalar contrast. An actual identification study would require multiple injections, a reconstruction method not given its target and held-out prediction. An open-system retention study separately needs a justified reservoir and erasure controls. Neither extension is silently announced as completed here.
+ 
+ ## 8. Reproduction and provenance
+ 
+@@ -118,7 +118,63 @@
+ 
+ No email was sent and no external review occurred. The specialist brief accompanies C and its supplement for a later, separately authorized circulation.
+ 
+-## 9. Secondary-analysis sources
++## 9. Review-stage reimplementation and factorial intervention
++
++### 9.1 Same target, fresh reimplementation
++
++An independently written implementation supplied during review uses the protocol's model law, 50 positive-time readouts, a two-layer adjacent-pair Haar circuit and fresh seeds. Its author had to infer the open-chain convention, the order $U_C=L_2L_1$, and the leftmost addressed site. Those inferred conventions were compared with the original code, not certified by initial eligibility counts alone. Matching a small diagnostic does not logically prove complete implementation identity.
++
++All supplied numerical summaries were re-executed with their stated seeds. The six-qubit 60,000-unit rotated run gives mean -0.01412453 and a range-only 95% interval [-0.02521338, -0.00303568]. This is a new sample from the explicit law, not a retrospective increase of the original 96-unit sample. Its prediction file was supplied with a matching hash; a local hash establishes integrity, not an externally certified time of creation.
++
++### 9.2 The added factor and its estimand
++
++For each paired unit, injection in L or C is crossed with dynamics $H_L=H$ or $H_C=U_C H U_C^\dagger$. Readout remains in the same L and C algebras. Let $g_b^a$ be the post-time mean readability gap and $g_0^a$ its common initial gap at injection $a$. Then
++
++$$z_{ab}=\tfrac12(g_b^a-g_0^a),\qquad e_a=z_{aL}-z_{aC}=\tfrac12(g_L^a-g_C^a).$$
++
++The baseline cancels in $e_a$, so $-1\le e_a\le1$. The factorial contrast is not the old $z_{CL}$, and a positive $e_C$ need not make either $z_{CL}$ or $z_{CC}$ positive. At six qubits the four means are:
++
++| Injection | Dynamics L | Dynamics C | Difference |
++| --- | --- | --- | --- |
++| L | 0.01400416 | 0.00349055 | 0.01051361 |
++| C | -0.01402828 | -0.02666340 | 0.01263512 |
++
++The values were reproduced, not merely transcribed. The factorial code originally retained aggregate JSON only. This replay additionally retains per-unit z and before/after readability in NPZ arrays, with the original seeds and input-generation code unchanged. It does not retain every factorial state trajectory.
++
++### 9.3 Finite-family sampling uncertainty
++
++The six disclosed contrasts cover two injection conditions at each of four, six and eight qubits. The four- and six-qubit runs contain 20,000 independent model units per size; the eight-qubit run contains 1,000. Four arms within one unit are paired, not four independent observations. A simultaneous empirical-Bernstein bound uses the paired sample variance, rescaling from [-1,1] and allocating error over both tails and six targets [Maurer and Pontil 2009, Theorem 4].
++
++| Qubits | Injection | Mean e | Simultaneous 95% Bernstein interval |
++| --- | --- | --- | --- |
++| 4 | L | 0.005752 | [0.003528, 0.007976] |
++| 4 | C | 0.011074 | [0.008801, 0.013347] |
++| 6 | L | 0.010514 | [0.008604, 0.012423] |
++| 6 | C | 0.012635 | [0.010692, 0.014579] |
++| 8 | L | 0.010363 | [-0.020023, 0.040748] |
++| 8 | C | 0.012137 | [-0.018361, 0.042634] |
++
++This finite-sample result assumes iid units under the declared law and faithful numerical evaluation. It makes no normal-distribution assumption, but it does not account for unlimited undisclosed model selection. The variance-sensitive analysis was specified during this review, after the supplied summaries were known. It is a disclosed secondary analysis, not a newly preregistered confirmatory study. The older normal-approximation intervals and wider simultaneous Hoeffding intervals are all retained in the CSV, not selected according to which exclude zero.
++
++![Paired Hamiltonian-orientation contrasts and finite-family uncertainty.](../figures/factorial_intervals.png)
++
++**Figure 4. Different uncertainty methods answer the same six factorial targets. Normal intervals are approximations; the displayed Bernstein intervals use the stated finite-sample assumptions and six-target coverage. These are not confidence intervals for AIU or emergent spacetime.**
++
++### 9.4 What the extension identifies
++
++The intervention changes the whole Hamiltonian's orientation relative to fixed preparation and access. Its spectrum is unchanged, but the prepared energy distribution and detailed state-dynamics relations need not be. Thus the contrast supports a specified model intervention, not a pure effect of locality with all other relevant properties held constant. A third independent circuit frame W has intermediate supplied mean outcomes; there is no theorem that it must be neutral or intermediate.
++
++The small nonzero interaction between injection and dynamics also means that a unique additive attribution to an injection mechanism and a locality mechanism is not supplied. A regression of z on its initial gap contains an algebraic minus-one-half term by definition. Such regression is descriptive unless additional assumptions identify the mechanism; an intercept at zero gap is not by itself proof of frame selection.
++
++Lieb-Robinson bounds constrain propagation for appropriately local interactions. They do not imply the observed sign of the average-readability intervention. Both Hamiltonians are related by a fixed-depth local circuit, which enlarges native support only by a bounded amount. Distinguishing this explanation from other finite-family effects requires an independently chosen response or intervention test.
++
++### 9.5 Reproduction boundary
++
++The original pre-execution plan, configuration, code and receipt remain immutable. Supplied review predictions, including the failed near-zero factorial prediction, are preserved. Re-execution is not external scientific replication and does not verify the claimed chronological creation of those review predictions. Selected factorial trajectories were checked with exponential action and full-density-matrix partial traces rather than the source's spectral/Bloch implementation; the separate check report records its actual scope.
++
++New commands and numerical assumptions are in the Supplementary Information. The archive includes the original source-off trajectories, new factorial unit summaries, all three supplied review scripts, reference outputs and fresh replay outputs. No outside correspondence, peer review or publication was performed.
++
++## 10. Secondary-analysis sources
+ 
+ The exact binomial calculation follows directly from independent equiprobable signs under the null. See Penn State STAT 415, Section 20.1, *The Sign Test for a Median*, for the median interpretation and its distinction from a mean test. The original contrast data, rather than only the rounded summary, are used by `code/analyze_review_additions.py`. It also reconstructs each unit contrast from raw trajectories and writes the four-row sign tests, transport-encoding curves and initial-eligibility diagnostics. These are analyses of the same pilot, not independent replication.
+ 
+@@ -127,3 +183,5 @@
+ Holm, S. (1979). A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics 6(2), 65-70. https://www.jstor.org/stable/4615733
+ 
+ Penn State STAT 415. Section 20.1, The Sign Test for a Median. https://online.stat.psu.edu/stat415/lesson/20/20.1
++
++Maurer, A., and Pontil, M. (2009). Empirical Bernstein Bounds and Sample Variance Penalization. COLT 2009. https://arxiv.org/abs/0907.3740

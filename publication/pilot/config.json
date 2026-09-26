@@ -1,0 +1,21 @@
+{
+  "experiment_id":"P01-ID1-20260926",
+  "status":"pre-execution-specified exploratory feasibility pilot, not external preregistration",
+  "master_seed":2609261631,
+  "n_sites":[4,6],
+  "units_per_size":96,
+  "coupling_circuit_depth":2,
+  "pulse_angle":0.7853981633974483,
+  "source_site":0,
+  "post_time_max":2.5,
+  "post_time_steps":100,
+  "primary_stride":2,
+  "pair_coefficient_sd":0.5773502691896258,
+  "field_coefficient_sd":0.35,
+  "record_epsilon":0.1,
+  "initial_error_floor":0.4999,
+  "windows":[[0.5,1.0],[1.0,1.5],[1.5,2.0],[2.0,2.5]],
+  "numerical_guard":1e-9,
+  "bootstrap_resamples":4000,
+  "confidence_alpha":0.05
+}

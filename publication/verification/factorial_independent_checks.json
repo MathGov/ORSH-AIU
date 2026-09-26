@@ -1,0 +1,199 @@
+{
+  "checks": [
+    {
+      "label": "n4 seed171 LL independent solver",
+      "residual": 3.122502256758253e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n4 seed171 LC independent solver",
+      "residual": 8.326672684688674e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n4 seed171 CL independent solver",
+      "residual": 1.5178830414797062e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n4 seed171 CC independent solver",
+      "residual": 4.163336342344337e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n4 seed171 L contrast range",
+      "residual": 0.0,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n4 seed171 C contrast range",
+      "residual": 0.0,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n4 seed171 inverse-frame identity",
+      "residual": 1.3877787807814457e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n4 seed299 LL independent solver",
+      "residual": 3.8163916471489756e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n4 seed299 LC independent solver",
+      "residual": 9.71445146547012e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n4 seed299 CL independent solver",
+      "residual": 1.3877787807814457e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n4 seed299 CC independent solver",
+      "residual": 4.163336342344337e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n4 seed299 L contrast range",
+      "residual": 0.0,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n4 seed299 C contrast range",
+      "residual": 0.0,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n4 seed299 inverse-frame identity",
+      "residual": 1.8041124150158794e-16,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n6 seed171 LL independent solver",
+      "residual": 9.71445146547012e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n6 seed171 LC independent solver",
+      "residual": 9.540979117872439e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n6 seed171 CL independent solver",
+      "residual": 2.3765711620882257e-16,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n6 seed171 CC independent solver",
+      "residual": 3.0531133177191805e-16,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n6 seed171 L contrast range",
+      "residual": 0.0,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n6 seed171 C contrast range",
+      "residual": 0.0,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n6 seed171 inverse-frame identity",
+      "residual": 3.0531133177191805e-16,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n6 seed299 LL independent solver",
+      "residual": 4.85722573273506e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n6 seed299 LC independent solver",
+      "residual": 5.551115123125783e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n6 seed299 CL independent solver",
+      "residual": 2.7755575615628914e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n6 seed299 CC independent solver",
+      "residual": 4.85722573273506e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n6 seed299 L contrast range",
+      "residual": 0.0,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n6 seed299 C contrast range",
+      "residual": 0.0,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "n6 seed299 inverse-frame identity",
+      "residual": 9.8879238130678e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "pairwise variance equals sample variance",
+      "residual": 0.0,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "Bernstein affine rescaling",
+      "residual": 0.0,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "pairwise variance equals sample variance",
+      "residual": 2.7755575615628914e-17,
+      "limit": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "Bernstein affine rescaling",
+      "residual": 0.0,
+      "limit": 1e-10,
+      "passed": true
+    }
+  ],
+  "passed": 32,
+  "failed": 0,
+  "scope": "selected inputs; different propagator and full-density reduction; not independent research team"
+}

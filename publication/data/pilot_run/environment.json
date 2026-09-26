@@ -1,0 +1,9 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "elapsed_seconds": 2.0841639041900635,
+  "config_sha256": "ce8def8b31979d100097c97131a391aba7b13aaca81151177172a73ab01a88a0",
+  "script_sha256": "1a48cb9542853bfdfddf11c357436fefb4b654d1811b77a4e33aa6abdec7d858"
+}

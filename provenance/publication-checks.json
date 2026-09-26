@@ -1,0 +1,48 @@
+{
+  "edition": "1.8-open.1",
+  "date": "2026-09-27",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "source_archive_sha256": "bc739d957ccd57a40d1c30c438ec2c4ab998d17c3b2e79f3dd6651b209b26d94",
+  "archive_files_verified": 399,
+  "manifest_entries_verified": 397,
+  "curated_files_verified": 224,
+  "document_structure_checks_passed": 425,
+  "document_structure_checks_failed": 0,
+  "selected_numerical_checks_passed": 32,
+  "factorial_analysis_recomputed_matches": true,
+  "browser_checks": {
+    "passed": 7,
+    "failed": 0,
+    "browser": "installed Google Chrome via Playwright 1.63.0",
+    "reader_widths": [
+      320,
+      390,
+      768,
+      1280
+    ],
+    "accessibility": "axe WCAG 2 A/AA and 2.1 AA checks on all five readers and seven main/guide pages; automated checks are not a complete accessibility certification"
+  },
+  "limitations": "Same-project publication verification, not external replication or peer review. Original PDFs retained; representative first pages inspected, not a fresh full-page visual audit.",
+  "full_pilot_replayed": true,
+  "full_pilot_agrees": true,
+  "pilot_units": 192,
+  "pilot_environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "elapsed_seconds": 10.57632303237915,
+    "config_sha256": "ce8def8b31979d100097c97131a391aba7b13aaca81151177172a73ab01a88a0",
+    "script_sha256": "1a48cb9542853bfdfddf11c357436fefb4b654d1811b77a4e33aa6abdec7d858"
+  },
+  "full_reviewer_replay": "Available as a manual workflow; not rerun for this publication receipt.",
+  "site_checks": {
+    "html_pages": 13,
+    "local_links_checked": 349,
+    "original_document_download_hashes": 15,
+    "search_passages": 687
+  }
+}

@@ -1,0 +1,23 @@
+name: Research correction or reproduction report
+description: Report a specific claim, calculation or reproducibility issue.
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Work, version and section
+    validations:
+      required: true
+  - type: textarea
+    id: finding
+    attributes:
+      label: Finding and supporting evidence
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps and environment, if relevant
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed correction or alternative interpretation

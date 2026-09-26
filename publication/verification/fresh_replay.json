@@ -1,0 +1,74 @@
+{
+  "executions": [
+    {
+      "name": "pilot_fresh_replay",
+      "returncode": 0
+    },
+    {
+      "name": "pilot_separate_method",
+      "returncode": 0
+    },
+    {
+      "name": "factorial_separate_method",
+      "returncode": 0
+    },
+    {
+      "name": "factorial_analysis_replay",
+      "returncode": 0
+    },
+    {
+      "name": "v17_secondary_method",
+      "returncode": 0
+    }
+  ],
+  "pilot_files": [
+    {
+      "file": "per_unit_summary.csv",
+      "equal": true
+    },
+    {
+      "file": "effective_config.json",
+      "equal": true
+    },
+    {
+      "file": "results.json",
+      "equal": true
+    },
+    {
+      "file": "environment.json",
+      "equal": false
+    },
+    {
+      "file": "trajectories_n4.npz",
+      "equal": true
+    },
+    {
+      "file": "model_inputs.json",
+      "equal": true
+    },
+    {
+      "file": "trajectories_n6.npz",
+      "equal": true
+    },
+    {
+      "file": "per_unit.json",
+      "equal": true
+    }
+  ],
+  "factorial_analysis_files": [
+    {
+      "file": "factorial_cells.csv",
+      "equal": true
+    },
+    {
+      "file": "analysis.json",
+      "equal": true
+    },
+    {
+      "file": "factorial_intervals.csv",
+      "equal": true
+    }
+  ],
+  "all_pilot_equal": false,
+  "all_analysis_equal": true
+}

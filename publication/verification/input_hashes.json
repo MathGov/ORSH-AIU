@@ -1,0 +1,92 @@
+[
+  {
+    "file": "FEEDBACK_v1_7.md",
+    "expected": "c49a575622b729a27e12670adad98d4f065e8c6581d0de69256071901341a799",
+    "actual": "c49a575622b729a27e12670adad98d4f065e8c6581d0de69256071901341a799",
+    "match": true
+  },
+  {
+    "file": "PREDICTIONS_factorial.md",
+    "expected": "694a719aee7df167d6492bd08f18d85d0b4f221e3507765f3b06be743915771a",
+    "actual": "694a719aee7df167d6492bd08f18d85d0b4f221e3507765f3b06be743915771a",
+    "match": true
+  },
+  {
+    "file": "PREDICTIONS_reimplementation.md",
+    "expected": "a5b3cbcb187fd59bf9bcd0e79e497330cee57ec5125a1eee19359139e0f955b2",
+    "actual": "a5b3cbcb187fd59bf9bcd0e79e497330cee57ec5125a1eee19359139e0f955b2",
+    "match": true
+  },
+  {
+    "file": "README.md",
+    "expected": "638110ce263ba2fe7bb9f34d5a632af4cf5e6794923b47353f264d738b71b204",
+    "actual": "638110ce263ba2fe7bb9f34d5a632af4cf5e6794923b47353f264d738b71b204",
+    "match": true
+  },
+  {
+    "file": "environment.txt",
+    "expected": "c74159abfe66af41140f6febfb7041216cc3679ddd43ca3694b35e7fa5839b4b",
+    "actual": "c74159abfe66af41140f6febfb7041216cc3679ddd43ca3694b35e7fa5839b4b",
+    "match": true
+  },
+  {
+    "file": "factorial_id1.py",
+    "expected": "619a8cbcf5015beec5ab97a6107073669b4e7206680c8cc12ac0e04f272ab512",
+    "actual": "619a8cbcf5015beec5ab97a6107073669b4e7206680c8cc12ac0e04f272ab512",
+    "match": true
+  },
+  {
+    "file": "factorial_neutral.json",
+    "expected": "107f0f8739987eb7ba746bc7e155bd3e2db9bbc844a34c73d4b7ebb7cdab2fee",
+    "actual": "107f0f8739987eb7ba746bc7e155bd3e2db9bbc844a34c73d4b7ebb7cdab2fee",
+    "match": true
+  },
+  {
+    "file": "factorial_neutral.py",
+    "expected": "28a0888b60ba0d57364ed6623578e750b434b6d5e11790ed8ad53372b7a69f80",
+    "actual": "28a0888b60ba0d57364ed6623578e750b434b6d5e11790ed8ad53372b7a69f80",
+    "match": true
+  },
+  {
+    "file": "factorial_results.json",
+    "expected": "36972b8e684e9a90bbe2602f80338178f2e80beece02c58d3181d17ea7d0bd4e",
+    "actual": "36972b8e684e9a90bbe2602f80338178f2e80beece02c58d3181d17ea7d0bd4e",
+    "match": true
+  },
+  {
+    "file": "factorial_stdout.txt",
+    "expected": "48e24ad75b28ee4baec5b3e56f164befaa523e55873647d1835efd8e89b045e2",
+    "actual": "48e24ad75b28ee4baec5b3e56f164befaa523e55873647d1835efd8e89b045e2",
+    "match": true
+  },
+  {
+    "file": "predictions_factorial.sha256",
+    "expected": "a723aeb62a0c9f613e567512cba5a8409ef92dda76f90faf5503490de7e78960",
+    "actual": "a723aeb62a0c9f613e567512cba5a8409ef92dda76f90faf5503490de7e78960",
+    "match": true
+  },
+  {
+    "file": "predictions_reimpl.sha256",
+    "expected": "201f96891344ef880a52e92dcc8d51f453ad8fea914e6602b4fe2c1cbee01adb",
+    "actual": "201f96891344ef880a52e92dcc8d51f453ad8fea914e6602b4fe2c1cbee01adb",
+    "match": true
+  },
+  {
+    "file": "reimpl_id1.py",
+    "expected": "ec6415af703504e0ffdb531092867d5356552e47caabbb9b340f73ede7fb23b1",
+    "actual": "ec6415af703504e0ffdb531092867d5356552e47caabbb9b340f73ede7fb23b1",
+    "match": true
+  },
+  {
+    "file": "reimpl_id1_results.json",
+    "expected": "7aaaae68f35abc2d5745cefdfcb66ed862ecbbcdad4e757a3431eb4379db7135",
+    "actual": "7aaaae68f35abc2d5745cefdfcb66ed862ecbbcdad4e757a3431eb4379db7135",
+    "match": true
+  },
+  {
+    "file": "reimpl_stdout.txt",
+    "expected": "f9213f179e853297a0408c79901c0b41517833c8c36b3dda8df50a4d1be58f6c",
+    "actual": "f9213f179e853297a0408c79901c0b41517833c8c36b3dda8df50a4d1be58f6c",
+    "match": true
+  }
+]

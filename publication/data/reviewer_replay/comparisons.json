@@ -1,0 +1,23 @@
+[
+  {
+    "file": "factorial_results.json",
+    "match": true,
+    "errors": [],
+    "rtol": 1e-08,
+    "atol": 1e-10
+  },
+  {
+    "file": "reimpl_id1_results.json",
+    "match": true,
+    "errors": [],
+    "rtol": 1e-08,
+    "atol": 1e-10
+  },
+  {
+    "file": "factorial_neutral.json",
+    "match": true,
+    "errors": [],
+    "rtol": 1e-08,
+    "atol": 1e-10
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "task": "all",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "elapsed_seconds": 934.3827450275421,
+  "comparisons": [
+    {
+      "file": "factorial_results.json",
+      "match": true,
+      "errors": [],
+      "rtol": 1e-08,
+      "atol": 1e-10
+    },
+    {
+      "file": "reimpl_id1_results.json",
+      "match": true,
+      "errors": [],
+      "rtol": 1e-08,
+      "atol": 1e-10
+    },
+    {
+      "file": "factorial_neutral.json",
+      "match": true,
+      "errors": [],
+      "rtol": 1e-08,
+      "atol": 1e-10
+    }
+  ],
+  "wrapper_sha256": "19bf06fddad50d2748e84b48696a734450cec0105a1d251d3e8e2ad0bf9d0178",
+  "scope": "same supplied implementations, preserved per-unit observables; no external replication"
+}

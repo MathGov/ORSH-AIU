@@ -1,0 +1,403 @@
+--- before/manuscripts/Frame_Aligned_Records_v0_5.md
++++ final/manuscripts/Frame_Aligned_Records_v0_5.md
+@@ -71,7 +71,7 @@
+ 
+ The record-generating dynamics is a source-conditioned family of autonomous Hamiltonians
+ $$H_x=H_S+K_x,\qquad x\in\{0,1\},$$
+-where $H_S$ is the internal Hamiltonian and $K_x$ the source coupling (in the historical continuously driven calibration, $K_x=(-1)^xC$). A preparation law $\mathsf P$ is a probability law over $(H_S,K,\rho_x(0))$, and the source-conditioned states are $\rho_x(t)=e^{-iH_xt}\rho_x(0)e^{iH_xt}$. When the initial state does not depend on $x$ we write $\rho(0)$.
++where $H_S$ is the internal Hamiltonian and $K_x$ the source coupling (in the historical continuously driven calibration, $K_x=(-1)^xK_{\mathrm C}$). A preparation law $\mathsf P$ is a probability law over $(H_S,K,\rho_x(0))$, and the source-conditioned states are $\rho_x(t)=e^{-iH_xt}\rho_x(0)e^{iH_xt}$. When the initial state does not depend on $x$ we write $\rho(0)$. The symbol $K_{\mathrm C}$ denotes a coupling operator; C in $D_C$, $U_C$ or $H_C$ labels the alternate frame.
+ 
+ ## 2.4 Locality score
+ 
+@@ -302,7 +302,7 @@
+ 
+ No singleton met the strict new-record criterion throughout an original half-unit window. Some initially uninformative native-frame sites nevertheless became briefly strongly readable. Global distinguishability was conserved and transport controls succeeded. The zero persistent count is conditional on the initial-information floor, singleton access, error threshold and short windows, not absence of information transport.
+ 
+-An independent-code reimplementation supplied during review used the same declared law with fresh streams. Its 60,000-unit six-qubit rotated sample has mean -0.014125 and a range-only 95% interval [-0.025213, -0.003036]. Re-execution reproduced the supplied output. This strengthens the negative mean for that specific target; it does not identify the mechanism responsible for the change. The reimplementation, historical pilot and subsequent controls are separate runs, not one enlarged original sample.
++A separately written review-stage implementation used the declared law with fresh streams, inferring the open-chain convention, circuit-layer order and tensor-factor ordering from the protocol. Those conventions are documented in the accompanying results log. Its 60,000-unit six-qubit rotated sample has mean -0.014125 and a range-only 95% interval [-0.025213, -0.003036]. Re-execution reproduced the supplied output. This strengthens the negative mean for that specific target; it does not identify the mechanism responsible for the change. The reimplementation, historical pilot and subsequent controls are separate runs, not one enlarged original sample.
+ 
+ ## 6.3 Factorial extension: rotating dynamics at fixed injection
+ 
+@@ -345,7 +345,7 @@
+ 
+ Their exact negations are the corresponding strict inequalities below the stated margins. A confidence interval crossing a margin is inconclusive; non-significance is not equivalence. These are conditional model-class hypotheses, not derived theorems of physics. If a frame-distance estimand is chosen instead, it is a different operational hypothesis and receives a separate identifier and margin. One must not switch between the two after seeing results.
+ 
+-The source family $H_x=H_S+(-1)^xC$ distinguishes internal locality from branchwise total locality. The latter averages separately normalised branch residuals. It is not necessarily the same as a single residual of the joint source-system Hamiltonian: that extension needs its own source-access convention and normalisation. A coupling-dominated example can make LRA-tot descriptively favourable almost by construction. Intermediate $\kappa=\|H_S\|_{\mathrm{HS}}/\|C\|_{\mathrm{HS}}$ and independent frame variation are therefore useful stress regimes, not guarantees of physical novelty.
++The source family $H_x=H_S+(-1)^xK_{\mathrm C}$ distinguishes internal locality from branchwise total locality. The latter averages separately normalised branch residuals. It is not necessarily the same as a single residual of the joint source-system Hamiltonian: that extension needs its own source-access convention and normalisation. A coupling-dominated example can make LRA-tot descriptively favourable almost by construction. Intermediate $\kappa=\|H_S\|_{\mathrm{HS}}/\|K_{\mathrm C}\|_{\mathrm{HS}}$ and independent frame variation are therefore useful stress regimes, not guarantees of physical novelty.
+ 
+ ## 7.1.1 Source injection and subsequent redistribution are different questions
+ 
+--- before/manuscripts/Absolute_Infinite_Union_v1_4.md
++++ final/manuscripts/Absolute_Infinite_Union_v1_4.md
+@@ -78,15 +78,15 @@
+ 
+ The present name and research map do not establish historical priority. Several well-developed traditions already address the component claims, often with commitments incompatible with a simple synthesis.
+ 
+-**Substance and necessity.** In *Ethics* I, Definition 6, Spinoza characterizes an absolutely infinite being through infinitely many attributes. Propositions 14 and 15 defend one substance and the dependence of everything on it; Proposition 33 makes the order of things necessary [22]. This is a substantive predecessor for M and a conception of infinity, not a modern cardinality argument. Its necessary order should not be equated with realization of every independently imagined alternative. Nor does attributing thought to substance by itself establish the present phenomenally unified C* subject. AIU must defend those additional bridges rather than borrow the force of Spinoza's terminology.
+-
+-**Plenitude as a historical idea.** Lovejoy's *The Great Chain of Being* (1936) is a central historical treatment of plenitude, continuity and gradation [23]. It supplies intellectual context, not an empirical realization law or proof that every permissible pattern occurs. This paper makes no claim about who first coined a phrase. Its finite-word theorems instead identify an explicit measure, supported events and almost-sure coverage.
+-
+-**Plurality is not automatically unity.** Lewis's *On the Plurality of Worlds* defends modal realism and its philosophical utility [24]. The relevant contrast is between commitment to a plurality of worlds and the additional AIU assertion that their existence depends on one ground. A defence of the former does not supply the latter. The word actual must also be fixed before an AIU claim of actual plenitude is compared with a modal account. This discussion is restricted to the publisher's statement of the book's thesis; it does not claim a fresh audit of Lewis's full argument. Nozick's *Philosophical Explanations* is retained as a bibliographic lead for the further fecundity comparison [25]. The relevant original chapter was not accessible in this verification pass, so no detailed attribution or evidential step rests on an AI-generated synopsis of it.
+-
+-**Mathematical existence and physical existence.** Tegmark's mathematical universe hypothesis proposes a stronger identification of physical reality with mathematical structure and discusses a Level IV ensemble [26]. It is not a theorem that every imagined description is consistent, nor a derivation of experiential fundamentality. Even a mathematical-democracy postulate needs a specification of the structures, observers and observation weighting. AIU therefore distinguishes a formal plenitude proposal from one conscious substrate, and realization from the likelihood of this observer's evidence.
+-
+-**The cosmic subject is already a philosophical research problem.** Shani (2015) starts from a cosmic-consciousness ultimate and argues that it can ground individual conscious creatures [27]. Goff's *Consciousness and Fundamental Reality*, Chapter 9, defends cosmopsychism by combining phenomenal commitments with priority monism and addressing the Subject Irreducibility Problem [28]. These primary abstracts establish that there are articulated affirmative positions, not merely a new slogan in this paper. Their premises and full solutions must still be assessed. The comparison in Section 10 distinguishes such grounding claims from the private-access and observation rules required by a predictive model.
++**Substance and necessity.** In *Ethics* I, Definition 6, Spinoza characterizes an absolutely infinite being through infinitely many attributes. Propositions 14 and 15 defend one substance and the dependence of everything on it; Proposition 33 makes the order of things necessary [1]. This is a substantive predecessor for M and a conception of infinity, not a modern cardinality argument. Its necessary order should not be equated with realization of every independently imagined alternative. Nor does attributing thought to substance by itself establish the present phenomenally unified C* subject. AIU must defend those additional bridges rather than borrow the force of Spinoza's terminology.
++
++**Plenitude as a historical idea.** Lovejoy's *The Great Chain of Being* (1936) is a central historical treatment of plenitude, continuity and gradation [2]. It supplies intellectual context, not an empirical realization law or proof that every permissible pattern occurs. This paper makes no claim about who first coined a phrase. Its finite-word theorems instead identify an explicit measure, supported events and almost-sure coverage.
++
++**Plurality is not automatically unity.** Lewis's *On the Plurality of Worlds* defends modal realism and its philosophical utility [3]. The relevant contrast is between commitment to a plurality of worlds and the additional AIU assertion that their existence depends on one ground. A defence of the former does not supply the latter. The word actual must also be fixed before an AIU claim of actual plenitude is compared with a modal account. This discussion is restricted to the publisher's statement of the book's thesis; it does not claim a fresh audit of Lewis's full argument. Nozick's *Philosophical Explanations* is retained as a bibliographic lead for the further fecundity comparison [4]. The relevant original chapter was not accessible in this verification pass, so no detailed attribution or evidential step rests on an AI-generated synopsis of it.
++
++**Mathematical existence and physical existence.** Tegmark's mathematical universe hypothesis proposes a stronger identification of physical reality with mathematical structure and discusses a Level IV ensemble [5]. It is not a theorem that every imagined description is consistent, nor a derivation of experiential fundamentality. Even a mathematical-democracy postulate needs a specification of the structures, observers and observation weighting. AIU therefore distinguishes a formal plenitude proposal from one conscious substrate, and realization from the likelihood of this observer's evidence.
++
++**The cosmic subject is already a philosophical research problem.** Shani (2015) starts from a cosmic-consciousness ultimate and argues that it can ground individual conscious creatures [6]. Goff's *Consciousness and Fundamental Reality*, Chapter 9, defends cosmopsychism by combining phenomenal commitments with priority monism and addressing the Subject Irreducibility Problem [7]. These primary abstracts establish that there are articulated affirmative positions, not merely a new slogan in this paper. Their premises and full solutions must still be assessed. The comparison in Section 10 distinguishes such grounding claims from the private-access and observation rules required by a predictive model.
+ 
+ The positive lesson is not that all these authors endorse the same ontology. They give the programme concrete alternatives and disagreements: necessary substance versus modal proliferation; mathematical structure versus experience; common grounding versus phenomenal unity. A useful synthesis must resolve these differences explicitly.
+ 
+@@ -114,9 +114,9 @@
+ 
+ ### 3.3 Argument from relational and nonseparable physics
+ 
+-**Strongest argument.** Some quantum states require a genuinely joint description, and effective systems obtain their properties in structured relations. These results make a naïve picture of self-sufficient classical pieces inadequate. A whole-first grounding account can be philosophically attractive because it begins with the joint structure rather than reconstructing it from independently complete local descriptions. Priority monism provides a developed version of such an argument [1].
+-
+-**What follows.** Entanglement supports the relevant physical nonseparability, not every proposed ontology of it [2]. A plural ontology can also assign an entangled state to a composite system. A monist interpretation is not refuted by that availability, but the existence of alternatives blocks automatic identification.
++**Strongest argument.** Some quantum states require a genuinely joint description, and effective systems obtain their properties in structured relations. These results make a naïve picture of self-sufficient classical pieces inadequate. A whole-first grounding account can be philosophically attractive because it begins with the joint structure rather than reconstructing it from independently complete local descriptions. Priority monism provides a developed version of such an argument [8].
++
++**What follows.** Entanglement supports the relevant physical nonseparability, not every proposed ontology of it [9]. A plural ontology can also assign an entangled state to a composite system. A monist interpretation is not refuted by that availability, but the existence of alternatives blocks automatic identification.
+ 
+ **Best objection.** Quantum records, subsystem algebras and dependence relations are compatible with several interpretations. Nothing in a Bell correlation tells us whether the whole has an experience, whether space is infinite, or whether all possible worlds are actual.
+ 
+@@ -128,7 +128,7 @@
+ 
+ **What follows.** The argument identifies a real explanatory target and motivates experiential fundamentals. Epistemic access through experience does not by itself prove that only experience exists. A neutral basis or a physical realization account remains conceptually available. The difficulty of explaining consciousness is not evidence for an arbitrary specific solution.
+ 
+-**Best objection.** Moving experience to the fundamental level may exchange the emergence problem for a combination or decomposition problem. Primitive experiential constituents need an account of why and when a unified subject results; a cosmic subject needs an account of why local subjects are private. These are substantive challenges, not terminological inconveniences [3].
++**Best objection.** Moving experience to the fundamental level may exchange the emergence problem for a combination or decomposition problem. Primitive experiential constituents need an account of why and when a unified subject results; a cosmic subject needs an account of why local subjects are private. These are substantive challenges, not terminological inconveniences [10].
+ 
+ **Strongest reply.** An explanatory relocation may still be an improvement if it reduces total assumptions or yields better constraints. AIU-C must specify what individuates a subject, how its experiential contents relate to physical dynamics, and what observation would favour its rule over rivals. Merely calling private minds fragments of the whole does not yet do that work.
+ 
+@@ -136,9 +136,9 @@
+ 
+ **Strongest argument.** Different people report episodes in which ordinary subject-object boundaries seem absent or radically altered. The recurrence is not intellectually trivial. It can indicate stable features of conscious organization and may motivate the possibility that ordinary separation is a limited mode of representation rather than ultimate ontology.
+ 
+-**What follows.** There is empirical material to examine. Gamma and Metzinger analysed 1,403 usable responses from a selected meditator sample and reported a tentative 12-factor solution [4]. This supplies a measurement approach within that sample, not population-wide invariance or a verified ontological correspondence. A recurring feature can be evidence relevant to a model of experience. Its bearing on ontology depends on what alternatives predict and how reports are sampled.
+-
+-**Best objection.** Humans share neurobiology, cognitive biases, linguistic influences and traditions. Similar experiences might follow from these common causes without revealing a universal consciousness. Some experiences are non-unitive, ambiguous or distressing [5]. Reports must not be filtered to retain only those fitting a preferred metaphysics.
++**What follows.** There is empirical material to examine. Gamma and Metzinger analysed 1,403 usable responses from a selected meditator sample and reported a tentative 12-factor solution [11]. This supplies a measurement approach within that sample, not population-wide invariance or a verified ontological correspondence. A recurring feature can be evidence relevant to a model of experience. Its bearing on ontology depends on what alternatives predict and how reports are sampled.
++
++**Best objection.** Humans share neurobiology, cognitive biases, linguistic influences and traditions. Similar experiences might follow from these common causes without revealing a universal consciousness. Some experiences are non-unitive, ambiguous or distressing [12]. Reports must not be filtered to retain only those fitting a preferred metaphysics.
+ 
+ **Strongest reply.** Shared mechanisms do not prove that an experience is false. Accurate perception also depends on common biology. The proper comparison is content-specific: which aspects of the experience are reliable, which are interpretations, and which a priori differences between models survive an appropriate test? Neural explanation and ontological interpretation should be assessed together where predictions differ, not confused or separated by fiat.
+ 
+@@ -146,7 +146,7 @@
+ 
+ **Strongest argument.** Simple underlying constraints can produce a remarkable diversity of organized forms. The generative-ground picture expresses a real pattern: macroscopic structures need not be individually present among the basic ingredients for those structures to arise. AIU seeks to generalize that pattern to the deepest level.
+ 
+-**What follows.** Lawful form generation is possible and occurs in specified physical models. Structure-formation simulations, for example, use initial conditions and dynamics to develop large-scale organization [6]. Such success does not establish unlimited generative capacity or that all possible structures actually appear.
++**What follows.** Lawful form generation is possible and occurs in specified physical models. Structure-formation simulations, for example, use initial conditions and dynamics to develop large-scale organization [13]. Such success does not establish unlimited generative capacity or that all possible structures actually appear.
+ 
+ **Best objection.** The phrase formlessness can conceal the input structure. Laws, initial conditions, resource gradients and selection rules may supply most of what the explanation needs.
+ 
+@@ -196,7 +196,7 @@
+ 
+ **Proposition A.** Under the specified fair product measure, almost every infinite binary configuration contains every finite binary word infinitely many times.
+ 
+-This is an elementary application of the same repeated-event reasoning formalized by Borel-Cantelli [7]. It demonstrates that unbounded structure, finite local information and repeated local richness are mathematically compatible. The proposition supplies a precise form of the intuition that a rich infinite domain can contain every finite pattern. The word rich matters: it refers to the chosen measure, not to infinity alone.
++This is an elementary application of the same repeated-event reasoning formalized by Borel-Cantelli [14]. It demonstrates that unbounded structure, finite local information and repeated local richness are mathematically compatible. The proposition supplies a precise form of the intuition that a rich infinite domain can contain every finite pattern. The word rich matters: it refers to the chosen measure, not to infinity alone.
+ 
+ ![Probability that a specified finite word occurs in independent blocks of an explicitly defined fair-bit model.](../figures/finite_word_probability.png)
+ 
+@@ -208,9 +208,9 @@
+ 
+ **Proof.** Apply Birkhoff's pointwise ergodic theorem to the bounded indicator of each cylinder. Ergodicity makes the invariant conditional expectation equal to $\mu([w])$. There are countably many finite words, so intersect their probability-one convergence events. For each zero-probability cylinder, stationarity makes its translate at every integer position have probability zero. The countable union of those translates and words is null. $\square$
+ 
+-This is a direct corollary of a known theorem, not a new probability law [7, Theorem 6.2.1]. It extends the independent-bit construction to many correlated processes. The admissible physical class must be specified independently; defining admissible to mean positive measure establishes coverage relative to a measure, not that every physically possible state has positive measure.
+-
+-Garriga and Vilenkin's *Many worlds in one* (2001) provides directly relevant cosmological prior art: under their inflationary and finite coarse-grained-history premises, they argue for repeated histories across infinitely many regions [8]. Their finite-history argument and the symbolic ergodic theorem are related but not identical. Infinite regions plus finitely many labels alone guarantees repetition of some labels, not occurrence of all labels. The realization law and support must do additional work. The cited cosmological argument does not make the present physical premises observationally established.
++This is a direct corollary of a known theorem, not a new probability law [14, Theorem 6.2.1]. It extends the independent-bit construction to many correlated processes. The admissible physical class must be specified independently; defining admissible to mean positive measure establishes coverage relative to a measure, not that every physically possible state has positive measure.
++
++Garriga and Vilenkin's *Many worlds in one* (2001) provides directly relevant cosmological prior art: under their inflationary and finite coarse-grained-history premises, they argue for repeated histories across infinitely many regions [15]. Their finite-history argument and the symbolic ergodic theorem are related but not identical. Infinite regions plus finitely many labels alone guarantees repetition of some labels, not occurrence of all labels. The realization law and support must do additional work. The cited cosmological argument does not make the present physical premises observationally established.
+ 
+ ### 5.1.2 Ergodicity is sufficient, not necessary
+ 
+@@ -244,23 +244,23 @@
+ 
+ ## 6. Infinity, necessity and the Absolute
+ 
+-Cantor's hierarchy and philosophical Absolute should not be collapsed into one physical magnitude. The fact that a set's power set has larger cardinality does not show that physical reality instantiates all such sizes. A physically infinite model can be represented by an ordinary set. It does not need to be the largest possible mathematical object. Historical discussions of the Absolute illuminate terminology, not the truth of a modern cosmology [9].
++Cantor's hierarchy and philosophical Absolute should not be collapsed into one physical magnitude. The fact that a set's power set has larger cardinality does not show that physical reality instantiates all such sizes. A physically infinite model can be represented by an ordinary set. It does not need to be the largest possible mathematical object. Historical discussions of the Absolute illuminate terminology, not the truth of a modern cosmology [16].
+ 
+ There are several ways to preserve the intended depth without claiming an invalid theorem. One is unrestricted ontological dependence: every actual form depends on the same ground. Another is unbounded actual extent or capacity under a specified physical model. A third is inexhaustibility of finite descriptions. These may be related in a developed theory, but none is equivalent by definition to the other two.
+ 
+ A ground that is not located inside effective spacetime need not have infinite spatial volume in the ordinary sense. Its relevant infinity might concern histories, relational extent or accessible alternatives under enlarged domains. It might instead be finite while supporting emergent spacetime. The empirical implications depend on the exact representation. Thus the statement that infinity can occur at any point needs disambiguation: global infinity is not an event that happens at one coordinate.
+ 
+-Literal unlimited retrievable information in a bounded finite-resource region encounters distinct physical questions. Entropy bounds have conditions involving energy, size, entropy definition or light-sheets [10; 11]. A maximum bound can constrain an admissible distinguishable codebook. Finite entropy of a single state alone does not imply finite support. Neither statement establishes the global size or experiential nature of the ground.
++Literal unlimited retrievable information in a bounded finite-resource region encounters distinct physical questions. Entropy bounds have conditions involving energy, size, entropy definition or light-sheets [17; 18]. A maximum bound can constrain an admissible distinguishable codebook. Finite entropy of a single state alone does not imply finite support. Neither statement establishes the global size or experiential nature of the ground.
+ 
+ A proper-class ontology creates additional modelling work but need not ban all local predictions. A local experiment can have a set-sized sample space and ordinary observation probabilities even when a philosophical account refuses a completed set of everything. The consistency and interpretation of the larger ontology remain separate problems. Declaring that the totality exceeds formal capture does not itself yield a prediction.
+ 
+ ### 6.1 Actual infinity and potentialist alternatives
+ 
+-The author's target includes an actually unbounded reality, not only a process whose finite descriptions can always be extended. Potentialism and indefinite extensibility are useful alternatives to examine; Linnebo and Shapiro (2019) provide a relevant philosophical treatment [12]. They must not silently replace the target or be declared mandatory merely because they ease formal modelling. Actual infinite set models, extensible-stage models and class-theoretic descriptions can encode different commitments. Selecting between them requires explicit philosophical or physical reasons. None is a largest cardinal, and none proves its own physical realization.
++The author's target includes an actually unbounded reality, not only a process whose finite descriptions can always be extended. Potentialism and indefinite extensibility are useful alternatives to examine; Linnebo and Shapiro (2019) provide a relevant philosophical treatment [19]. They must not silently replace the target or be declared mandatory merely because they ease formal modelling. Actual infinite set models, extensible-stage models and class-theoretic descriptions can encode different commitments. Selecting between them requires explicit philosophical or physical reasons. None is a largest cardinal, and none proves its own physical realization.
+ 
+ ### 6.2 Cosmology constrains specified continuations
+ 
+-The DESI DR2 Results IV analysis, version 3, Section VI.4.3, Eq. 36 reports $10^3\Omega_K=2.1\pm1.1$ for DESI BAO plus Lyman-alpha full-shape plus CMB, in a curved Lambda-CDM analysis [13]. This is a model- and data-combination-dependent curvature constraint, not a direct measurement of total volume. It does not choose infinity over all finite alternatives. A compact flat torus illustrates why local flatness alone is insufficient.
++The DESI DR2 Results IV analysis, version 3, Section VI.4.3, Eq. 36 reports $10^3\Omega_K=2.1\pm1.1$ for DESI BAO plus Lyman-alpha full-shape plus CMB, in a curved Lambda-CDM analysis [20]. This is a model- and data-combination-dependent curvature constraint, not a direct measurement of total volume. It does not choose infinity over all finite alternatives. A compact flat torus illustrates why local flatness alone is insufficient.
+ 
+ Conversely, failure to settle finiteness against every possible continuation does not make all finite-versus-infinite comparisons nondiscriminating. Specified models can predict different topology signatures, correlation structure or curvature distributions. Their likelihoods and priors must be stated. The finite-ring theorem concerns one restricted observation design, not a universal ban on evidence about global structure. Complete positive-constant-curvature spatial manifolds can be finite quotients as well as simply connected spheres; simple connectedness is not required for every finite-volume inference. Other bearers of unboundedness, including time or generative capacity, remain distinct.
+ 
+@@ -279,7 +279,7 @@
+ The conjunction has its own constraints. Under any common probability model,
+ 
+ $$
+-\Pr(H_*\mid E)\le\min_{J\in\{M,U,P,C,C^{\text{*}}\}}\Pr(J\mid E),\qquad H_*=M\wedge U\wedge P\wedge C\wedge C^{\text{*}}.
++\Pr(H_{\mathrm{AIU}}\mid E)\le\min_{J\in\{M,U,P,C,C^{\text{*}}\}}\Pr(J\mid E),\qquad H_{\mathrm{AIU}}=M\wedge U\wedge P\wedge C\wedge C^{\text{*}}.
+ $$
+ 
+ Here P inside the event denotes the plenitude proposition; the operator $\Pr$ denotes probability. The chain rule expands the conjunction using conditional probabilities, not an assumed product of five independent confidence levels. This matters because a person can have a strong argument for a common basis while having much less evidence for all possible worlds or one universal subject.
+@@ -341,7 +341,7 @@
+ 
+ ### 9.5 Panpsychist and cosmopsychist accounts
+ 
+-Panpsychist accounts begin with experiential or proto-experiential features at a basic level; cosmopsychist accounts begin with a fundamental whole. The former faces a combination problem, the latter a differentiation or decomposition problem. Naming one ground does not decide which grain is a subject. A useful comparison asks how private viewpoints, split or altered access, and non-biological realizations are individuated. The existence of these problems does not logically disprove experiential fundamentals, but it prevents treating them as a completed explanation [3].
++Panpsychist accounts begin with experiential or proto-experiential features at a basic level; cosmopsychist accounts begin with a fundamental whole. The former faces a combination problem, the latter a differentiation or decomposition problem. Naming one ground does not decide which grain is a subject. A useful comparison asks how private viewpoints, split or altered access, and non-biological realizations are individuated. The existence of these problems does not logically disprove experiential fundamentals, but it prevents treating them as a completed explanation [10].
+ 
+ ### 9.6 Idealist and physical-realization accounts
+ 
+@@ -357,7 +357,7 @@
+ 
+ The claim can be separated into experiential character of the ground, unity of its subjectivity, and the relation between local subjects and that subject. These need not rise or fall together. A neutral common ground with local experience is not identical to one cosmic mind. A common conscious ground with irreducibly private perspectives still needs a rule for their numerical identity and continuity.
+ 
+-Physical constraints remain relevant where a conscious-ground theory makes physical commitments. IIT, for example, uses specified causal and partition conditions rather than a generic measure of unity [14]. A conclusion internal to that theory is not a theory-independent disproof of consciousness beyond its model. Conversely, a claimed cosmic subject cannot simply ignore causal-model assumptions while invoking IIT as evidence in its favour.
++Physical constraints remain relevant where a conscious-ground theory makes physical commitments. IIT, for example, uses specified causal and partition conditions rather than a generic measure of unity [21]. A conclusion internal to that theory is not a theory-independent disproof of consciousness beyond its model. Conversely, a claimed cosmic subject cannot simply ignore causal-model assumptions while invoking IIT as evidence in its favour.
+ 
+ The paper does not infer that a copy of a person's physical pattern is the same continuing person. It also does not infer infinite pleasure or pain from an infinite number of finite episodes. Actual realization, recurrence, valence magnitude and personal identity are distinct obligations. Heavens and hells can remain names for proposed experiential possibilities, but their actual infinite realization is not established by the word infinity.
+ 
+@@ -390,10 +390,10 @@
+ 
+ | Approach | Claim in the primary source | Critical question and checked scope |
+ | --- | --- | --- |
+-| Kastrup, dissociation-based idealism | Living organisms are dissociated centres within cosmic consciousness; his association-graph analogy models restricted experiential access | Does lost associative access suffice for distinct subjects? Sections 8 and 9 propose the account; Section 12 addresses brain-experience correlations. This is philosophical extrapolation, not experimental confirmation of cosmic dissociation [15] |
+-| Albahari, perennial idealism | The ground is aperspectival, not an enlarged perspectival cosmic observer. Dispositional subjects bounded by imagery account for manifestation | What constrains those dispositions and their correspondence to observations? Abstract and Sections 3 to 5 inspected. An aperspectival ground is not automatically the one-subject C* hypothesis [16] |
+-| Nagasawa and Wager, priority cosmopsychism | The cosmos is fundamental and phenomenally propertied; local parts depend on the whole | Whole-first dependence does not alone individuate private subjects. Publisher chapter abstract and pages 113-129 verified; full chapter argument not assessed here [17] |
+-| Miller, decombination critique | Structural phenomenal unity and disunity create a problem distinct from qualitative heterogeneity | His criticism targets transferring one proposed solution, not every possible conscious-ground theory. Published article, Sections 2 and 3, inspected; 2021, pages 112-125 [18] |
++| Kastrup, dissociation-based idealism | Living organisms are dissociated centres within cosmic consciousness; his association-graph analogy models restricted experiential access | Does lost associative access suffice for distinct subjects? Sections 8 and 9 propose the account; Section 12 addresses brain-experience correlations. This is philosophical extrapolation, not experimental confirmation of cosmic dissociation [22] |
++| Albahari, perennial idealism | The ground is aperspectival, not an enlarged perspectival cosmic observer. Dispositional subjects bounded by imagery account for manifestation | What constrains those dispositions and their correspondence to observations? Abstract and Sections 3 to 5 inspected. An aperspectival ground is not automatically the one-subject C* hypothesis [23] |
++| Nagasawa and Wager, priority cosmopsychism | The cosmos is fundamental and phenomenally propertied; local parts depend on the whole | Whole-first dependence does not alone individuate private subjects. Publisher chapter abstract and pages 113-129 verified; full chapter argument not assessed here [24] |
++| Miller, decombination critique | Structural phenomenal unity and disunity create a problem distinct from qualitative heterogeneity | His criticism targets transferring one proposed solution, not every possible conscious-ground theory. Published article, Sections 2 and 3, inspected; 2021, pages 112-125 [25] |
+ 
+ Kastrup provides more than a label: his Section 9 proposes associations among phenomenal contents and dissociation between parts of that network. Yet ordinary dissociation does not, without another argument, establish a cosmic implementation. Albahari deliberately avoids treating the universal ground as another bounded perspective. These are different ontological commitments, not interchangeable evidence for C*. Both remain candidates to assess, not validated subject-selection algorithms.
+ 
+@@ -430,7 +430,7 @@
+ 
+ A physical research route asks whether independently defined locality and informative records favour compatible subsystem structures. The mathematical safeguards and finite quantum examples developed in the separate methods paper *Frame-Aligned Records* do not yet recover an unknown spacetime metric. Its original source-off pilot has a negative mean change relative to frozen evolution. A later paired factorial extension has positive contrasts between Hamiltonian orientations at fixed injection. These are different counterfactuals, not a reversal of one result. Neither reconstructs a metric or establishes a common infinite ground; both concern supplied finite dynamics and access. A finite propagation bound does not by itself identify the mechanism behind the scalar readability contrast.
+ 
+-The correspondence burden includes controlled recovery of the target regime. A few-body decomposition is not enough. Graphs, symmetries, effective distances, propagation, matter content and measurement rules must be classified as supplied inputs or recovered outputs. Existing emergent-spacetime approaches provide concrete problems and examples, not transferred confirmation of AIU [19; 20].
++The correspondence burden includes controlled recovery of the target regime. A few-body decomposition is not enough. Graphs, symmetries, effective distances, propagation, matter content and measurement rules must be classified as supplied inputs or recovered outputs. Existing emergent-spacetime approaches provide concrete problems and examples, not transferred confirmation of AIU [26; 27].
+ 
+ ### 11.2 Phenomenology and common structure
+ 
+@@ -446,7 +446,7 @@
+ 
+ ### 11.4 Observation selection and measure
+ 
+-A plenitude theory must explain why this kind of observation is expected, not only why it exists somewhere. Observer-weighting pathologies can make a proposed cosmology epistemically unstable under stated assumptions [21]. Their significance is that realization and observation measures do substantive work. A claim that every possible world exists still needs an account of why our records are orderly and reliable.
++A plenitude theory must explain why this kind of observation is expected, not only why it exists somewhere. Observer-weighting pathologies can make a proposed cosmology epistemically unstable under stated assumptions [28]. Their significance is that realization and observation measures do substantive work. A claim that every possible world exists still needs an account of why our records are orderly and reliable.
+ 
+ This task should be approached as model construction, not as a demand for a universal probability measure before any local science is permitted. Specific domains and comparisons can be predictive. Their success does not automatically validate the unrestricted metaphysical extension.
+ 
+@@ -500,59 +500,58 @@
+ 
+ ## References
+ 
+-[1] Schaffer, J. (2010). Monism: The priority of the whole. The Philosophical Review, 119(1), 31-76. https://www.jonathanschaffer.org/monism.pdf
+-
+-[2] Horodecki, R., et al. (2009). Quantum entanglement. Reviews of Modern Physics, 81, 865-942. https://arxiv.org/abs/quant-ph/0702225
+-
+-[3] Chalmers, D. J. (2016). The combination problem for panpsychism. In Panpsychism: Contemporary Perspectives, pp. 179-214. Oxford University Press. https://consc.net/papers/combination.pdf
+-
+-[4] Gamma, A., & Metzinger, T. (2021). The Minimal Phenomenal Experience questionnaire. PLOS ONE, 16(7), e0253694. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0253694
+-
+-[5] Lindahl, J. R., et al. (2017). The varieties of contemplative experience. PLOS ONE, 12(5), e0176239. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0176239
+-
+-[6] Springel, V., et al. (2005). Simulations of the formation, evolution and clustering of galaxies and quasars. Nature, 435, 629-636. https://arxiv.org/abs/astro-ph/0504097
+-
+-[7] Durrett, R. (2019). Probability: Theory and Examples, 5th ed. Cambridge University Press. https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf
+-
+-[8] Garriga, J., and Vilenkin, A. (2001). Many worlds in one. Physical Review D 64, 043511. https://arxiv.org/html/gr-qc/0102010v2
+-
+-[9] Welch, P., & Horsten, L. (2016). Reflecting on absolute infinity. The Journal of Philosophy, 113(2), 89-111. https://research-information.bris.ac.uk/ws/portalfiles/portal/56264140/AbsInfFIN_revised_October_2015.pdf
+-
+-[10] Bousso, R. (2002). The holographic principle. Reviews of Modern Physics, 74, 825-874. https://arxiv.org/abs/hep-th/0203101
+-
+-[11] Casini, H. (2008). Relative entropy and the Bekenstein bound. Classical and Quantum Gravity, 25, 205021. https://arxiv.org/abs/0804.2182
+-
+-[12] Linnebo, O., and Shapiro, S. (2019). Actual and Potential Infinity. Nous 53(1), 160-191. https://doi.org/10.1111/nous.12208
+-
+-[13] DESI Collaboration (2026). DESI DR2 Results IV: Alcock-Paczynski Measurements from the Lyman Alpha Forest and Cosmological Constraints. arXiv:2607.27410v3, Section VI.4.3, Eq. 36. https://arxiv.org/html/2607.27410v3
+-
+-[14] Albantakis, L., et al. (2023). Integrated information theory (IIT) 4.0. PLOS Computational Biology, 19(10), e1011465. https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011465
+-
+-[15] Kastrup, B. (2018). The Universe in Consciousness. Journal of Consciousness Studies 25(5-6), 125-155. https://www.imprint.co.uk/wp-content/uploads/2019/03/Kastrup_Open_Access.pdf
+-
+-[16] Albahari, M. (2019). Perennial Idealism: A Mystical Solution to the Mind-Body Problem. Philosophers' Imprint 19(44), 1-37. https://quod.lib.umich.edu/p/phimp/3521354.0019.044/1
+-
+-[17] Nagasawa, Y., and Wager, K. (2016). Panpsychism and Priority Cosmopsychism. In G. Bruntrup and L. Jaskolla (eds.), Panpsychism: Contemporary Perspectives, 113-129. Oxford University Press. https://doi.org/10.1093/acprof:oso/9780199359943.003.0005
+-
+-[18] Miller, G. (2021). The Decombination Problem for Cosmopsychism is not the Heterogeneity Problem for Priority Monism. Journal of Consciousness Studies 28(3-4), 112-125. https://philpapers.org/archive/MILTDP-5.pdf
+-
+-[19] Surya, S. (2019). The causal set approach to quantum gravity. Living Reviews in Relativity, 22, 5. https://arxiv.org/abs/1903.11544
+-
+-[20] Van Raamsdonk, M. (2010). Building up spacetime with quantum entanglement. General Relativity and Gravitation, 42, 2323-2329. https://arxiv.org/abs/1005.3035
+-
+-[21] Carroll, S. M. (2017). Why Boltzmann brains are bad. arXiv:1702.00850. https://arxiv.org/abs/1702.00850
+-
+-
+-[22] Spinoza, B. (1677). Ethics, Part I, Definition 6 and Propositions 14, 15 and 33. R. H. M. Elwes translation. https://www.gutenberg.org/files/3800/3800-h/3800-h.htm
+-
+-[23] Lovejoy, A. O. (1936). The Great Chain of Being: A Study of the History of an Idea. Harvard University Press. Modern reprint publisher record: https://www.routledge.com/The-Great-Chain-of-Being-A-Study-of-the-History-of-an-Idea/Lovejoy/p/book/9781412810265
+-
+-[24] Lewis, D. (1986). On the Plurality of Worlds. Blackwell. Publisher reprint description: https://www.wiley-vch.de/en/areas-interest/humanities-social-sciences/on-the-plurality-of-worlds-978-0-631-22426-6
+-
+-[25] Nozick, R. (1981). Philosophical Explanations. Harvard University Press. Bibliographic lead only in this edition; the relevant original chapter was not retrieved.
+-
+-[26] Tegmark, M. (2008). The Mathematical Universe. Foundations of Physics 38, 101-150. https://doi.org/10.1007/s10701-007-9186-9 ; arXiv:0704.0646.
+-
+-[27] Shani, I. (2015). Cosmopsychism: A Holistic Approach to the Metaphysics of Experience. Philosophical Papers 44(3), 389-437. https://doi.org/10.1080/05568641.2015.1106709
+-
+-[28] Goff, P. (2017). A Conscious Universe. In Consciousness and Fundamental Reality, Chapter 9, 220-255. Oxford University Press. https://doi.org/10.1093/oso/9780190677015.003.0009
++[1] Spinoza, B. (1677). Ethics, Part I, Definition 6 and Propositions 14, 15 and 33. R. H. M. Elwes translation. https://www.gutenberg.org/files/3800/3800-h/3800-h.htm
++
++[2] Lovejoy, A. O. (1936). The Great Chain of Being: A Study of the History of an Idea. Harvard University Press. Modern reprint publisher record: https://www.routledge.com/The-Great-Chain-of-Being-A-Study-of-the-History-of-an-Idea/Lovejoy/p/book/9781412810265
++
++[3] Lewis, D. (1986). On the Plurality of Worlds. Blackwell. Publisher reprint description: https://www.wiley-vch.de/en/areas-interest/humanities-social-sciences/on-the-plurality-of-worlds-978-0-631-22426-6
++
++[4] Nozick, R. (1981). Philosophical Explanations. Harvard University Press. Bibliographic lead only in this edition; the relevant original chapter was not retrieved.
++
++[5] Tegmark, M. (2008). The Mathematical Universe. Foundations of Physics 38, 101-150. https://doi.org/10.1007/s10701-007-9186-9 ; arXiv:0704.0646.
++
++[6] Shani, I. (2015). Cosmopsychism: A Holistic Approach to the Metaphysics of Experience. Philosophical Papers 44(3), 389-437. https://doi.org/10.1080/05568641.2015.1106709
++
++[7] Goff, P. (2017). A Conscious Universe. In Consciousness and Fundamental Reality, Chapter 9, 220-255. Oxford University Press. https://doi.org/10.1093/oso/9780190677015.003.0009
++
++[8] Schaffer, J. (2010). Monism: The priority of the whole. The Philosophical Review, 119(1), 31-76. https://www.jonathanschaffer.org/monism.pdf
++
++[9] Horodecki, R., et al. (2009). Quantum entanglement. Reviews of Modern Physics, 81, 865-942. https://arxiv.org/abs/quant-ph/0702225
++
++[10] Chalmers, D. J. (2016). The combination problem for panpsychism. In Panpsychism: Contemporary Perspectives, pp. 179-214. Oxford University Press. https://consc.net/papers/combination.pdf
++
++[11] Gamma, A., & Metzinger, T. (2021). The Minimal Phenomenal Experience questionnaire. PLOS ONE, 16(7), e0253694. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0253694
++
++[12] Lindahl, J. R., et al. (2017). The varieties of contemplative experience. PLOS ONE, 12(5), e0176239. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0176239
++
++[13] Springel, V., et al. (2005). Simulations of the formation, evolution and clustering of galaxies and quasars. Nature, 435, 629-636. https://arxiv.org/abs/astro-ph/0504097
++
++[14] Durrett, R. (2019). Probability: Theory and Examples, 5th ed. Cambridge University Press. https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf
++
++[15] Garriga, J., and Vilenkin, A. (2001). Many worlds in one. Physical Review D 64, 043511. https://arxiv.org/html/gr-qc/0102010v2
++
++[16] Welch, P., & Horsten, L. (2016). Reflecting on absolute infinity. The Journal of Philosophy, 113(2), 89-111. https://research-information.bris.ac.uk/ws/portalfiles/portal/56264140/AbsInfFIN_revised_October_2015.pdf
++
++[17] Bousso, R. (2002). The holographic principle. Reviews of Modern Physics, 74, 825-874. https://arxiv.org/abs/hep-th/0203101
++
++[18] Casini, H. (2008). Relative entropy and the Bekenstein bound. Classical and Quantum Gravity, 25, 205021. https://arxiv.org/abs/0804.2182
++
++[19] Linnebo, O., and Shapiro, S. (2019). Actual and Potential Infinity. Nous 53(1), 160-191. https://doi.org/10.1111/nous.12208
++
++[20] DESI Collaboration (2026). DESI DR2 Results IV: Alcock-Paczynski Measurements from the Lyman Alpha Forest and Cosmological Constraints. arXiv:2607.27410v3, Section VI.4.3, Eq. 36. https://arxiv.org/html/2607.27410v3
++
++[21] Albantakis, L., et al. (2023). Integrated information theory (IIT) 4.0. PLOS Computational Biology, 19(10), e1011465. https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011465
++
++[22] Kastrup, B. (2018). The Universe in Consciousness. Journal of Consciousness Studies 25(5-6), 125-155. https://www.imprint.co.uk/wp-content/uploads/2019/03/Kastrup_Open_Access.pdf
++
++[23] Albahari, M. (2019). Perennial Idealism: A Mystical Solution to the Mind-Body Problem. Philosophers' Imprint 19(44), 1-37. https://quod.lib.umich.edu/p/phimp/3521354.0019.044/1
++
++[24] Nagasawa, Y., and Wager, K. (2016). Panpsychism and Priority Cosmopsychism. In G. Bruntrup and L. Jaskolla (eds.), Panpsychism: Contemporary Perspectives, 113-129. Oxford University Press. https://doi.org/10.1093/acprof:oso/9780199359943.003.0005
++
++[25] Miller, G. (2021). The Decombination Problem for Cosmopsychism is not the Heterogeneity Problem for Priority Monism. Journal of Consciousness Studies 28(3-4), 112-125. https://philpapers.org/archive/MILTDP-5.pdf
++
++[26] Surya, S. (2019). The causal set approach to quantum gravity. Living Reviews in Relativity, 22, 5. https://arxiv.org/abs/1903.11544
++
++[27] Van Raamsdonk, M. (2010). Building up spacetime with quantum entanglement. General Relativity and Gravitation, 42, 2323-2329. https://arxiv.org/abs/1005.3035
++
++[28] Carroll, S. M. (2017). Why Boltzmann brains are bad. arXiv:1702.00850. https://arxiv.org/abs/1702.00850
+--- before/supplement/Frame_Aligned_Records_Supplement_v1_2.md
++++ final/supplement/Frame_Aligned_Records_Supplement_v1_2.md
+@@ -7,6 +7,8 @@
+ **James McGaughran**
+ 
+ **Scope.** This supplement supports the methods paper. Scientific calculations and model definitions come first; dated lineage is in the final provenance section. A reported historical run, a fresh same-code replay and a separate numerical implementation have different evidential meanings.
++
++**Version crosswalk.** Portfolio v1.8 identifies the distribution; *Frame-Aligned Records* v0.5, this supplement v1.2, the results log v1.2, protocol reader edition v1.3 and *Absolute Infinite Union* v1.4 identify its components. CAL-1.6 and similar identifiers name fixed calculation suites, not alternative current manuscripts. A historical label means a preserved prior state, even when its date is only one day earlier. The authoritative executed specification remains protocol v1.2 and its original pre-execution receipt; later reader edits do not modify that record. Finalization retains these version labels and records changes through source hashes and a dated change record.
+ 
+ ## S1. Numerical provenance for the methods paper
+ 
+@@ -58,12 +60,14 @@
+ 
+ **Status: EXPLORATORY.** This section reports computed results for one small model class. The configuration was changed after the first results were inspected (Section S2.2), so they are not a confirmatory test of the prospectively stated population conjectures. They can nevertheless supply counterexamples to a universal claim and guide later design; exploratory does not mean scientifically worthless. They are included because they show concretely how the design choices of Sections 2 and 5 decide outcomes. The frozen configuration was then re-run with fresh seeds (Section S2.5).
+ 
++The notation below uses $K_{\mathrm C}$ for the source-coupling operator, reserving C for an alternate frame label. Preserved scripts and original outputs still use their original variable C; this is a notation change only.
++
+ ### S2.1 Model
+ 
+-- **System and source.** $n=3$ system qubits and a binary source with equal priors; $H_x=H_S+(-1)^xC$.
++- **System and source.** $n=3$ system qubits and a binary source with equal priors; $H_x=H_S+(-1)^xK_{\mathrm C}$.
+ - **Internal Hamiltonian.** $H_S$ is a random nearest-neighbour 2-local chain: Gaussian coefficients on all two-body Pauli products on adjacent pairs, plus one-body terms at half weight. It is normalised to Frobenius norm $\lambda$.
+-- **Coupling and time window.** The source coupling is the star operator $C=\sum_{j=1}^3X_j$, of Frobenius norm $\sqrt{24}\approx4.90$. Times are $t\in\{0.6,0.7,0.8,0.9,1.0\}$.
+-- **Candidates.** There are $N=20$ candidates: the identity (the frame in which $H_S$ and $C$ are local), a preparation frame $W$, and 18 Haar-random unitaries.
++- **Coupling and time window.** The source coupling is the star operator $K_{\mathrm C}=\sum_{j=1}^3X_j$, of Frobenius norm $\sqrt{24}\approx4.90$. Times are $t\in\{0.6,0.7,0.8,0.9,1.0\}$.
++- **Candidates.** There are $N=20$ candidates: the identity (the frame in which $H_S$ and $K_{\mathrm C}$ are local), a preparation frame $W$, and 18 Haar-random unitaries.
+ - **Locality.** $L$ is the internal score $L^{\mathrm{int}}$ on the span of Pauli strings of weight at most 2, identity included.
+ - **Records (simplified).** The record score is the time-averaged number of single qubits whose Helstrom error is at most $0.1$. This is a simplification of the disjoint, persistent redundancy of Section 2.5.
+ - **Near-optimal sets.** $\mathcal N_L$ requires $L\le\min L+0.02$ and $L\le0.6$; $\mathcal N_R$ requires $R=\max R$ and $R\ge0.5$.
+@@ -103,7 +107,7 @@
+ 
+ At $\theta=0$ the "preparation frame" candidate equals the identity, a duplicated class of exactly the kind Lemma 3 requires to be merged. As the ready resource is rotated away, records do not follow it. They stay in the frame of the coupling and then disappear, in this specific exploratory family. Finite-angle exponentials of normalised random Hermitians are not Haar draws, and no Haar limit for this parameterisation has been established.
+ 
+-**Table S6. Coupling and ready resource moved together** ($C\mapsto U_cCU_c^\dagger$, initial state $U_c\left| 000\right\rangle$, $U_c=e^{-i\varphi G}$; 60 models per row). The internal-locality minimum was at the identity in every model.
++**Table S6. Coupling and ready resource moved together** ($K_{\mathrm C}\mapsto U_cK_{\mathrm C}U_c^\dagger$, initial state $U_c\left| 000\right\rangle$, $U_c=e^{-i\varphi G}$; 60 models per row). The internal-locality minimum was at the identity in every model.
+ 
+ | $\lambda$ | $\varphi$ | Records anywhere | In internal-locality frame | In coupling frame | Elsewhere |
+ |---|---|---|---|---|---|
+--- before/pilot/Post_Injection_Results_v1_2.md
++++ final/pilot/Post_Injection_Results_v1_2.md
+@@ -51,7 +51,7 @@
+ 
+ ### 3.2 Post hoc directional analysis
+ 
+-Let $p_{+}$ be the probability of a positive nonzero unit contrast. The exact sign test evaluates $H_0:p_{+}=1/2$ with independent signs. It does not assume symmetry of the full contrast distribution, but independence alone is not the null. It is not a test of zero mean. Ties use the original $10^{-12}$ reporting tolerance; none occur, and the smallest absolute contrast across these data is greater than $2.5\times10^{-4}$.
++Let $p_{\mathrm{pos}}$ be the probability of a positive nonzero unit contrast. The exact sign test evaluates $H_0:p_{\mathrm{pos}}=1/2$ with independent signs. It does not assume symmetry of the full contrast distribution, but independence alone is not the null. It is not a test of zero mean. Ties use the original $10^{-12}$ reporting tolerance; none occur, and the smallest absolute contrast across these data is greater than $2.5\times10^{-4}$.
+ 
+ **Table 2. Post hoc two-sided binomial sign tests**
+ 
+@@ -82,7 +82,7 @@
+ 
+ ## 5. Transport worked in the analytical controls
+ 
+-The two-site exchange control gives recipient distinguishability $\sin^2 t$. At $t=\pi/2$, the source bit has transferred from the addressed site to its neighbour. Four- and six-site exchange chains matched an independently evaluated one-excitation hopping model. The sampled end-site distinguishability reached approximately 0.972655 at time 2.80 for four sites and 0.911536 at time 3.95 for six sites. These are sampled control values, not globally optimized arrival times or claims of new transport physics.
++For the vacuum-versus-excitation encoding, the two-site exchange control gives recipient distinguishability $\sin^2 t$. At $t=\pi/2$, the source bit has transferred from the addressed site to its neighbour. Four- and six-site exchange chains matched an independently evaluated one-excitation hopping model. The sampled end-site distinguishability reached approximately 0.972655 at time 2.80 for four sites and 0.911536 at time 3.95 for six sites. These are sampled control values, not globally optimized arrival times or claims of new transport physics.
+ 
+ For a vacuum-versus-single-excitation code, let $p_j(t)$ be the excitation probability. Then $d_j(t)=p_j(t)$ and $\sum_j p_j(t)=1$. Error at most 0.1 requires $p_j\ge0.8$, so at most one singleton can qualify at one time. This control demonstrates transport without high redundant copying. It exposes why a redundancy measure is not automatically a transport or geometry-recovery measure.
+ 
+@@ -116,7 +116,7 @@
+ 
+ `pilot/PRE_EXECUTION_PLAN.md`, `pilot/config.json` and `pilot/PRE_EXECUTION_RECEIPT.json` retain the pre-outcome specification and local hashes. `data/pilot_run/model_inputs.json` contains coefficients and random-stream identifiers. `trajectories_n4.npz` and `trajectories_n6.npz` contain raw per-site readability and small validation examples. `per_unit.json` retains the count bounds and all individual outcomes. `code/run_injection_pilot.py` refuses a nonempty output directory. The reviewer bundle includes the text, configuration and code but omits binary trajectories to remain small.
+ 
+-No email was sent and no external review occurred. The specialist brief accompanies C and its supplement for a later, separately authorized circulation.
++No email was sent and no external review occurred. The specialist brief accompanies *Frame-Aligned Records* and its supplement for a later, separately authorized circulation.
+ 
+ ## 9. Review-stage reimplementation and factorial intervention
+ 
+--- before/protocols/P01_Post_Injection_Protocol_v1_3.md
++++ final/protocols/P01_Post_Injection_Protocol_v1_3.md
+@@ -66,7 +66,7 @@
+ | Identical source branches | Zero distinguishing information |
+ | Common passive conjugation | Same reduced statistics when states, H and access are all transported |
+ | Exchange-chain calibration | Full-space evolution agrees with the one-excitation hopping model |
+-| Two-site transport | Recipient distinguishability equals sin-squared time |
++| Two-site transport | For the vacuum-versus-excitation control, recipient distinguishability is $\sin^2 t$; for the pilot phase code it is $|\sin t|$ |
+ | Closed stationary record | Diagonal H preserves orthogonal product records; openness is not necessary |
+ | Independent numerical method | Selected spectral trajectories agree with exponential action and density-matrix partial traces |
+ 

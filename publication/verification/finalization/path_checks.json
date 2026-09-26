@@ -1,0 +1,187 @@
+[
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "historical/supporting_lineage/v1_6_data/results.json",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "historical/supporting_lineage/v1_6_data/localized_constants.csv",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "historical/supporting_lineage/v1_6_data/results.json",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "data/prop7_thresholds.csv",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "data/pilot_run/results.json",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "data/review_additions/sign_tests.csv",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "code/analyze_review_additions.py",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "data/review_additions/review_analysis.json",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "data/review_additions/initial_floor_diagnostics.csv",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "data/review_additions/transport_encodings.csv",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "data/reviewer_replay/factorial_results.json",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "data/reviewer_replay/reimpl_id1_results.json",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "data/reviewer_replay/factorial_neutral.json",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "data/factorial_analysis/analysis.json",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "code/analyze_factorial.py",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "verification/factorial_independent_checks.json",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "feedback/current/",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "code/replay_reviewer.py",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "data/factorial_analysis/factorial_intervals.csv",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "data/reviewer_replay",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "historical/supporting_lineage/v1_6_code/supplied_claude_audit/",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "historical/supporting_lineage/v1_6_verification/claude_replay/",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "historical/supporting_lineage/v1_6_verification/claude_replay_comparison.json",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "historical/supporting_lineage/v1_6_code/checks_v0_3_0.py",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "editorial/retained_pairing_contract.md",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "data/pilot_run/",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "pilot/",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "code/validate_injection_pilot.py",
+    "exists": true
+  },
+  {
+    "source": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "path": "data/pilot_run",
+    "exists": true
+  },
+  {
+    "source": "pilot/Post_Injection_Results_v1_2.md",
+    "path": "pilot/PRE_EXECUTION_PLAN.md",
+    "exists": true
+  },
+  {
+    "source": "pilot/Post_Injection_Results_v1_2.md",
+    "path": "pilot/config.json",
+    "exists": true
+  },
+  {
+    "source": "pilot/Post_Injection_Results_v1_2.md",
+    "path": "pilot/PRE_EXECUTION_RECEIPT.json",
+    "exists": true
+  },
+  {
+    "source": "pilot/Post_Injection_Results_v1_2.md",
+    "path": "data/pilot_run/model_inputs.json",
+    "exists": true
+  },
+  {
+    "source": "pilot/Post_Injection_Results_v1_2.md",
+    "path": "code/run_injection_pilot.py",
+    "exists": true
+  },
+  {
+    "source": "pilot/Post_Injection_Results_v1_2.md",
+    "path": "code/analyze_review_additions.py",
+    "exists": true
+  },
+  {
+    "source": "protocols/P01_Post_Injection_Protocol_v1_3.md",
+    "path": "historical/v1_7_core/protocols/P01_Post_Injection_Pilot_v1_2.md",
+    "exists": true
+  }
+]

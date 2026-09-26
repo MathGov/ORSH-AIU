@@ -1,0 +1,80 @@
+[
+  {
+    "source": "Miller 2021",
+    "url": "https://philpapers.org/archive/MILTDP-5.pdf",
+    "scope": "PRIMARY_PASSAGE",
+    "notes": "Published first-page header: JCS 28, Nos. 3-4, pp. 112-125. Corrects secondary 112-115. PDF screenshot service failed; text header retrieved."
+  },
+  {
+    "source": "Popescu, Short and Winter 2006",
+    "url": "https://arxiv.org/pdf/quant-ph/0511225",
+    "scope": "PRIMARY_EQUATION",
+    "notes": "Lemma 3 and Eqs. 20-22: real sphere dimension and Lipschitz substitution yield 18 pi^3."
+  },
+  {
+    "source": "Maurer and Pontil 2009",
+    "url": "https://arxiv.org/pdf/0907.3740",
+    "scope": "PRIMARY_EQUATION",
+    "notes": "Theorem 4 and sample variance definition read in parsed text and successful page screenshot; rescaling and union bound supplied in SI."
+  },
+  {
+    "source": "DESI DR2 IV v3",
+    "url": "https://arxiv.org/html/2607.27410v3",
+    "scope": "PRIMARY_EQUATION",
+    "notes": "Section VI.4.3 Eq.36: 1000 Omega_K=2.1+/-1.1 for BAO+Ly-alpha full shape+CMB in curved Lambda-CDM. Not Eq.35 BAO+Ly-alpha-only."
+  },
+  {
+    "source": "Gamma and Metzinger 2021",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0253694",
+    "scope": "PRIMARY_PASSAGE",
+    "notes": "1403 usable selected-meditator responses and tentative 12-factor solution; sampling limits retained."
+  },
+  {
+    "source": "Lieb and Robinson 1972",
+    "url": "https://collaborate.princeton.edu/en/publications/the-finite-group-velocity-of-quantum-spin-systems/",
+    "scope": "PRIMARY_ABSTRACT",
+    "notes": "Primary institutional bibliographic/abstract record; no derivation of a sign for the present statistic is attributed."
+  },
+  {
+    "source": "Spinoza Ethics",
+    "url": "https://www.gutenberg.org/files/3800/3800-h/3800-h.htm",
+    "scope": "PRIMARY_PASSAGE",
+    "notes": "Part I Def.6, Props.14,15,33 inspected in public-domain primary text."
+  },
+  {
+    "source": "Lovejoy 1936",
+    "url": "https://www.routledge.com/The-Great-Chain-of-Being-A-Study-of-the-History-of-an-Idea/Lovejoy/p/book/9781412810265",
+    "scope": "PUBLISHER_DESCRIPTION",
+    "notes": "Publisher reprint description/contents and library metadata; not full original-book verification; no coinage priority claim."
+  },
+  {
+    "source": "Lewis 1986",
+    "url": "https://www.wiley-vch.de/en/areas-interest/humanities-social-sciences/on-the-plurality-of-worlds-978-0-631-22426-6",
+    "scope": "PUBLISHER_DESCRIPTION",
+    "notes": "Publisher confirms modal-realist thesis and philosophical utility. Sample chapter access failed; detailed argument not represented as re-read."
+  },
+  {
+    "source": "Nozick 1981",
+    "url": "https://ndlsearch.ndl.go.jp/en/books/R100000002-I000006288650",
+    "scope": "BIBLIOGRAPHIC_ONLY",
+    "notes": "Book metadata checked; relevant original chapter not retrieved. AI-generated abstract encountered and deliberately not used."
+  },
+  {
+    "source": "Tegmark 2008",
+    "url": "https://arxiv.org/pdf/0704.0646",
+    "scope": "PRIMARY_PASSAGE",
+    "notes": "MUH and mathematical democracy/Level IV passages inspected; neither consciousness nor all imaginable structures inferred."
+  },
+  {
+    "source": "Shani 2015",
+    "url": "https://www.tandfonline.com/doi/abs/10.1080/05568641.2015.1106709",
+    "scope": "PRIMARY_ABSTRACT",
+    "notes": "Publisher abstract and bibliographic record; not full article proof audit."
+  },
+  {
+    "source": "Goff 2017 chapter 9",
+    "url": "https://academic.oup.com/book/3834/chapter-abstract/145323999",
+    "scope": "PRIMARY_ABSTRACT",
+    "notes": "Publisher abstract and pages 220-255 checked; its proposed argument is not adopted as proof."
+  }
+]

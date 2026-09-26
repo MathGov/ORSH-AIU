@@ -1,0 +1,5 @@
+{
+  "passed": 36,
+  "failed": 0,
+  "separate_solver_max_difference": 9.103828801926284e-15
+}

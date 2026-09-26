@@ -1,0 +1,18 @@
+[
+  {
+    "file": "factorial_cells.png",
+    "equal": true
+  },
+  {
+    "file": "factorial_intervals.svg",
+    "equal": true
+  },
+  {
+    "file": "factorial_intervals.png",
+    "equal": true
+  },
+  {
+    "file": "factorial_cells.svg",
+    "equal": true
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-26",
+  "reviewer": "Assistant visual inspection",
+  "method": "Page-image inspection, not OCR. Word pages rendered through LibreOffice by render_docx.py; delivered PDFs typeset separately through XeLaTeX from the canonical Markdown.",
+  "pdf": {
+    "pages_reviewed": 66,
+    "all_pages": true,
+    "noted_pages": "Cover and contents; methods contribution list and Lemma 1; all equations, tables and figures; final changed pages 1, 38, 39, 54 and 57 rechecked."
+  },
+  "docx": [
+    {
+      "document": "FAR",
+      "pages_reviewed": 26,
+      "all_pages": true
+    },
+    {
+      "document": "SI",
+      "pages_reviewed": 10,
+      "all_pages": true
+    },
+    {
+      "document": "LOG",
+      "pages_reviewed": 8,
+      "all_pages": true
+    },
+    {
+      "document": "P01",
+      "pages_reviewed": 3,
+      "all_pages": true
+    },
+    {
+      "document": "AIU",
+      "pages_reviewed": 20,
+      "all_pages": true
+    }
+  ],
+  "repairs": "Plus and asterisk subscripts misrendered in the inspection renderer. Replaced only those labels by p_pos and H_AIU and re-rendered; corrected pages checked visually. Delimiters, inline conjunction, probability exponents and table equations are visible.",
+  "limitations": "No Microsoft Word application test, formal mathematical semantic-equivalence proof, PDF/A validator or PDF/UA certification. All-page visual review cannot certify scientific truth."
+}

@@ -1,0 +1,284 @@
+{
+  "checks": [
+    {
+      "name": "separate_propagation_n4_u0_arm0",
+      "error": 3.3306690738754696e-15,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "zero_generator_n4_arm0",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "separate_propagation_n4_u0_arm1",
+      "error": 5.329070518200751e-15,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "zero_generator_n4_arm1",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "separate_propagation_n4_u1_arm0",
+      "error": 6.369904603786836e-15,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "separate_propagation_n4_u1_arm1",
+      "error": 7.438494264988549e-15,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "separate_propagation_n4_u2_arm0",
+      "error": 6.022959908591474e-15,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "separate_propagation_n4_u2_arm1",
+      "error": 8.326672684688674e-15,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identical_source_n4",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "passive_common_conjugation_n4",
+      "error": 4.107825191113079e-15,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_excitation_reduction_n4",
+      "error": 1.2989609388114332e-14,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_excitation_conservation_n4",
+      "error": 1.8762769116165146e-14,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_excitation_at_most_one_strong_record_n4",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closed_stationary_commutators_n4",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closed_stationary_singletons_n4",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "separate_propagation_n6_u0_arm0",
+      "error": 9.103828801926284e-15,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "zero_generator_n6_arm0",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "separate_propagation_n6_u0_arm1",
+      "error": 6.25888230132432e-15,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "zero_generator_n6_arm1",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "separate_propagation_n6_u1_arm0",
+      "error": 5.2735593669694936e-15,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "separate_propagation_n6_u1_arm1",
+      "error": 4.9960036108132044e-15,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "separate_propagation_n6_u2_arm0",
+      "error": 3.9968028886505635e-15,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "separate_propagation_n6_u2_arm1",
+      "error": 2.720709743008452e-15,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identical_source_n6",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "passive_common_conjugation_n6",
+      "error": 1.1129985821867194e-14,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_excitation_reduction_n6",
+      "error": 8.1601392309949e-15,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_excitation_conservation_n6",
+      "error": 9.2148511043888e-15,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_excitation_at_most_one_strong_record_n6",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closed_stationary_commutators_n6",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closed_stationary_singletons_n6",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "two_site_transfer_sin_squared",
+      "error": 3.3306690738754696e-16,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_difference_cancels_common_H_at_t0",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amplitude_damping_t0.0",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amplitude_damping_t1.0",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amplitude_damping_t2.0",
+      "error": 5.551115123125783e-17,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amplitude_damping_t8.0",
+      "error": 2.2768245622195593e-18,
+      "tolerance": 1e-09,
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": 36,
+  "failed": 0,
+  "separate_solver_max_difference": 9.103828801926284e-15,
+  "amplitude_damping": [
+    {
+      "time": 0.0,
+      "distance": 1.0,
+      "exact": 1.0
+    },
+    {
+      "time": 1.0,
+      "distance": 0.36787944117144233,
+      "exact": 0.36787944117144233
+    },
+    {
+      "time": 2.0,
+      "distance": 0.13533528323661276,
+      "exact": 0.1353352832366127
+    },
+    {
+      "time": 8.0,
+      "distance": 0.00033546262790251413,
+      "exact": 0.00033546262790251185
+    }
+  ],
+  "scope": "selected n=4/6 trajectories and analytic controls; not all-unit independent replication or certified rounding",
+  "checked_units_per_size": 3,
+  "formal_numeric_enclosure": false
+}

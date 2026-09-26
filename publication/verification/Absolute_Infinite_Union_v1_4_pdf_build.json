@@ -1,0 +1,10 @@
+{
+  "source": "manuscripts/Absolute_Infinite_Union_v1_4.md",
+  "source_sha256": "e13145eb509a64279fe7f0d3658a8a42ed925c303d6d440904de4bf865bbb118",
+  "engine": "XeLaTeX from canonical Markdown",
+  "warnings": [
+    "Package mathtools Warning: For best results, please load mathtools *before* ",
+    "Package unicode-math Warning: Using \\overbracket and \\underbracket from",
+    "Package unicode-math Warning: I'm going to overwrite the following commands"
+  ]
+}

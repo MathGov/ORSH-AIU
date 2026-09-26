@@ -1,0 +1,139 @@
+--- manuscripts/Absolute_Infinite_Union_v1_3.md
++++ manuscripts/Absolute_Infinite_Union_v1_4.md
+@@ -1,12 +1,12 @@
+ # Absolute Infinite Union
+ 
+-## A critical case for a generative substrate, and the evidence that could change it
++## A critical case for a generative substrate
+ 
+ **James McGaughran**
+ 
+ MathGov / RippleLogic Research Program
+ 
+-26 September 2026
++26 September 2026 | Review manuscript v1.4
+ 
+ ## Abstract
+ 
+@@ -74,6 +74,22 @@
+ 
+ Individual defences of M, U, P, C and C* also do not establish joint consistency. A complete combined account must reconcile its temporal structure, subject boundaries, physical laws and observation rule. The present paper preserves that conjunction as the target; it does not announce a consistency theorem for the entire ontology.
+ 
++### 2.2 Historical commitments that must not be conflated
++
++The present name and research map do not establish historical priority. Several well-developed traditions already address the component claims, often with commitments incompatible with a simple synthesis.
++
++**Substance and necessity.** In *Ethics* I, Definition 6, Spinoza characterizes an absolutely infinite being through infinitely many attributes. Propositions 14 and 15 defend one substance and the dependence of everything on it; Proposition 33 makes the order of things necessary [22]. This is a substantive predecessor for M and a conception of infinity, not a modern cardinality argument. Its necessary order should not be equated with realization of every independently imagined alternative. Nor does attributing thought to substance by itself establish the present phenomenally unified C* subject. AIU must defend those additional bridges rather than borrow the force of Spinoza's terminology.
++
++**Plenitude as a historical idea.** Lovejoy's *The Great Chain of Being* (1936) is a central historical treatment of plenitude, continuity and gradation [23]. It supplies intellectual context, not an empirical realization law or proof that every permissible pattern occurs. This paper makes no claim about who first coined a phrase. Its finite-word theorems instead identify an explicit measure, supported events and almost-sure coverage.
++
++**Plurality is not automatically unity.** Lewis's *On the Plurality of Worlds* defends modal realism and its philosophical utility [24]. The relevant contrast is between commitment to a plurality of worlds and the additional AIU assertion that their existence depends on one ground. A defence of the former does not supply the latter. The word actual must also be fixed before an AIU claim of actual plenitude is compared with a modal account. This discussion is restricted to the publisher's statement of the book's thesis; it does not claim a fresh audit of Lewis's full argument. Nozick's *Philosophical Explanations* is retained as a bibliographic lead for the further fecundity comparison [25]. The relevant original chapter was not accessible in this verification pass, so no detailed attribution or evidential step rests on an AI-generated synopsis of it.
++
++**Mathematical existence and physical existence.** Tegmark's mathematical universe hypothesis proposes a stronger identification of physical reality with mathematical structure and discusses a Level IV ensemble [26]. It is not a theorem that every imagined description is consistent, nor a derivation of experiential fundamentality. Even a mathematical-democracy postulate needs a specification of the structures, observers and observation weighting. AIU therefore distinguishes a formal plenitude proposal from one conscious substrate, and realization from the likelihood of this observer's evidence.
++
++**The cosmic subject is already a philosophical research problem.** Shani (2015) starts from a cosmic-consciousness ultimate and argues that it can ground individual conscious creatures [27]. Goff's *Consciousness and Fundamental Reality*, Chapter 9, defends cosmopsychism by combining phenomenal commitments with priority monism and addressing the Subject Irreducibility Problem [28]. These primary abstracts establish that there are articulated affirmative positions, not merely a new slogan in this paper. Their premises and full solutions must still be assessed. The comparison in Section 10 distinguishes such grounding claims from the private-access and observation rules required by a predictive model.
++
++The positive lesson is not that all these authors endorse the same ontology. They give the programme concrete alternatives and disagreements: necessary substance versus modal proliferation; mathematical structure versus experience; common grounding versus phenomenal unity. A useful synthesis must resolve these differences explicitly.
++
+ ## 3. The affirmative case: why AIU deserves investigation
+ 
+ ### 3.1 Argument from explanatory unification
+@@ -120,7 +136,7 @@
+ 
+ **Strongest argument.** Different people report episodes in which ordinary subject-object boundaries seem absent or radically altered. The recurrence is not intellectually trivial. It can indicate stable features of conscious organization and may motivate the possibility that ordinary separation is a limited mode of representation rather than ultimate ontology.
+ 
+-**What follows.** There is empirical material to examine. Existing phenomenological work supplies measurement approaches and clearly bounded samples [4]. A recurring feature can be evidence relevant to a model of experience. Its bearing on ontology depends on what alternatives predict and how reports are sampled.
++**What follows.** There is empirical material to examine. Gamma and Metzinger analysed 1,403 usable responses from a selected meditator sample and reported a tentative 12-factor solution [4]. This supplies a measurement approach within that sample, not population-wide invariance or a verified ontological correspondence. A recurring feature can be evidence relevant to a model of experience. Its bearing on ontology depends on what alternatives predict and how reports are sampled.
+ 
+ **Best objection.** Humans share neurobiology, cognitive biases, linguistic influences and traditions. Similar experiences might follow from these common causes without revealing a universal consciousness. Some experiences are non-unitive, ambiguous or distressing [5]. Reports must not be filtered to retain only those fitting a preferred metaphysics.
+ 
+@@ -146,7 +162,7 @@
+ 
+ ## 4. Where the strongest case currently stops
+ 
+-The eight arguments converge on reasons to investigate a common generative account. They do not constitute eight independent proofs of $M\land U\land P\land C$. Several share the same explanatory preference; others rely on the same quantum framework or the same human experiential architecture. Counting them as independent likelihood multipliers would inflate their force.
++The eight arguments converge on reasons to investigate a common generative account. They do not constitute eight independent proofs of $M\land U\land P\land C\land C^{\text{*}}$. Several share the same explanatory preference; others rely on the same quantum framework or the same human experiential architecture. Counting them as independent likelihood multipliers would inflate their force.
+ 
+ Table 3 identifies what remains to be supplied. It is a work map, not a verdict that the missing items are impossible.
+ 
+@@ -168,9 +184,9 @@
+ 
+ ### 5.1 A positive result for unbounded structure and local plenitude
+ 
+-Consider an infinite binary configuration indexed by integers. Its sample space is Ω = {0,1}^Z, equipped with independent fair-bit product probability. Every finite region has finitely many distinguishable configurations. The global index set is unbounded. This is an explicitly defined mathematical structure, not a largest infinity or a physical universe model.
+-
+-Fix a finite word w of length k. Partition the positive half of the integer line into disjoint blocks of length k. Every block equals w with probability 2⁻ᵏ, independently. Then
++Consider an infinite binary configuration indexed by integers. Its sample space is $\Omega=\{0,1\}^{\mathbb Z}$, equipped with independent fair-bit product probability. Every finite region has finitely many distinguishable configurations. The global index set is unbounded. This is an explicitly defined mathematical structure, not a largest infinity or a physical universe model.
++
++Fix a finite word w of length k. Partition the positive half of the integer line into disjoint blocks of length k. Every block equals w with probability $2^{-k}$, independently. Then
+ 
+ $$
+ \Pr(\text{no copy of }w\text{ in }n\text{ disjoint blocks})=(1-2^{-k})^n.
+@@ -214,7 +230,7 @@
+ 
+ ### 5.3 A finite-window comparison
+ 
+-Take a second model: a ring containing L independent fair bits. Compare it with the infinite independent chain through an experiment that samples r distinct sites, with r<L and without identifying wraparound or revisiting one physical site under two labels. In both models every observed r-bit assignment has probability 2⁻ʳ. Unobserved sites simply marginalize out.
++Take a second model: a ring containing L independent fair bits. Compare it with the infinite independent chain through an experiment that samples r distinct sites, with r<L and without identifying wraparound or revisiting one physical site under two labels. In both models every observed r-bit assignment has probability $2^{-r}$. Unobserved sites simply marginalize out.
+ 
+ **Proposition B.** For this specified finite observation design, the finite-ring and infinite-chain models have identical likelihoods for every possible outcome.
+ 
+@@ -263,10 +279,10 @@
+ The conjunction has its own constraints. Under any common probability model,
+ 
+ $$
+-\Pr(M\wedge U\wedge P\wedge C\mid E)\le\min\{\Pr(M\mid E),\Pr(U\mid E),\Pr(P\mid E),\Pr(C\mid E)\}.
++\Pr(H_*\mid E)\le\min_{J\in\{M,U,P,C,C^{\text{*}}\}}\Pr(J\mid E),\qquad H_*=M\wedge U\wedge P\wedge C\wedge C^{\text{*}}.
+ $$
+ 
+-Here P inside the event denotes the plenitude proposition; P(·) denotes probability. The chain rule expands the conjunction using conditional probabilities, not an assumed product of four independent confidence levels. This matters because a person can have a strong argument for a common basis while having much less evidence for all possible worlds or one universal subject.
++Here P inside the event denotes the plenitude proposition; the operator $\Pr$ denotes probability. The chain rule expands the conjunction using conditional probabilities, not an assumed product of five independent confidence levels. This matters because a person can have a strong argument for a common basis while having much less evidence for all possible worlds or one universal subject.
+ 
+ ### 7.2 A sensitivity illustration, not a verdict
+ 
+@@ -280,7 +296,7 @@
+ 
+ ### 7.3 Dependent patterns do not multiply into certainty
+ 
+-For evidence E₁,...,E_n, a valid likelihood factorization is P(E₁|H)P(E₂|E₁,H)... . Replacing all conditional terms with P(E_i|H) assumes conditional independence. Similar contemplative reports may share biology and traditions; papers may reuse a dataset; AI systems may reuse text or reasoning; different arguments may rely on one interpretive premise. Their apparent number can greatly exceed their independent information.
++For evidence $E_1,\ldots,E_n$, a valid likelihood factorization is $\Pr(E_1\mid H)\Pr(E_2\mid E_1,H)\cdots$. Replacing all conditional terms with $\Pr(E_i\mid H)$ assumes conditional independence. Similar contemplative reports may share biology and traditions; papers may reuse a dataset; AI systems may reuse text or reasoning; different arguments may rely on one interpretive premise. Their apparent number can greatly exceed their independent information.
+ 
+ This does not make convergence worthless. It changes the research question from how many favourable examples can be listed to how much new constraint each example supplies. A genuinely surprising out-of-sample prediction under a well-specified alternative can matter more than hundreds of repetitions of a familiar description.
+ 
+@@ -387,7 +403,7 @@
+ 
+ ### 10.2.2 Worked comparison: a common ground with or without a cosmic subject
+ 
+-Consider a deliberately minimal operational system with two binary registers A and B. Initially they are independent fair bits. An intervention sets A to a chosen value a. One later update leaves A unchanged and, when a communication link is enabled, sets B equal to A with probability $1-\eta$, where $0<\eta<1/2$. When the link is disabled, B retains its initially independent bit. Reports read the corresponding registers without additional noise. This is a stipulated finite comparison, not a neural model or an empirical theory of consciousness.
++Consider a deliberately minimal operational system with two binary registers A and B. Initially they are independent fair bits. An intervention sets A to a chosen value a. One later update leaves A unchanged and, when a communication link is enabled, sets B equal to A with probability $1-\eta$, where $0<\eta<1/2$. When the link is disabled, B retains its initially independent bit. Reports read the corresponding registers without additional noise. This is an identification-limit illustration with equal observable laws imposed by construction, not a neural model, a fitted theory of consciousness or a discovery that published subject accounts are observationally equivalent.
+ 
+ The shared observation rule is therefore
+ $$\Pr(R_B=a\mid\operatorname{do}(A=a),\mathrm{link}=1)=1-\eta,$$
+@@ -412,7 +428,7 @@
+ 
+ ### 11.1 Physical structure and records
+ 
+-A physical research route asks whether independently defined locality and informative records favour compatible subsystem structures. The mathematical safeguards and finite quantum examples developed in the separate methods paper *Frame-Aligned Records* do not yet recover an unknown spacetime metric. Its source-off pilot has a negative mean change on one declared readability contrast, while a conservative interval includes zero. That restricted result neither establishes nor refutes a common infinite ground; it concerns supplied small-system dynamics and access.
++A physical research route asks whether independently defined locality and informative records favour compatible subsystem structures. The mathematical safeguards and finite quantum examples developed in the separate methods paper *Frame-Aligned Records* do not yet recover an unknown spacetime metric. Its original source-off pilot has a negative mean change relative to frozen evolution. A later paired factorial extension has positive contrasts between Hamiltonian orientations at fixed injection. These are different counterfactuals, not a reversal of one result. Neither reconstructs a metric or establishes a common infinite ground; both concern supplied finite dynamics and access. A finite propagation bound does not by itself identify the mechanism behind the scalar readability contrast.
+ 
+ The correspondence burden includes controlled recovery of the target regime. A few-body decomposition is not enough. Graphs, symmetries, effective distances, propagation, matter content and measurement rules must be classified as supplied inputs or recovered outputs. Existing emergent-spacetime approaches provide concrete problems and examples, not transferred confirmation of AIU [19; 20].
+ 
+@@ -525,3 +541,18 @@
+ [20] Van Raamsdonk, M. (2010). Building up spacetime with quantum entanglement. General Relativity and Gravitation, 42, 2323-2329. https://arxiv.org/abs/1005.3035
+ 
+ [21] Carroll, S. M. (2017). Why Boltzmann brains are bad. arXiv:1702.00850. https://arxiv.org/abs/1702.00850
++
++
++[22] Spinoza, B. (1677). Ethics, Part I, Definition 6 and Propositions 14, 15 and 33. R. H. M. Elwes translation. https://www.gutenberg.org/files/3800/3800-h/3800-h.htm
++
++[23] Lovejoy, A. O. (1936). The Great Chain of Being: A Study of the History of an Idea. Harvard University Press. Modern reprint publisher record: https://www.routledge.com/The-Great-Chain-of-Being-A-Study-of-the-History-of-an-Idea/Lovejoy/p/book/9781412810265
++
++[24] Lewis, D. (1986). On the Plurality of Worlds. Blackwell. Publisher reprint description: https://www.wiley-vch.de/en/areas-interest/humanities-social-sciences/on-the-plurality-of-worlds-978-0-631-22426-6
++
++[25] Nozick, R. (1981). Philosophical Explanations. Harvard University Press. Bibliographic lead only in this edition; the relevant original chapter was not retrieved.
++
++[26] Tegmark, M. (2008). The Mathematical Universe. Foundations of Physics 38, 101-150. https://doi.org/10.1007/s10701-007-9186-9 ; arXiv:0704.0646.
++
++[27] Shani, I. (2015). Cosmopsychism: A Holistic Approach to the Metaphysics of Experience. Philosophical Papers 44(3), 389-437. https://doi.org/10.1080/05568641.2015.1106709
++
++[28] Goff, P. (2017). A Conscious Universe. In Consciousness and Fundamental Reality, Chapter 9, 220-255. Oxford University Press. https://doi.org/10.1093/oso/9780190677015.003.0009

@@ -1,0 +1,10 @@
+{
+  "trajectories_n6.npz": true,
+  "environment.json": false,
+  "model_inputs.json": true,
+  "per_unit.json": true,
+  "per_unit_summary.csv": true,
+  "effective_config.json": true,
+  "trajectories_n4.npz": true,
+  "results.json": true
+}

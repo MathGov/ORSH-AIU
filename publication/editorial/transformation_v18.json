@@ -1,0 +1,32 @@
+[
+  {
+    "predecessor": "manuscripts/Frame_Aligned_Records_v0_4.md",
+    "current": "manuscripts/Frame_Aligned_Records_v0_5.md",
+    "old_lines": 587,
+    "new_lines": 597
+  },
+  {
+    "predecessor": "manuscripts/Absolute_Infinite_Union_v1_3.md",
+    "current": "manuscripts/Absolute_Infinite_Union_v1_4.md",
+    "old_lines": 527,
+    "new_lines": 558
+  },
+  {
+    "predecessor": "pilot/Post_Injection_Results_v1_1.md",
+    "current": "pilot/Post_Injection_Results_v1_2.md",
+    "old_lines": 129,
+    "new_lines": 187
+  },
+  {
+    "predecessor": "supplement/Frame_Aligned_Records_Supplement_v1_1.md",
+    "current": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+    "old_lines": 260,
+    "new_lines": 312
+  },
+  {
+    "predecessor": "protocols/P01_Post_Injection_Pilot_v1_2.md",
+    "current": "protocols/P01_Post_Injection_Protocol_v1_3.md",
+    "old_lines": 83,
+    "new_lines": 85
+  }
+]

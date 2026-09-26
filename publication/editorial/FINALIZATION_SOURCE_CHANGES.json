@@ -1,0 +1,32 @@
+{
+  "portfolio": "1.8",
+  "build": "finalized",
+  "versions_changed": false,
+  "sources": [
+    {
+      "path": "manuscripts/Frame_Aligned_Records_v0_5.md",
+      "before_sha256": "7e6283517639b074d17eb15f0ed796d843d5ce52478776094dc2f294b3cf8ce2",
+      "after_sha256": "aa7e3082c5513169932699c217fd4865aef855d7a99d26514c38ac104a16def2"
+    },
+    {
+      "path": "manuscripts/Absolute_Infinite_Union_v1_4.md",
+      "before_sha256": "1eaa82d4faf96fa522dd5c7077195e95db04339557630eae0fa154a3188c46b1",
+      "after_sha256": "e13145eb509a64279fe7f0d3658a8a42ed925c303d6d440904de4bf865bbb118"
+    },
+    {
+      "path": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+      "before_sha256": "80687d75ba640a785ddc70c14b7faaebb6f3127bb8d47df7b7b39a338324b9f2",
+      "after_sha256": "59ce0c183477c1b7e175b7172dc1b9279f032d3cb5ed042c733e55a46fb43906"
+    },
+    {
+      "path": "pilot/Post_Injection_Results_v1_2.md",
+      "before_sha256": "c40f494b469d746a158b471f65873ab8e533c8b35b667cdfc011a64bf14b1013",
+      "after_sha256": "bff092d0c49ba93dd4717eb4b292fe37ea58ab8a078da6e0787bd1c7ef9e4d94"
+    },
+    {
+      "path": "protocols/P01_Post_Injection_Protocol_v1_3.md",
+      "before_sha256": "3c6e27519476206df20f6fc87823882371bd2980214d6651d74c38fc2d409e83",
+      "after_sha256": "ed49f3451b890f556c131f794b4086936e818759676923155b3b1579cd0db4d8"
+    }
+  ]
+}

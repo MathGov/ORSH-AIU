@@ -1,0 +1,347 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  10pt,
+  a4paper,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=21mm]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\setmainfont{Noto Serif}
+\setsansfont{Noto Sans}
+\setmonofont{DejaVu Sans Mono}[Scale=0.78]
+\setmathfont{latinmodern-math.otf}
+\usepackage{xurl}
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{etoolbox}
+\usepackage{needspace}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize Research review edition}
+\fancyhead[R]{\footnotesize 26 September 2026}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\headheight}{14pt}
+\setlength{\emergencystretch}{3em}
+\setlength{\parskip}{5pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.13}
+\AtBeginEnvironment{longtable}{\footnotesize}
+\AtBeginEnvironment{quote}{\small}
+\allowdisplaybreaks
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}{-2.4ex \@plus -1ex \@minus -.2ex}{1.2ex \@plus .2ex}{\normalfont\Large\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}{-2ex \@plus -.8ex \@minus -.2ex}{.9ex \@plus .2ex}{\normalfont\large\bfseries}}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  colorlinks=true,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={black},
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\section{P01: source-off information
+redistribution}\label{p01-source-off-information-redistribution}
+
+\subsection{A bounded feasibility pilot, not a recovered
+geometry}\label{a-bounded-feasibility-pilot-not-a-recovered-geometry}
+
+\textbf{P01 reader edition v1.3 \textbar{} 26 September 2026}
+
+\textbf{Publication note.} This reader edition updates terminology only.
+The executed scientific specification and local freeze remain those of
+protocol v1.2, preserved byte-for-byte in
+\nolinkurl{historical/v1_7_core/protocols/P01_Post_Injection_Pilot_v1_2.md}.
+Later review-stage factorial controls are not additions to the original
+pre-execution plan. Their specification, scripts and outcomes are
+separately supplied.
+
+\textbf{Status.} P01-ID1 is executed. Its local pre-execution plan,
+configuration and hashes are supplied. This is a pre-specified
+exploratory computational study, not external preregistration, a
+laboratory experiment or a confirmatory test of the older LRA
+hypotheses. The outcomes are in the separate results log. The v1.1
+protocol and original manuscripts remain unchanged in the historical
+record.
+
+\subsection{1. The revised question}\label{the-revised-question}
+
+Once a controlled external source has injected information and has been
+decoupled, does internal evolution shift average single-site
+accessibility toward the supplied internal-locality frame, relative to
+the supplied injection frame and a paired no-evolution control? This
+question separates the initial source interaction from later
+redistribution. It does not assume that the preparation imprint
+disappears or that redundant records must develop.
+
+The previous continuously driven comparison is retained as a control
+question, not treated as a compulsory primary experiment. For a common
+initial state, the first derivative of the branch difference depends on
+\(K_0-K_1\), with the common internal Hamiltonian cancelling. That fact
+does not determine a later winning frame. The primary target below is a
+different quantity from LRA-count, LRA-int and LRA-tot.
+
+\subsection{2. Complete model
+specification}\label{complete-model-specification}
+
+\Needspace{12\baselineskip}
+
+\textbf{Table 1. Fixed inputs}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Element
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Implementation
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Limitation
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+System & 4 or 6 qubits, with a supplied nearest-neighbour chain & The
+graph and tensor-product structure are inputs, not outputs \\
+Sampling & 96 independent Hamiltonian/circuit units at each size & Sizes
+are separate populations; paired conditions are not extra independent
+units \\
+Hamiltonian & Each XX, YY and ZZ bond coefficient is independent normal
+with variance 1/3; each X,Y,Z field is normal with standard deviation
+0.35 & One explicit finite model family, not a distribution for
+nature \\
+Injection frame & A depth-two adjacent-pair circuit with independent
+Haar two-qubit gates, independent of Hamiltonian coefficients & This
+circuit family itself uses the supplied chain \\
+Preparation & All-zero product state in the chosen injection frame & A
+deliberately prepared resource, not frame-neutral formlessness \\
+Source pulse & Source-conditioned plus/minus one-site X generator, pulse
+angle pi/4; internal Hamiltonian held off during pulse & A supplied
+quench intervention; not continuous autonomous source coupling \\
+Post-pulse evolution & The same internal Hamiltonian for both branches;
+all source-dependent terms set to zero & Global distinguishability is
+preserved, not regenerated \\
+Access & Unrestricted measurements on each singleton algebra in the
+declared frames & Actual implementation costs of nonnative observables
+are not matched or assessed \\
+Readout & 101 diagnostic checkpoints from 0 to 2.5; 50 positive-time
+primary readouts spaced 0.05 & Primary target is a discrete-time
+average, not a continuum integral \\
+\end{longtable}
+
+Let \(V=I\) for the native-injection arm and \(V=U_C\) for the rotated
+arm. Just after the pulse, with site zero addressed,
+\[\left| \psi_0(0)\right\rangle=V( \left|0\cdots0\right\rangle-i\left|10\cdots0\right\rangle)/\sqrt2,\]
+\[\left| \psi_1(0)\right\rangle=V( \left|0\cdots0\right\rangle+i\left|10\cdots0\right\rangle)/\sqrt2.\]
+For \(t>0\), both evolve with \(e^{-iH_St}\). The matched control uses
+the same initial states but \(H_S=0\). The source bit is external and is
+not an accessible fragment. The addressed system site contains an
+injected copy; it is not a newly formed record after switch-off.
+
+Both arms are evaluated in \(D_L=I\) and the same alternate \(D_C=U_C\).
+In the rotated arm \(D_C\) is the actual injection frame. In the native
+arm the actual injection frame is \(D_L\); the symbol C labels only the
+paired alternate frame. This clarification prevents a comparator label
+being mistaken for a physical intervention. The primary analysis uses
+only the rotated arm at six qubits.
+
+\subsection{3. Primary estimand and
+baseline}\label{primary-estimand-and-baseline}
+
+For frame \(D\), singleton \(j\) and time \(t\), let
+\[d_{D,j}(t)=\tfrac12\|\rho^D_{j,0}(t)-\rho^D_{j,1}(t)\|_1,\qquad a_D(t)=\frac1n\sum_j d_{D,j}(t).\]
+The optimal binary error is \((1-d_{D,j})/2\). Average distinguishing
+advantage is not the number of strong, redundant records. With \(M=50\)
+predeclared positive-time readouts, define
+\[z_i=\frac{1}{2M}\sum_{m=1}^{M}\left[(a_L^{\mathrm{on}}(t_m)-a_C^{\mathrm{on}}(t_m))-(a_L^{\mathrm{off}}(t_m)-a_C^{\mathrm{off}}(t_m))\right].\]
+Then \(z_i\in[-1,1]\). The control is constant, so it subtracts the
+initial frame-readability gap. Positive \(z_i\) means relative
+accessibility shifts towards L; negative means the gap shifts in the
+other direction. A negative value does not imply that C is absolutely
+better at every time. It can arise because a pre-existing L advantage
+shrinks.
+
+The primary population is the explicit six-qubit rotated-injection
+sampling law. Four qubits and native injection are
+sensitivity/calibration analyses. No units are selected by their records
+or by the sign of the result. A descriptive mean, win/loss/tie counts,
+an approximate unit-bootstrap interval, and a conservative Hoeffding
+interval are reported. Bootstrap intervals are not distribution-free
+certificates or external confirmation. No hypothesis margin was tuned to
+the outcome.
+
+\subsection{4. Secondary record and uncertainty
+contract}\label{secondary-record-and-uncertainty-contract}
+
+New-after-pulse singleton records require initial error at least 0.4999
+and final error at most 0.1 throughout one of the four windows
+{[}0.5,1.0{]}, {[}1.0,1.5{]}, {[}1.5,2.0{]}, {[}2.0,2.5{]}. The windows
+were specified before outcomes. The singleton cap is n.~Initial source
+leakage and pre-existing records are not counted as new.
+
+For each frame and fragment use the smaller of the global and
+complement-subtracted Lipschitz constants from the methods paper. A
+maximum grid gap h gives a continuity allowance Kh/2. Upper certificates
+include a 1e-9 numerical guard; a failed certificate remains unresolved
+unless a checkpoint proves failure. Lower and upper possible record
+counts are retained, not replaced by a one-sided count. A guard checked
+by a second numerical method is not a formally verified floating-point
+enclosure: continuum classifications remain conditional on that guard.
+Checkpoint failures far above threshold nevertheless supply useful
+numerical evidence against the strict window criterion.
+
+These counts answer a different question from the continuous primary
+readability score. Relaxing the threshold after seeing failure would
+create another exploratory analysis; it is not part of this run.
+
+\subsection{5. Controls and
+traceability}\label{controls-and-traceability}
+
+\Needspace{12\baselineskip}
+
+\textbf{Table 2. Control obligations}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Control
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Required observation
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Common unitary after pulse & Global source-state distinguishability
+remains one \\
+No evolution & Local readability is constant; new-after-pulse count is
+zero \\
+Identical source branches & Zero distinguishing information \\
+Common passive conjugation & Same reduced statistics when states, H and
+access are all transported \\
+Exchange-chain calibration & Full-space evolution agrees with the
+one-excitation hopping model \\
+Two-site transport & For the vacuum-versus-excitation control, recipient
+distinguishability is \(\sin^2 t\); for the pilot phase code it is
+\(|\sin t|\) \\
+Closed stationary record & Diagonal H preserves orthogonal product
+records; openness is not necessary \\
+Independent numerical method & Selected spectral trajectories agree with
+exponential action and density-matrix partial traces \\
+\end{longtable}
+
+Random streams are generated from SeedSequence(master seed, site count,
+unit index), with separate child streams for H and circuit gates.
+Coefficients, per-unit identifiers, effective configuration, raw
+readability trajectories and execution environment are retained. The
+local pre-execution receipt records code and specification hashes but is
+not an independently timestamped registration service. No external
+specialist has reviewed the pilot.
+
+\subsection{6. Stop rule and possible open-system
+successor}\label{stop-rule-and-possible-open-system-successor}
+
+Run the declared sample once, then inspect it. A fresh identical-seed
+run is reproduction, not another experiment. No coefficient, threshold,
+time window or sample size is changed to obtain a favourable answer.
+Implementation corrections, if necessary, must be logged separately.
+
+Do not proceed directly to a larger frame contest. First decide whether
+the target is transport, retention, redundancy or identifying a
+structure from observations. Those are distinct. A future open-system
+study would use a source-off Lindblad or collision-model stage, with
+dissipator operators, reservoir state, temperature assumptions, clock
+and access all listed as supplied primitives. Include an erasure control
+with a unique attractive stationary state and a known record-preserving
+control. Multiple invariant or metastable sectors must be specified
+rather than assumed from the word dissipation. This successor is NOT
+EXECUTED and is not activated merely because the closed pilot lacks
+strong records.
+
+The next physical identification question would require a response
+family from multiple independently declared injections, a method that is
+not given the target frame, and held-out recovery tests. The present
+two-frame comparison supplies none of those by itself. It is a
+feasibility result, not hidden metric reconstruction.
+
+\subsection{7. Evidence boundary}\label{evidence-boundary}
+
+This protocol is now instantiated by P01-ID1. Its law, primary
+observable and raw finite outputs can be checked. Its supplied locality,
+prepared resource, small size and access assumptions prevent any result
+from establishing the relational-substrate hypothesis, Absolute Infinite
+Union, global infinity or subject individuation. The mathematical
+methods paper and the philosophical paper retain their separate
+evidential standards.
+
+\end{document}

@@ -1,0 +1,53 @@
+{
+  "cover_pages": 1,
+  "components": [
+    {
+      "title": "Frame-Aligned Records",
+      "version": "v0.5",
+      "path": "manuscripts/Frame_Aligned_Records_v0_5.pdf",
+      "description": "Methods, proofs and inference safeguards",
+      "start": 2,
+      "end": 26,
+      "pages": 25
+    },
+    {
+      "title": "Supplementary Information",
+      "version": "v1.2",
+      "path": "supplement/Frame_Aligned_Records_Supplement_v1_2.pdf",
+      "description": "Calculations, run catalogue and reproducibility",
+      "start": 27,
+      "end": 35,
+      "pages": 9
+    },
+    {
+      "title": "Post-injection Results",
+      "version": "v1.2",
+      "path": "pilot/Post_Injection_Results_v1_2.pdf",
+      "description": "Original pilot and separate review-stage extensions",
+      "start": 36,
+      "end": 43,
+      "pages": 8
+    },
+    {
+      "title": "P01 Protocol",
+      "version": "v1.3",
+      "path": "protocols/P01_Post_Injection_Protocol_v1_3.pdf",
+      "description": "Reader edition of the frozen executed specification",
+      "start": 44,
+      "end": 46,
+      "pages": 3
+    },
+    {
+      "title": "Absolute Infinite Union",
+      "version": "v1.4",
+      "path": "manuscripts/Absolute_Infinite_Union_v1_4.pdf",
+      "description": "Philosophical hypothesis and evidence-bridge assessment",
+      "start": 47,
+      "end": 66,
+      "pages": 20
+    }
+  ],
+  "total_pages": 66,
+  "bookmarks": 174,
+  "pdfa_status": "Not certified; cover fonts embedded, but font embedding alone is not PDF/A conformance."
+}

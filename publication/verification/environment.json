@@ -1,0 +1,10 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "pandoc": "pandoc 3.1.11.1",
+  "xelatex": "XeTeX 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian)",
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "blas_thread_limit": 1
+}
