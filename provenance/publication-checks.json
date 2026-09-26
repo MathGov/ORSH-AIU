@@ -23,7 +23,8 @@
       768,
       1280
     ],
-    "accessibility": "axe WCAG 2 A/AA and 2.1 AA checks on all five readers and seven main/guide pages; automated checks are not a complete accessibility certification"
+    "accessibility": "axe WCAG 2 A/AA and 2.1 AA checks on all five readers and seven main/guide pages; automated checks are not a complete accessibility certification",
+    "katex": "0.18.7"
   },
   "limitations": "Same-project publication verification, not external replication or peer review. Original PDFs retained; representative first pages inspected, not a fresh full-page visual audit.",
   "full_pilot_replayed": true,

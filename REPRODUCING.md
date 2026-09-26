@@ -86,7 +86,7 @@ not promised. DOCX files contain native Word math. Rebuild only in a working cop
 
 ## 6. Build the accessible reading site
 
-Install Pandoc 3.1.11.1, Python dependencies and Node 22 or later:
+Install Pandoc 3.1.11.1, Python dependencies and Node 22.12 or later:
 
 ```sh
 python -m pip install -r requirements-site.txt
