@@ -20,7 +20,7 @@ shutil.copytree(R/'LICENSES',O/'LICENSES',dirs_exist_ok=True)
 shutil.copytree(R/'provenance',O/'provenance',dirs_exist_ok=True)
 
 def page(title,body,path,desc,math=False):
- prefix='../' if '/' in path else './'
+ prefix='/ORSH-AIU/' if path=='404.html' else ('../' if '/' in path else './')
  extra=f'<link rel="stylesheet" href="{prefix}vendor/katex/katex.min.css"><script defer src="{prefix}vendor/katex/katex.min.js"></script><script defer src="{prefix}vendor/katex/contrib/auto-render.min.js"></script><script defer src="{prefix}math.js"></script>' if math else ''
  out=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)} | ORSH / AIU Research</title><meta name="description" content="{html.escape(desc,quote=True)}">
