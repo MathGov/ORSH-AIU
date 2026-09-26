@@ -1,0 +1,1626 @@
+{
+  "markdown": "supplement/Frame_Aligned_Records_Supplement_v1_2.md",
+  "markdown_sha256": "59ce0c183477c1b7e175b7172dc1b9279f032d3cb5ed042c733e55a46fb43906",
+  "pipeline": "pandoc canonical Markdown to DOCX; explicit native math delimiters; python-docx styling; independent PDF from canonical Markdown via XeLaTeX",
+  "vertical_stroke_glyph": "ASCII bar mapped to U+2223 in native math only; same delimiter meaning",
+  "delimiter_normalizations": [
+    {
+      "begin": "(",
+      "end": ")",
+      "arguments": 1
+    },
+    {
+      "begin": "(",
+      "end": ")",
+      "arguments": 1
+    },
+    {
+      "begin": "(",
+      "end": ")",
+      "arguments": 1
+    },
+    {
+      "begin": "(",
+      "end": ")",
+      "arguments": 1
+    },
+    {
+      "begin": "(",
+      "end": ")",
+      "arguments": 1
+    },
+    {
+      "begin": "(",
+      "end": ")",
+      "arguments": 1
+    },
+    {
+      "begin": "(",
+      "end": ")",
+      "arguments": 1
+    },
+    {
+      "begin": "(",
+      "end": ")",
+      "arguments": 1
+    },
+    {
+      "begin": "(",
+      "end": ")",
+      "arguments": 1
+    },
+    {
+      "begin": "(",
+      "end": ")",
+      "arguments": 1
+    },
+    {
+      "begin": "(",
+      "end": ")",
+      "arguments": 1
+    },
+    {
+      "begin": "(",
+      "end": ")",
+      "arguments": 1
+    },
+    {
+      "begin": "[",
+      "end": "]",
+      "arguments": 1
+    },
+    {
+      "begin": "(",
+      "end": ")",
+      "arguments": 1
+    },
+    {
+      "begin": "[",
+      "end": "]",
+      "arguments": 1
+    },
+    {
+      "begin": "[",
+      "end": "]",
+      "arguments": 1
+    },
+    {
+      "begin": "[",
+      "end": "]",
+      "arguments": 1
+    },
+    {
+      "begin": "|",
+      "end": "⟩",
+      "arguments": 1
+    },
+    {
+      "begin": "[",
+      "end": "]",
+      "arguments": 1
+    },
+    {
+      "begin": "|",
+      "end": "⟩",
+      "arguments": 1
+    },
+    {
+      "begin": "|",
+      "end": "⟩",
+      "arguments": 1
+    },
+    {
+      "begin": "(",
+      "end": ")",
+      "arguments": 1
+    },
+    {
+      "begin": "|",
+      "end": "|",
+      "arguments": 1
+    },
+    {
+      "begin": "|",
+      "end": "|",
+      "arguments": 1
+    }
+  ],
+  "upright_operator_runs": 6,
+  "post_style_content_parity": true,
+  "ordered_blocks": 166,
+  "math_objects": 128,
+  "tables": 9,
+  "images": 0,
+  "blocks": [
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Frame-Aligned Records: Supplementary Information",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Calculations, study definitions and reproducibility",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Supplementary Information v1.2 | 26 September 2026",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "James McGaughran",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Scope. This supplement supports the methods paper. Scientific calculations and model definitions come first; dated lineage is in the final provenance section. A reported historical run, a fresh same-code replay and a separate numerical implementation have different evidential meanings.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Version crosswalk. Portfolio v1.8 identifies the distribution; Frame-Aligned Records v0.5, this supplement v1.2, the results log v1.2, protocol reader edition v1.3 and Absolute Infinite Union v1.4 identify its components. CAL-1.6 and similar identifiers name fixed calculation suites, not alternative current manuscripts. A historical label means a preserved prior state, even when its date is only one day earlier. The authoritative executed specification remains protocol v1.2 and its original pre-execution receipt; later reader edits do not modify that record. Finalization retains these version labels and records changes through source hashes and a dated change record.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S1. Numerical provenance for the methods paper",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The source run labels S01 to S06 refer to the preserved six-script calibration suite under historical/supporting_lineage/v1_6_code/legacy_v1_5/legacy_claude_v0_2_0/. The original display values and sampling histories are retained, not all rerun during this editorial release. The newer calibration and pilot paths are listed explicitly below.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "tbl",
+      "text": "StatementValue(s)Script and output keyLemma 1 counterexampleL=401S02 L1_counterexample_published_expression_without_identityLemma 3 invariance; generic change≤6×10−17; 0.144S02 L3_*Proposition 1(c)1.0S02 P1_commuting_unitary_changes_pure_ground_state_byProposition 1, Remark 21.0,0.399,0,0.399,1.0 bitsS02 P1_stationary_average_conceals_conditional_dynamicsProposition 20.5270653410; 0.3400520132; −0.7615941560; 0; 1→0 bitsS01 P2_*Lemma 4 example0.6428571429 (formula and enumeration)S01 hypergeometric_*Proposition 3 checks, Table 1as tabulatedS03 A_haar_fragments, B_dynamicsTable 2as tabulatedS04 duplicate_inflationHoeffding half-widths0.200, 0.100, 0.050S01 hoeffding_half_widthSupplement Tables S4 to S6as tabulatedS05 e1, e2, e3, e4 in the exploratory outputSupplement Section S2.5as statedS05 replication outputLegacy S06 span checks0; 7×10−16; 0.4166 versus 0.4170S06Mixed twirl, historical v1.52,000 draws; mean 0.0557464152; SE 0.0007264476Archived W03 v1.1, Section 6; not the CAL-1.6 sampleMixed twirl, CAL-1.61,200 draws; mean 0.05550839355; SE 0.00093479233; exact 0.056historical/supporting_lineage/v1_6_data/results.json, mixed_summary; full draws in mixed_draws.csvProposition 5a endpoint constant1.0025=1.0012492197 at n=2,4,6historical/supporting_lineage/v1_6_data/localized_constants.csvProposition 6 spectatorerror difference approximately 8.44×10−15 against a loose bound 78.53981634historical/supporting_lineage/v1_6_data/results.json, spectatorUnequal certificate example0.0995 and 0.104, same true error 0.099Section 7.3.1, direct arithmetic; not two physical observationsProposition 7, Figure 6capped bound 1 through n=18; log10 bound approximately −56.85 at n=19data/prop7_thresholds.csv; direct envelope, not state simulationSource-off feasibility pilot192 independent units in two size strata; separate outcome definitionsdata/pilot_run/results.json, per_unit.json; results log, not an LRA testPost hoc sign analysisprimary raw p=5.4592×10−5; four-row Holm p=1.6377×10−4data/review_additions/sign_tests.csv; code/analyze_review_additions.pyRange-only precision budget32,791 units for half-width 0.015, not a power claimdata/review_additions/review_analysis.json, precisionInitial eligibility and transient access5 and 10 eligible site/unit pairs in native arms briefly exceed 0.8data/review_additions/initial_floor_diagnostics.csvSource encoding in clean transport controlphase code d=∣f∣; vacuum/excitation code d=∣f∣2data/review_additions/transport_encodings.csv; separate full-space checks",
+      "math_texts": [
+        "L=401",
+        "≤6×10−17",
+        "0.144",
+        "1.0",
+        "1.0,0.399,0,0.399,1.0",
+        "0.5270653410",
+        "0.3400520132",
+        "−0.7615941560",
+        "0",
+        "1→0",
+        "0.6428571429",
+        "0.200",
+        "0.100",
+        "0.050",
+        "0",
+        "7×10−16",
+        "0.4166",
+        "0.4170",
+        "0.0557464152",
+        "0.0007264476",
+        "0.05550839355",
+        "0.00093479233",
+        "0.056",
+        "1.0025=1.0012492197",
+        "n=2,4,6",
+        "8.44×10−15",
+        "78.53981634",
+        "0.0995",
+        "0.104",
+        "0.099",
+        "1",
+        "n=18",
+        "−56.85",
+        "n=19",
+        "p=5.4592×10−5",
+        "p=1.6377×10−4",
+        "d=∣f∣",
+        "d=∣f∣2"
+      ],
+      "math_count": 38,
+      "tables": 24,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Additional run crosswalk",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "tbl",
+      "text": "TargetSource and dataBoundaryFactorial four/six/eight-qubit meansdata/reviewer_replay/factorial_results.json; factorial_n*.npzSame-code reproduction of an exploratory review extensionLarger source-off sampledata/reviewer_replay/reimpl_id1_results.jsonFresh-stream reimplementation, not the original sampleThird-frame meansdata/reviewer_replay/factorial_neutral.jsonPost hoc comparator, no guaranteed neutralityPaired range and finite-family intervalsdata/factorial_analysis/analysis.json; code/analyze_factorial.pyDerived secondary sampling boundsAlternative numerical methodverification/factorial_independent_checks.jsonSelected trajectories, not a second full population study",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 6,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S2. Historical continuously driven simulation",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The material below retains the complete exploratory model and outcomes for reproducibility. It is not another experiment or a retrospective confirmation of the newer source-off target. References to original Sections 2 to 5 concern the methods framework; references to Section 6.x are mapped to S2.x below. Its reported causal interpretations are descriptive and family-specific, not general theorems.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S2.0 Status",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Status: EXPLORATORY. This section reports computed results for one small model class. The configuration was changed after the first results were inspected (Section S2.2), so they are not a confirmatory test of the prospectively stated population conjectures. They can nevertheless supply counterexamples to a universal claim and guide later design; exploratory does not mean scientifically worthless. They are included because they show concretely how the design choices of Sections 2 and 5 decide outcomes. The frozen configuration was then re-run with fresh seeds (Section S2.5).",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The notation below uses KC for the source-coupling operator, reserving C for an alternate frame label. Preserved scripts and original outputs still use their original variable C; this is a notation change only.",
+      "math_texts": [
+        "KC"
+      ],
+      "math_count": 1,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S2.1 Model",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "System and source. n=3 system qubits and a binary source with equal priors; Hx=HS+(−1)xKC.",
+      "math_texts": [
+        "n=3",
+        "Hx=HS+(−1)xKC"
+      ],
+      "math_count": 2,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Internal Hamiltonian. HS is a random nearest-neighbour 2-local chain: Gaussian coefficients on all two-body Pauli products on adjacent pairs, plus one-body terms at half weight. It is normalised to Frobenius norm λ.",
+      "math_texts": [
+        "HS",
+        "λ"
+      ],
+      "math_count": 2,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Coupling and time window. The source coupling is the star operator KC=j=13Xj, of Frobenius norm 24≈4.90. Times are t∈{0.6,0.7,0.8,0.9,1.0}.",
+      "math_texts": [
+        "KC=j=13Xj",
+        "24≈4.90",
+        "t∈{0.6,0.7,0.8,0.9,1.0}"
+      ],
+      "math_count": 3,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Candidates. There are N=20 candidates: the identity (the frame in which HS and KC are local), a preparation frame W, and 18 Haar-random unitaries.",
+      "math_texts": [
+        "N=20",
+        "HS",
+        "KC",
+        "W"
+      ],
+      "math_count": 4,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Locality. L is the internal score Lint on the span of Pauli strings of weight at most 2, identity included.",
+      "math_texts": [
+        "L",
+        "Lint"
+      ],
+      "math_count": 2,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Records (simplified). The record score is the time-averaged number of single qubits whose Helstrom error is at most 0.1. This is a simplification of the disjoint, persistent redundancy of Section 2.5.",
+      "math_texts": [
+        "0.1"
+      ],
+      "math_count": 1,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Near-optimal sets. NL requires L≤minL+0.02 and L≤0.6; NR requires R=maxR and R≥0.5.",
+      "math_texts": [
+        "NL",
+        "L≤minL+0.02",
+        "L≤0.6",
+        "NR",
+        "R=maxR",
+        "R≥0.5"
+      ],
+      "math_count": 6,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Arms. In the shared-frame arm the initial state is ∣000⟩. In the decoupled-preparation arm it is W∣000⟩ with W Haar-random, so by Section 4.3 it is Haar distributed. The coupling stays in the identity frame in both arms.",
+      "math_texts": [
+        "∣000⟩",
+        "W∣000⟩",
+        "W"
+      ],
+      "math_count": 3,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S2.2 Development history",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The first configuration used a single-qubit coupling X⊗I⊗I, λ=4 and nine times in [0.3,1.5]. Records qualified in 1% of shared-frame models and in none of the decoupled models (A=0.010 and 0.000). The coupling was then changed to the star operator, the time window was narrowed, and a grid over λ was added. All results below use the changed configuration, which was frozen on 25 September 2026.",
+      "math_texts": [
+        "X⊗I⊗I",
+        "λ=4",
+        "[0.3,1.5]",
+        "A=0.010",
+        "0.000",
+        "λ"
+      ],
+      "math_count": 6,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S2.3 Shared versus decoupled preparation",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Table S4. Association results by arm (200 models per cell; Hoeffding 95% intervals clipped at 1−1/N=0.95).",
+      "math_texts": [
+        "1−1/N=0.95"
+      ],
+      "math_count": 1,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "tbl",
+      "text": "λArmRecords qualifyAqd95% interval0.3shared1.0001.0000.0500.950[0.758, 0.950]0.3decoupled0.0950.0500.0050.045[-0.147, 0.237]1.0shared1.0001.0000.0500.950[0.758, 0.950]1.0decoupled0.0600.0250.0030.022[-0.170, 0.214]4.0shared0.3200.2550.0160.239[0.047, 0.431]4.0decoupled0.0300.0050.0020.004[-0.189, 0.196]",
+      "math_texts": [
+        "λ",
+        "A",
+        "q",
+        "d"
+      ],
+      "math_count": 4,
+      "tables": 7,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "In the shared arm, the most local candidate hosts the records in every model at λ≤1, and the descriptive estimate is 0.95 in these sampled cases. This agreement is facilitated by the shared inputs, not proved for every model by a coupling bound. At λ=4 the internal dynamics is comparable in norm to the coupling, and records qualify in only 32% of models. In the decoupled arm, records qualify rarely. In the reported cases they preferentially sit in the identity frame, where the coupling remains local. This association is consistent with the supplied interaction structure, not an isolated causal estimate.",
+      "math_texts": [
+        "λ≤1",
+        "0.95",
+        "λ=4"
+      ],
+      "math_count": 3,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S2.4 Moving the preparation frame and the coupling frame",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Table S5. Preparation frame rotated by W=e−iθG away from the dynamics frame (G a random Hermitian of unit spectral norm; λ=0.3; 100 models per row). The columns give the fraction of models in which records qualify anywhere, and in which the record-optimal set contains the dynamics frame, the preparation frame, or neither.",
+      "math_texts": [
+        "W=e−iθG",
+        "G",
+        "λ=0.3"
+      ],
+      "math_count": 3,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "tbl",
+      "text": "θRecords anywhereIn dynamics frameIn preparation frameElsewhere0.01.001.001.000.000.11.001.001.000.000.21.001.000.970.000.41.001.000.440.000.80.860.820.060.001.60.130.100.000.03",
+      "math_texts": [
+        "θ"
+      ],
+      "math_count": 1,
+      "tables": 7,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "At θ=0 the “preparation frame” candidate equals the identity, a duplicated class of exactly the kind Lemma 3 requires to be merged. As the ready resource is rotated away, records do not follow it. They stay in the frame of the coupling and then disappear, in this specific exploratory family. Finite-angle exponentials of normalised random Hermitians are not Haar draws, and no Haar limit for this parameterisation has been established.",
+      "math_texts": [
+        "θ=0"
+      ],
+      "math_count": 1,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Table S6. Coupling and ready resource moved together (KC↦UcKCUc†, initial state Uc∣000⟩, Uc=e−iφG; 60 models per row). The internal-locality minimum was at the identity in every model.",
+      "math_texts": [
+        "KC↦UcKCUc†",
+        "Uc∣000⟩",
+        "Uc=e−iφG"
+      ],
+      "math_count": 3,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "tbl",
+      "text": "λφRecords anywhereIn internal-locality frameIn coupling frameElsewhere0.30.41.0000.5831.0000.0000.30.81.0000.0171.0000.0001.00.41.0000.3330.9170.0001.00.81.0000.0331.0000.0004.00.40.3170.1330.1830.0674.00.80.2000.0330.1000.067",
+      "math_texts": [
+        "λ",
+        "φ"
+      ],
+      "math_count": 2,
+      "tables": 7,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The total record-generating Hamiltonian Hx was more local, by L averaged over x, in the coupling frame than in the internal-locality frame in 100%, 100% and 95% of models at λ=0.3, 1.0 and 4.0 (φ=0.8, 60 models each).",
+      "math_texts": [
+        "Hx",
+        "L",
+        "x",
+        "λ=0.3",
+        "1.0",
+        "4.0",
+        "φ=0.8"
+      ],
+      "math_count": 7,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S2.5 Fresh-seed repeats of the frozen exploratory configuration",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "With the configuration frozen, the main contrasts were re-run with seeds not used during development.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Seeds 20260926 and 20260927, λ=0.3, 200 models per arm. The shared arm again gave A=1.000, q=0.050 and d=0.950. The decoupled arm gave d=0.072 [−0.120,0.264] and 0.040 [−0.153,0.232].",
+      "math_texts": [
+        "λ=0.3",
+        "A=1.000",
+        "q=0.050",
+        "d=0.950",
+        "d=0.072",
+        "[−0.120,0.264]",
+        "0.040",
+        "[−0.153,0.232]"
+      ],
+      "math_count": 8,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Three-frame design, λ=0.3, φ=0.8, 100 models per seed. Records qualified in every model. They lay in the coupling frame in every model and in the internal-locality frame in 0% and 1% of models.",
+      "math_texts": [
+        "λ=0.3",
+        "φ=0.8"
+      ],
+      "math_count": 2,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Total Hamiltonian. Hx was more local in the coupling frame in 100% of models for both seeds.",
+      "math_texts": [
+        "Hx"
+      ],
+      "math_count": 1,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Larger model-sample decoupled run, still three qubits. One further run was declared before execution (seed 20260928, 2,952 models, chosen for a Hoeffding half-width of 0.05). It gave records in 10.7% of models, A=0.0515, q=0.0055 and d=0.046 [−0.004,0.096].",
+      "math_texts": [
+        "0.05",
+        "A=0.0515",
+        "q=0.0055",
+        "d=0.046",
+        "[−0.004,0.096]"
+      ],
+      "math_count": 5,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S2.6 What the calculation shows, and what it does not",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Shared frames produce enrichment by construction. The estimate d=0.95 reflects the design, not a regularity of the model class.",
+      "math_texts": [
+        "d=0.95"
+      ],
+      "math_count": 1,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Records track the frame in which the ready resource and the source coupling are aligned. A ready resource rotated away from the coupling produces few records, and they do not follow the resource (Table S5).",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The verdict depends on which Hamiltonian defines locality. When the coupling and the resource move together, records move with them, away from the internal-locality frame, and into the frame in which the total Hamiltonian is most local (Table S6 and Section S2.5). Its descriptive pattern differs for internal versus branchwise total locality. Neither reading is a calibrated verdict on LRA-int or LRA-tot, because the exploratory time-averaged record outcome and label reference are not the prospective persistent-record test.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The “decoupled” arm is only partly decoupled. Its coupling remains local in the dynamics frame. Its small descriptive enrichment (d=0.046) is compatible with influence from the shared coupling frame, but the toy does not isolate that cause; and its interval, U=0.096, lies just below a margin of Δ=0.1. This is not evidence about any conjecture.",
+      "math_texts": [
+        "d=0.046",
+        "U=0.096",
+        "Δ=0.1"
+      ],
+      "math_count": 3,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The calculation has three qubits, 20 candidates, Haar candidates not demonstrated to form an exhaustive set of equivalence classes, a simplified record score and thresholds chosen during development. The coupling has a larger declared norm than the internal Hamiltonian at λ≤1; that norm comparison alone is not a record-persistence guarantee. Its role is to show that the questions in Section 7 need to be posed with frames declared separately.",
+      "math_texts": [
+        "λ≤1"
+      ],
+      "math_count": 1,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S3. Post hoc sign tests and window diagnostics",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The four-row directional analysis uses the immutable per-unit contrast data and verifies them against the full trajectories. Its null is Pr(z>0 given z is nonzero)=1/2 for independent signs; it is not a zero-mean null. No ties were observed. Exact binomial p-values and a four-row Holm adjustment are reported in the results log. The Holm family was chosen during review, not in the pre-execution plan. Dependence between the paired arms is not treated as extra sample size.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The script also reports initial-eligibility and transient-access counts by frame, and compares both source encodings in an ideal exchange-chain transport control. The phase-superposition pilot code has singleton distinguishability |f|, while the vacuum-versus-excitation control has |f| squared. These are not interchangeable time-window diagnostics. The original study’s thresholds, windows and data remain unchanged.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/analyze_review_additions.py --root . --out /path/to/fresh_review_analysis",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The code refuses a nonempty output folder. It writes review_analysis.json, sign_tests.csv, transport_window_checks.csv, transport_encodings.csv and initial_floor_diagnostics.csv. The last file counts site/unit pairs, not independent observations. Mathematical derivations, same-code replay, separate-method checks and external replication remain distinct.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S3.1 Initial eligibility and transient strong access",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "tbl",
+      "text": "QubitsArmFrameEligible / total site-unit pairsEver reaches d >= 0.84nativeL288 / 38454nativeC192 / 38404rotatedL96 / 38404rotatedC288 / 38406nativeL480 / 576106nativeC384 / 57606rotatedL288 / 57606rotatedC480 / 5760",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 9,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "A site-unit pair is not an independent model. These are post hoc diagnostic counts from existing trajectories. A transient threshold crossing does not establish full-window persistence or redundant copying. The strict persistent-record result remains zero under the original definition.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S4. Factorial extension and paired uncertainty",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S4.1 Design and replay",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The review extension crosses injection L/C with Hamiltonian orientation L/C, with HC=UCHLUC†. Every unit supplies all four outcomes. The time grid is 0.05 through 2.5 plus the switch-off readout; the common injection code and two-layer circuit follow the original source-off conventions. The main paper and results log define z and ea. We retain supplied inputs in feedback/current/ without editing their scripts or their predictions.",
+      "math_texts": [
+        "HC=UCHLUC†",
+        "ea"
+      ],
+      "math_count": 2,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "code/replay_reviewer.py runs the supplied functions with their original seeds and sample sizes and retains per-unit observables, rather than only aggregate summaries. It replays the 41,000 factorial units, the 60,000-unit reimplementation and its smaller checks, and the 6,000-unit third-frame comparison. Each arm in a unit remains paired. The statement that two routines were written independently refers to source implementation, not statistical independence of their authors’ reasoning or external peer review.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S4.2 Range and finite-family bound",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "At fixed injection, the initial gap cancels in the difference between dynamics arms:",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "ea=12(gLa−gCa)∈[−1,1].",
+      "math_texts": [
+        "ea=12(gLa−gCa)∈[−1,1]."
+      ],
+      "math_count": 1,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Let sa2 be the unbiased sample variance of e in N iid units. Theorem 4 of Maurer and Pontil (2009) applies to variables in [0,1]. Rescale by Y=(e+1)/2, use both tails, and allocate total error α over K specified targets. A simultaneous interval for each mean is its sample mean plus/minus",
+      "math_texts": [
+        "sa2",
+        "Y=(e+1)/2",
+        "α"
+      ],
+      "math_count": 3,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "rN=2sa2log(4K/α)N+14log(4K/α)3(N−1).",
+      "math_texts": [
+        "rN=2sa2log(4K/α)N+14log(4K/α)3(N−1)."
+      ],
+      "math_count": 1,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Derivation. The theorem’s one-tail bound is 2VNlog(2/δ)/N+7log(2/δ)/(3(N−1)). Set δ=α/(2K), note VN(Y)=sa2/4, multiply by two to return to e, and union over the 2K events. No independence between targets is required. The iid assumption is within each model-unit sample; paired arms are used to form one e. The variance identity VN=N−1(N−1)−1i<j​(Yi−Yj)2 equals the usual unbiased variance. Numerical rounding is not covered by the sampling theorem.",
+      "math_texts": [
+        "2VNlog(2/δ)/N+7log(2/δ)/(3(N−1))",
+        "δ=α/(2K)",
+        "VN(Y)=sa2/4",
+        "VN=N−1(N−1)−1i<j​(Yi−Yj)2"
+      ],
+      "math_count": 4,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "For K=6 and alpha=0.05, all four intervals at N=20,000 exclude zero. The two eight-qubit intervals at N=1,000 do not. Full normal, Hoeffding and Bernstein intervals are in data/factorial_analysis/factorial_intervals.csv. The method was chosen during review; this is not an external preregistration or a claim that arbitrary post hoc selections retain coverage.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S4.3 Important interpretation checks",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The original negative change relative to frozen dynamics and the positive Hamiltonian-intervention contrast concern different counterfactuals. Neither invalidates the other. Isospectrality preserves the energy eigenvalues, not the initial energy distribution or all resources relative to the fixed input. The third-frame comparator is an additional sampled intervention, not a certified link-only control. A Lieb-Robinson bound is not a sign theorem for e. Regression on an initial gap must account for the gap’s explicit minus-one-half contribution to z.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Reproduction commands, from the extracted release root",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/replay_reviewer.py --root . --out /path/to/fresh_reviewer_replay --task allpython code/analyze_factorial.py --root . --out /path/to/fresh_factorial_analysisOPENBLAS_NUM_THREADS=1 python code/validate_factorial.py --root . --out /path/to/fresh_factorial_checks.json",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The analysis reads the delivered data/reviewer_replay by default. To analyse a replay, use a separate copy with the fresh replay at that relative location. Do not overwrite the delivered evidence. The README records exact environment and tool versions; portability to an arbitrary numerical environment is not assumed. All original scripts can also be run directly in a copied input folder, with the single-thread setting stated by their author.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S5. Historical execution and provenance",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The following subsections preserve the earlier account, with their historical dates and sample sizes. These are not fresh counts of independent physical experiments.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S5.1 Scope",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "This is supporting material for Frame-Aligned Records, review manuscript v0.5, not an independent research paper. It records new executions, supplied-script reproduction, prior reported results and what was not done. The original LRA population study remains unexecuted. A separately defined source-off feasibility pilot, P01-ID1, has now run; see the dedicated results log and protocol. It is not silently relabelled as the original study. No participant data, cosmological likelihood fit or unrestricted subsystem search was analysed. The mathematical propositions are assessed through their proofs; numerical checks are finite safeguards, not universal demonstrations.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Table S1. Execution levels must remain separate",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "tbl",
+      "text": "LayerWork done in v1.6LimitSupplied post-v1.5 Claude auditExecuted both numerical scripts in a fresh directory and compared their two JSON outputsSame-code replay, not a new external implementationNew CAL-1.6 suite174 assertions, including random-case checks and exact small examplesRelated assertions, not 174 independent experimentsSeparate CAL-1.6 checker46 checks using independent small formulas and enumeration; does not import the main scriptSame-project second implementation, not external scientific replicationPrior v1.5 resultsPreserved unchanged with source files and historical reportsIts large historical assertion counts are not fresh v1.6 executionsProposed LRA-count experimentSpecification and uncertainty handling revisedNot run, registered or scientifically confirmed",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 6,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S5.2 Replay of the supplied audit",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The exact delivered audit scripts are retained under historical/supporting_lineage/v1_6_code/supplied_claude_audit/. Both ran successfully from an initially empty output directory. v15_independent_checks.py took about 43 seconds and coupling_dominance.py about 2 seconds in this environment. Runtime is descriptive, not a portable performance promise. Captured output and environment differences are recorded in historical/supporting_lineage/v1_6_verification/claude_replay/.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Recursive comparisons of dictionaries, lists and numerical leaves found agreement with both supplied JSON outputs using relative tolerance 10−8 and absolute tolerance 10−10. Key sets and list lengths must agree; timing and unrelated files are not used to infer numerical correctness. The comparison report is historical/supporting_lineage/v1_6_verification/claude_replay_comparison.json.",
+      "math_texts": [
+        "10−8",
+        "10−10"
+      ],
+      "math_count": 2,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The replay includes the supplied exact four-label counterexample, mixed twirl, gauge invariances, local-persistence example, symbolic examples and the reported permutation Monte Carlo. For 30 units, the displayed derangement rejection estimate is approximately 0.060 at a nominal 0.05 threshold; that is a finite Monte Carlo estimate with sampling uncertainty, not an exact universal size. The exact four-label example separately establishes a failure of the proposed general validity claim.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The 9,000 perturbation checks all satisfy their bound within the script tolerance. Those are fragment-time checks across related models, not 9,000 independent experiments. They confirm the stated implementation of the inequality, not a theorem that coupling-frame records must maximize a locality-record score.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S5.3 New suite and effective configuration",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The new executable source is historical/supporting_lineage/v1_6_code/checks_v0_3_0.py. It accepts one complete JSON configuration, rejects missing or unused keys, checks numerical ranges, refuses a nonempty output directory, and writes the effective configuration and its canonical-JSON hash with every run. The version is CAL-1.6; the code version is 0.3.0. This is calibration code, not the future LRA experiment implementation.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Table S2. Complete new calibration configuration",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "tbl",
+      "text": "FieldValueUseversionCAL-1.6Validate scopeseed20260926NumPy default RNG streamrandom_cases32Each random matrix/invariance/perturbation check familymixed_draws1200Fixed-spectrum twirl Monte Carloword_length5Symbolic support enumerationchain_length30000Finite golden-mean examplebound_epsilon0.1Adaptive-family probability envelopenet_radius0.05Operator-norm cover radiusangle_limitpiDeclared circuit parameter intervalmax_bound_qubits32Envelope evaluation through 32 qubits; no 32-qubit state simulation",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 11,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The canonical effective-configuration SHA-256 is f5f8d1633e36e402922eefb5fe8a24640b890fa028e0985856a753f779cabc2b. Numerical environment: Python 3.13.5, NumPy 2.3.5 and SciPy 1.17.0. The supplied Claude audit originally reports Python 3.11.15, NumPy 2.4.4 and SciPy 1.17.1, so agreement is assessed with tolerances, not assumed from version identity. The code’s environment report supplies the actual current values rather than promising installation compatibility with every platform.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Table S3. Data files and their unit of observation",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "tbl",
+      "text": "File in historical/supporting_lineage/v1_6_data/ContentsInterpretationper_case_checks.csv32 cases, gauge and stabilizer residuals, local bound and sampled slopeNumerical checks of deterministic inequalitiesperturbation_checks.csv32 differences and perturbation boundsNew small finite checks, distinct from the replayed 9,000 checkslocalized_constants.csvGlobal and endpoint touching constants for 2, 4, 6 qubitsOne explicitly specified bounded-strength modelmixed_draws.csv1,200 squared Hilbert-Schmidt deviationsIndividual draws, not only an aggregatesymbolic_support.csvAll 32 binary length-five words and their model probabilitiesExact support and finite-sample occurrence are distinct columnsadaptive_cover_bound.csvLog probability envelopes for n=4 through 32Evaluation of a theorem bound, not physical observationsresults.jsonAssertions, selected summaries, environment and code hashFailures cannot be hidden by counting only passed examples",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 8,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The old constant-window example retains its analytic certificate 0.0097751350, before adding a numerical error budget. The new endpoint chain has KF=1.0025 for every plotted size. The supplied random-chain example is a different construction, not a failed attempt to reproduce this value.",
+      "math_texts": [
+        "KF=1.0025"
+      ],
+      "math_count": 1,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S5.4 Independent small verification and reproduction instructions",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The second checker does not import the main checker. It reconstructs exact permutation ranks, contracts the twirl in a different form, evaluates endpoint spectra analytically, and checks the circuit-cover arithmetic. Its 46 checks are another implementation path within the same session, not a second research team.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "From the extracted release root, use initially absent output directories:",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "python historical/supporting_lineage/v1_6_code/checks_v0_3_0.py --config historical/supporting_lineage/v1_6_code/config.json --output /path/to/fresh_calibrationpython historical/supporting_lineage/v1_6_code/second_checks_v0_3_0.py --results /path/to/fresh_calibrationpython historical/supporting_lineage/v1_6_code/plot_results.py --data /path/to/fresh_calibration --output /path/to/fresh_figures",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The legacy scripts are preserved for provenance and old calibration replay. They are not silently relabelled as corrected production software. In particular, the earlier hard-coded defaults and aggregate-only outputs remain historical limitations. New matrix cases and mixed draws have individual rows; a future model-search implementation must additionally log every input frame, rejection, tie, search failure and certificate interval.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "For raw floating-point checks, a small residual is not a verified interval enclosure. The many-body continuum certificate requires a defensible numerical allowance or interval method. Without one, report numerical evidence and a certificate conditional on the allowance, not rigorous machine certification.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S5.5 Conditional pairing retained only as an alternative",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The v1.6 primary prospective target compares normalized counts within an input-eligible model. It uses no cross-model pairing. The previous pairing method remains meaningful only under its own contract: specify the independent unit, frame registration, conditioning variables, admissible group action, why the null is invariant, tie handling and missing-output treatment. A complete permutation group cannot create exchangeability in a physical population that lacks it.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Fixed common frames can make matched and mismatched distances identical. Randomly varying shared orientations can produce an apparent pairing signal inherited from supplied structure. These are valid diagnostic examples, not reasons to ban every permutation test. Where the null cannot be justified, the appropriate status is NO_IDENTIFIED_PAIRING_NULL. The original conditional wording is preserved in editorial/retained_pairing_contract.md.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S5.6 Delivery and scientific readiness",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The present supplement is complete for inspection at its declared finite scope. The full release contains the exact new code and data plus the supplied audit and baseline archive. A short manuscript-only review necessarily cannot certify those absent files, and no claim in the text turns that limitation into disconfirmation. Source parity, render inspection, archive integrity and scientific correctness are separate checks, recorded in the release verification report.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The new uniform-cover theorem is a conditional mathematical corollary of known concentration and covering arguments. Its novelty and physical relevance remain open. The broad AIU inquiry neither inherits empirical confirmation from it nor is refuted by a poor finite-size bound.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "S5.7 Maintenance patch and separate source-off execution",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Appendix C of the methods paper retains the archived v1.5 2,000-draw twirl result (mean 0.0557464152; standard error 0.0007264476). CAL-1.6 used 1,200 draws instead (mean 0.05550839355; standard error 0.00093479233), with exact target 0.056. These are two calibration samples, not a conflict or one enlarged study. The historical data paths identify them separately.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "P01-ID1 is a new finite computational pilot with 96 independent model units at each of four and six sites. Each unit supplies two paired injection arms and paired evolution-on/frozen controls. Its primary outcome is a baseline-subtracted checkpoint-average local-readability contrast, not persistent redundancy, the older LRA-count target, or a recovered TPS. Full trajectories, model coefficients, random-stream identifiers, configuration and code hashes are in data/pilot_run/; the specification and local pre-execution receipt are in pilot/. The specialist review was not sent and no external validation is claimed.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The main solver diagonalizes each internal Hamiltonian. code/validate_injection_pilot.py independently checks selected trajectories with exponential action and a full-density-matrix partial trace. It also checks exact transport, source-free global distinguishability, zero evolution, passive conjugation and closed stationary records. Its finite-precision agreement is not a rigorous roundoff enclosure. Persistence classifications are conditional on the explicitly empirical numerical guard; failed certificates are not absent records.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Reproduction of the new pilot from an empty directory:",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/run_injection_pilot.py --config pilot/config.json --out /path/to/fresh_runpython code/validate_injection_pilot.py --root /path/to/extracted_patch",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "The validator reads the delivered data/pilot_run by default. To validate a replay, place that replay at the same relative path in a separate extracted copy. Do not overwrite the delivered evidence. The code and effective configuration specify all model parameters; no unused fields are silently accepted.",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkStart",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "References",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "p",
+      "text": "Maurer, A., and Pontil, M. (2009). Empirical Bernstein Bounds and Sample Variance Penalization. COLT 2009. https://arxiv.org/abs/0907.3740",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    },
+    {
+      "tag": "bookmarkEnd",
+      "text": "",
+      "math_texts": [],
+      "math_count": 0,
+      "tables": 0,
+      "drawings": 0
+    }
+  ]
+}
